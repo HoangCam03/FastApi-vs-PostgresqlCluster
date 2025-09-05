@@ -1,0 +1,70 @@
+2025-08-14 08:37:02,880 - INFO - GET /health - Status: 0
+2025-08-14 08:37:02,889 - INFO - GET /health - Status: 200 - Duration: 0.008s
+2025-08-14 09:10:49,505 - INFO - GET / - Status: 0
+2025-08-14 09:10:49,764 - INFO - GET / - Status: 200 - Duration: 0.267s
+2025-08-14 09:10:49,851 - INFO - GET /static/image/img/slider/blackpink.svg - Status: 0
+2025-08-14 09:10:49,852 - INFO - GET /static/css/styles.css - Status: 0
+2025-08-14 09:10:49,868 - INFO - GET /static/image/img/slider/Bpink2.jpg - Status: 0
+2025-08-14 09:10:49,891 - INFO - GET /static/css/styles.css - Status: 200 - Duration: 0.039s
+2025-08-14 09:10:49,891 - INFO - GET /static/image/img/slider/blackpink.svg - Status: 200 - Duration: 0.040s
+2025-08-14 09:10:49,896 - INFO - GET /static/image/img/slider/Bpink2.jpg - Status: 200 - Duration: 0.028s
+2025-08-14 09:10:49,929 - INFO - GET /static/image/img/slider/Bpink3.jpg - Status: 0
+2025-08-14 09:10:49,932 - INFO - GET /static/image/img/slider/Bpink3.jpg - Status: 200 - Duration: 0.003s
+2025-08-14 09:10:49,959 - INFO - GET /static/image/img/slider/Jisoo2.jpg - Status: 0
+2025-08-14 09:10:49,963 - INFO - GET /static/image/img/slider/Jisoo2.jpg - Status: 200 - Duration: 0.004s
+2025-08-14 09:10:49,984 - INFO - GET /static/image/img/slider/Rosie.jpg - Status: 0
+2025-08-14 09:10:49,988 - INFO - GET /static/image/img/slider/Rosie.jpg - Status: 200 - Duration: 0.004s
+2025-08-14 09:10:50,147 - INFO - GET /static/image/img/slider/Lisa2.jpg - Status: 0
+2025-08-14 09:10:50,204 - INFO - GET /static/image/img/slider/Jennie.jpg - Status: 0
+2025-08-14 09:10:50,277 - INFO - GET /static/image/img/Places/SHaNoi.jpg - Status: 0
+2025-08-14 09:10:50,334 - INFO - GET /static/image/img/Places/SHaNoi2.jpg - Status: 0
+2025-08-14 09:10:50,341 - INFO - GET /static/image/img/Places/BHaNoi3.jpg - Status: 0
+2025-08-14 09:10:50,353 - INFO - GET /static/image/img/slider/Lisa2.jpg - Status: 200 - Duration: 0.206s
+2025-08-14 09:10:50,356 - INFO - GET /static/image/img/slider/Jennie.jpg - Status: 200 - Duration: 0.152s
+2025-08-14 09:10:50,357 - INFO - GET /static/image/img/Places/SHaNoi.jpg - Status: 200 - Duration: 0.081s
+2025-08-14 09:10:50,425 - INFO - GET /static/image/img/Places/SHaNoi2.jpg - Status: 200 - Duration: 0.092s
+2025-08-14 09:10:50,476 - INFO - GET /static/image/img/Places/BHaNoi3.jpg - Status: 200 - Duration: 0.134s
+2025-08-14 09:10:51,002 - INFO - GET /favicon.ico - Status: 0
+2025-08-14 09:10:51,008 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.006s
+2025-08-14 09:10:51,017 - INFO - GET / - Status: 0
+2025-08-14 09:10:51,022 - INFO - GET / - Status: 200 - Duration: 0.005s
+2025-08-14 09:14:02,266 - INFO - GET /user/login-page - Status: 0
+2025-08-14 09:14:02,315 - INFO - GET /user/login-page - Status: 200 - Duration: 0.050s
+2025-08-14 09:14:03,004 - INFO - GET /static/image/img/slider/bgr2.svg - Status: 0
+2025-08-14 09:14:03,053 - INFO - GET /static/image/img/slider/bgr2.svg - Status: 200 - Duration: 0.049s
+2025-08-14 09:14:03,479 - INFO - GET /favicon.ico - Status: 0
+2025-08-14 09:14:03,481 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-08-14 09:14:03,489 - INFO - GET / - Status: 0
+2025-08-14 09:14:03,502 - INFO - GET / - Status: 200 - Duration: 0.012s
+2025-08-14 09:14:04,728 - INFO - GET /user/register - Status: 0
+2025-08-14 09:14:04,745 - INFO - GET /user/register - Status: 200 - Duration: 0.017s
+2025-08-14 09:14:05,430 - INFO - GET /favicon.ico - Status: 0
+2025-08-14 09:14:05,432 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-08-14 09:14:05,437 - INFO - GET / - Status: 0
+2025-08-14 09:14:05,447 - INFO - GET / - Status: 200 - Duration: 0.010s
+2025-08-14 09:14:11,253 - INFO - POST /user/register-submit - Status: 0
+2025-08-14 09:14:12,204 - INFO - POST /user/register-submit - Status: 302 - Duration: 0.951s
+2025-08-14 09:14:12,215 - INFO - GET / - Status: 0
+2025-08-14 09:14:12,227 - INFO - GET / - Status: 200 - Duration: 0.012s
+2025-08-14 09:14:12,446 - INFO - GET /favicon.ico - Status: 0
+2025-08-14 09:14:12,478 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.031s
+2025-08-14 09:14:12,724 - INFO - GET / - Status: 0
+2025-08-14 09:14:12,735 - INFO - GET / - Status: 200 - Duration: 0.010s
+2025-08-14 09:14:43,249 - INFO - GET / - Status: 0
+2025-08-14 09:14:43,279 - INFO - GET / - Status: 200 - Duration: 0.030s
+2025-08-14 09:14:43,485 - INFO - GET /favicon.ico - Status: 0
+2025-08-14 09:14:43,486 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-08-14 09:14:43,493 - INFO - GET / - Status: 0
+2025-08-14 09:14:43,501 - INFO - GET / - Status: 200 - Duration: 0.009s
+2025-08-14 09:14:46,245 - INFO - GET /post/admin-management - Status: 0
+2025-08-14 09:14:46,291 - INFO - GET /post/admin-management - Status: 200 - Duration: 0.046s
+2025-08-14 09:14:46,329 - INFO - GET /static/css/post_detail.css - Status: 0
+2025-08-14 09:14:46,342 - INFO - GET /static/css/post_detail.css - Status: 200 - Duration: 0.013s
+2025-08-14 09:14:47,080 - INFO - GET /favicon.ico - Status: 0
+2025-08-14 09:14:47,081 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-08-14 09:14:47,086 - INFO - GET / - Status: 0
+2025-08-14 09:14:47,096 - INFO - GET / - Status: 200 - Duration: 0.010s
+2025-08-14 09:14:48,336 - INFO - GET /favicon.ico - Status: 0
+2025-08-14 09:14:48,344 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.008s
+2025-08-14 09:14:48,360 - INFO - GET / - Status: 0
+2025-08-14 09:14:48,369 - INFO - GET / - Status: 200 - Duration: 0.009s

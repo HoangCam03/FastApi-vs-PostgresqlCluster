@@ -1,0 +1,121 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Primary Node
+  postgres-primary:
+    image: postgres:13
+    container_name: postgres-primary
+    environment:
+      POSTGRES_DB: blink_db
+      POSTGRES_USER: blink_user
+      POSTGRES_PASSWORD: 12345
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_primary_data:/var/lib/postgresql/data
+      - ./postgres-config/postgresql.conf:/etc/postgresql/postgresql.conf
+      - ./postgres-config/pg_hba.conf:/etc/postgresql/pg_hba.conf
+      - ./postgres-config/init-replication.sql:/docker-entrypoint-initdb.d/10-init-replication.sql
+    command: postgres -c config_file=/etc/postgresql/postgresql.conf
+    networks:
+      - app-network
+
+  # PostgreSQL Replica Node 1
+  postgres-replica-1:
+    image: postgres:13
+    container_name: postgres-replica-1
+    environment:
+      POSTGRES_DB: blink_db
+      POSTGRES_USER: blink_user
+      POSTGRES_PASSWORD: 12345
+      PGUSER: replicator
+      PGPASSWORD: 12345
+      PGDATA: /var/lib/postgresql/data
+      REPLICA_NUMBER: 1
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_replica1_data:/var/lib/postgresql/data
+      - ./postgres-config/postgresql-replica.conf:/etc/postgresql/postgresql.conf
+      - ./postgres-config/pg_hba.conf:/etc/postgresql/pg_hba.conf
+      - ./postgres-config/init-replica.sh:/docker-entrypoint-initdb.d/20-init-replica.sh
+    command: postgres -c config_file=/etc/postgresql/postgresql.conf
+    depends_on:
+      - postgres-primary
+    networks:
+      - app-network
+
+  # PostgreSQL Replica Node 2
+  postgres-replica-2:
+    image: postgres:13
+    container_name: postgres-replica-2
+    environment:
+      POSTGRES_DB: blink_db
+      POSTGRES_USER: blink_user
+      POSTGRES_PASSWORD: 12345
+      PGUSER: replicator
+      PGPASSWORD: 12345
+      PGDATA: /var/lib/postgresql/data
+      REPLICA_NUMBER: 2
+    ports:
+      - "5434:5432"
+    volumes:
+      - postgres_replica2_data:/var/lib/postgresql/data
+      - ./postgres-config/postgresql-replica.conf:/etc/postgresql/postgresql.conf
+      - ./postgres-config/pg_hba.conf:/etc/postgresql/pg_hba.conf
+      - ./postgres-config/init-replica.sh:/docker-entrypoint-initdb.d/20-init-replica.sh
+    command: postgres -c config_file=/etc/postgresql/postgresql.conf
+    depends_on:
+      - postgres-primary
+    networks:
+      - app-network
+
+  # PgBouncer for connection pooling
+  pgbouncer:
+    image: edoburu/pgbouncer:1.17.0
+    container_name: pgbouncer
+    environment:
+      DB_HOST: postgres-primary
+      DB_USER: blink_user
+      DB_PASSWORD: 12345
+      DB_NAME: blink_db
+      POOL_MODE: transaction
+      MAX_CLIENT_CONN: 1000
+      DEFAULT_POOL_SIZE: 20
+    ports:
+      - "6432:5432"
+    depends_on:
+      - postgres-primary
+    networks:
+      - app-network
+
+  # FastAPI Backend
+  backend:
+    build: .
+    ports:
+      - "8443:8443"
+    volumes:
+      - .:/app
+      - ./logs:/app/logs
+      - ./ssl:/app/ssl
+    environment:
+      - DATABASE_URL=postgresql://blink_user:12345@pgbouncer:5432/blink_db
+      - PROJECT_NAME=FastAPI Project
+      - HOST=0.0.0.0
+      - HTTPS_PORT=8443
+      - DEBUG=True
+      - HTTPS_ENABLED=true
+    depends_on:
+      - pgbouncer
+    restart: unless-stopped
+    networks:
+      - app-network
+
+volumes:
+  postgres_primary_data:
+  postgres_replica1_data:
+  postgres_replica2_data:
+
+networks:
+  app-network:
+    driver: bridge

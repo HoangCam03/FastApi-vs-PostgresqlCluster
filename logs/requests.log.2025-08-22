@@ -1,0 +1,50 @@
+2025-08-22 02:45:46,415 - INFO - GET / - Status: 0
+2025-08-22 02:45:46,468 - INFO - GET / - Status: 200 - Duration: 0.054s
+2025-08-22 02:45:46,540 - INFO - GET /static/css/styles.css - Status: 0
+2025-08-22 02:45:46,556 - INFO - GET /static/css/styles.css - Status: 200 - Duration: 0.017s
+2025-08-22 02:45:49,811 - INFO - GET /static/image/img/slider/blackpink.svg - Status: 0
+2025-08-22 02:45:49,824 - INFO - GET /static/image/img/slider/Bpink2.jpg - Status: 0
+2025-08-22 02:45:49,835 - INFO - GET /static/image/img/slider/Bpink2.jpg - Status: 200 - Duration: 0.011s
+2025-08-22 02:45:49,837 - INFO - GET /static/image/img/slider/blackpink.svg - Status: 200 - Duration: 0.027s
+2025-08-22 02:45:50,292 - INFO - GET /static/image/img/slider/Bpink3.jpg - Status: 0
+2025-08-22 02:45:50,322 - INFO - GET /static/image/img/slider/Bpink3.jpg - Status: 200 - Duration: 0.030s
+2025-08-22 02:45:50,489 - INFO - GET /static/image/img/slider/Jisoo2.jpg - Status: 0
+2025-08-22 02:45:50,511 - INFO - GET /static/image/img/slider/Jisoo2.jpg - Status: 200 - Duration: 0.022s
+2025-08-22 02:45:50,664 - INFO - GET /static/image/img/slider/Rosie.jpg - Status: 0
+2025-08-22 02:45:50,690 - INFO - GET /static/image/img/slider/Rosie.jpg - Status: 200 - Duration: 0.026s
+2025-08-22 02:45:51,092 - INFO - GET /static/image/img/slider/Lisa2.jpg - Status: 0
+2025-08-22 02:45:51,178 - INFO - GET /static/image/img/slider/Lisa2.jpg - Status: 200 - Duration: 0.086s
+2025-08-22 02:45:52,307 - INFO - GET /static/image/img/slider/Jennie.jpg - Status: 0
+2025-08-22 02:45:52,341 - INFO - GET /static/image/img/slider/Jennie.jpg - Status: 200 - Duration: 0.034s
+2025-08-22 02:45:52,384 - INFO - GET /static/image/img/Places/SHaNoi.jpg - Status: 0
+2025-08-22 02:45:52,405 - INFO - GET /static/image/img/Places/SHaNoi.jpg - Status: 200 - Duration: 0.021s
+2025-08-22 02:45:53,100 - INFO - GET /static/image/img/Places/SHaNoi2.jpg - Status: 0
+2025-08-22 02:45:53,116 - INFO - GET /static/image/img/Places/SHaNoi2.jpg - Status: 200 - Duration: 0.015s
+2025-08-22 02:45:53,921 - INFO - GET /static/image/img/Places/BHaNoi3.jpg - Status: 0
+2025-08-22 02:45:53,974 - INFO - GET /static/image/img/Places/BHaNoi3.jpg - Status: 200 - Duration: 0.053s
+2025-08-22 02:45:54,338 - INFO - GET /favicon.ico - Status: 0
+2025-08-22 02:45:54,381 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.043s
+2025-08-22 02:45:54,389 - INFO - GET / - Status: 0
+2025-08-22 02:45:54,427 - INFO - GET / - Status: 200 - Duration: 0.038s
+2025-08-22 02:48:09,999 - INFO - GET / - Status: 0
+2025-08-22 02:48:10,019 - INFO - GET / - Status: 200 - Duration: 0.020s
+2025-08-22 02:48:10,234 - INFO - GET /favicon.ico - Status: 0
+2025-08-22 02:48:10,238 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.004s
+2025-08-22 02:48:10,273 - INFO - GET / - Status: 0
+2025-08-22 02:48:10,282 - INFO - GET / - Status: 200 - Duration: 0.009s
+2025-08-22 06:35:30,770 - INFO - GET /favicon.ico - Status: 0
+2025-08-22 06:35:30,837 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.069s
+2025-08-22 06:35:31,305 - INFO - GET / - Status: 0
+2025-08-22 06:35:31,681 - INFO - GET /user/login-page - Status: 0
+2025-08-22 06:35:31,715 - INFO - GET /user/login-page - Status: 200 - Duration: 0.034s
+2025-08-22 06:35:31,716 - INFO - GET / - Status: 200 - Duration: 0.411s
+2025-08-22 06:35:32,902 - INFO - GET /static/image/img/slider/bgr2.svg - Status: 0
+2025-08-22 06:35:33,026 - INFO - GET /static/image/img/slider/bgr2.svg - Status: 200 - Duration: 0.124s
+2025-08-22 06:35:33,641 - INFO - GET /favicon.ico - Status: 0
+2025-08-22 06:35:33,642 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-08-22 06:35:33,650 - INFO - GET / - Status: 0
+2025-08-22 06:35:33,656 - INFO - GET / - Status: 200 - Duration: 0.006s
+2025-08-22 06:35:49,770 - INFO - GET /favicon.ico - Status: 0
+2025-08-22 06:35:49,774 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.004s
+2025-08-22 06:35:49,785 - INFO - GET / - Status: 0
+2025-08-22 06:35:49,808 - INFO - GET / - Status: 200 - Duration: 0.023s

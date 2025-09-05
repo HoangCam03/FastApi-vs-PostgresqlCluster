@@ -1,0 +1,191 @@
+{
+  "test_summary": {
+    "start_time": "2025-09-04T10:40:33.785530",
+    "end_time": "2025-09-04T10:41:12.009095",
+    "total_tests": 15,
+    "passed_tests": 14,
+    "failed_tests": 1
+  },
+  "test_results": [
+    {
+      "test_name": "SETUP",
+      "status": "PASS",
+      "details": "Test environment setup completed",
+      "timestamp": "2025-09-04T10:40:33.942681",
+      "duration": null
+    },
+    {
+      "test_name": "CREATE_REPLICATION",
+      "status": "PASS",
+      "details": "Row 1 replicated in 0.08s",
+      "timestamp": "2025-09-04T10:40:34.027302",
+      "duration": null
+    },
+    {
+      "test_name": "UPDATE_REPLICATION",
+      "status": "PASS",
+      "details": "Update replicated in 0.52s",
+      "timestamp": "2025-09-04T10:40:34.544486",
+      "duration": null
+    },
+    {
+      "test_name": "DELETE_REPLICATION",
+      "status": "PASS",
+      "details": "Delete replicated in 0.01s",
+      "timestamp": "2025-09-04T10:40:34.554244",
+      "duration": null
+    },
+    {
+      "test_name": "REPLICA_INSERT_BLOCK",
+      "status": "PASS",
+      "details": "Replica correctly blocked INSERT: (psycopg2.errors.ReadOnlySqlTransaction) cannot execute INSERT in a read-only transaction",
+      "timestamp": "2025-09-04T10:40:36.559042",
+      "duration": null
+    },
+    {
+      "test_name": "REPLICA_UPDATE_BLOCK",
+      "status": "PASS",
+      "details": "Replica correctly blocked UPDATE: (psycopg2.errors.ReadOnlySqlTransaction) cannot execute UPDATE in a read-only transaction",
+      "timestamp": "2025-09-04T10:40:36.561629",
+      "duration": null
+    },
+    {
+      "test_name": "REPLICA_DELETE_BLOCK",
+      "status": "PASS",
+      "details": "Replica correctly blocked DELETE: (psycopg2.errors.ReadOnlySqlTransaction) cannot execute DELETE in a read-only transaction",
+      "timestamp": "2025-09-04T10:40:36.566564",
+      "duration": null
+    },
+    {
+      "test_name": "PRE_FAILOVER_SYNC",
+      "status": "PASS",
+      "details": "Data synced before failover: row 2",
+      "timestamp": "2025-09-04T10:40:38.574206",
+      "duration": null
+    },
+    {
+      "test_name": "PRIMARY_STOP",
+      "status": "PASS",
+      "details": "Primary container stopped successfully",
+      "timestamp": "2025-09-04T10:40:39.117708",
+      "duration": null
+    },
+    {
+      "test_name": "REPLICA_READ_DURING_FAILOVER",
+      "status": "PASS",
+      "details": "Replica still readable: 1 rows",
+      "timestamp": "2025-09-04T10:40:41.120616",
+      "duration": null
+    },
+    {
+      "test_name": "POST_FAILOVER_SYNC",
+      "status": "PASS",
+      "details": "Replication resumed: row 3",
+      "timestamp": "2025-09-04T10:40:57.125917",
+      "duration": null
+    },
+    {
+      "test_name": "BATCH_INSERT",
+      "status": "PASS",
+      "details": "Inserted 100 records in 0.20s",
+      "timestamp": "2025-09-04T10:40:59.323536",
+      "duration": null
+    },
+    {
+      "test_name": "BATCH_REPLICATION",
+      "status": "PASS",
+      "details": "All 100 records replicated in 1.05s",
+      "timestamp": "2025-09-04T10:41:00.371431",
+      "duration": null
+    },
+    {
+      "test_name": "NETWORK_PARTITION",
+      "status": "FAIL",
+      "details": "Network partition simulation failed: 404 Client Error for http+docker://localnpipe/v1.48/containers/postgres-replica/json: Not Found (\"No such container: postgres-replica\")",
+      "timestamp": "2025-09-04T10:41:02.906200",
+      "duration": null
+    },
+    {
+      "test_name": "DATA_CONSISTENCY",
+      "status": "PASS",
+      "details": "Data consistent: 10 records match",
+      "timestamp": "2025-09-04T10:41:10.008878",
+      "duration": null
+    }
+  ],
+  "scenarios": {
+    "Basic CRUD Replication": {
+      "tests": [
+        {
+          "operation": "CREATE",
+          "status": "PASS",
+          "duration": 0.08456063270568848
+        },
+        {
+          "operation": "UPDATE",
+          "status": "PASS",
+          "duration": 0.517143964767456
+        },
+        {
+          "operation": "DELETE",
+          "status": "PASS",
+          "duration": 0.009723901748657227
+        }
+      ]
+    },
+    "Replica Read-Only Enforcement": {
+      "tests": [
+        {
+          "operation": "INSERT_BLOCK",
+          "status": "PASS"
+        },
+        {
+          "operation": "UPDATE_BLOCK",
+          "status": "PASS"
+        },
+        {
+          "operation": "DELETE_BLOCK",
+          "status": "PASS"
+        }
+      ]
+    },
+    "Primary Failover Scenarios": {
+      "tests": [
+        {
+          "operation": "PRIMARY_STOP",
+          "status": "PASS"
+        },
+        {
+          "operation": "REPLICA_READ_DURING_FAILOVER",
+          "status": "PASS"
+        },
+        {
+          "operation": "POST_FAILOVER_SYNC",
+          "status": "PASS"
+        }
+      ]
+    },
+    "High Load Replication Performance": {
+      "tests": [
+        {
+          "operation": "BATCH_REPLICATION",
+          "status": "PASS",
+          "records": 100,
+          "duration": 1.047856330871582
+        }
+      ]
+    },
+    "Network Partition Simulation": {
+      "tests": []
+    },
+    "Data Consistency Verification": {
+      "tests": [
+        {
+          "operation": "DATA_CONSISTENCY",
+          "status": "PASS",
+          "records": 10
+        }
+      ]
+    }
+  }
+}

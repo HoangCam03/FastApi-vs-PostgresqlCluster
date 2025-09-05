@@ -1,0 +1,113 @@
+
+{
+  "test_summary": {
+    "timestamp": "2025-09-04T10:43:20.825645",
+    "total_tests": 8,
+    "passed_tests": 5,
+    "failed_tests": 3
+  },
+  "test_results": [
+    {
+      "test_name": "SETUP",
+      "status": "PASS",
+      "details": "Network performance test environment setup completed",
+      "timestamp": "2025-09-04T10:42:40.817508",
+      "duration": null,
+      "metrics": {}
+    },
+    {
+      "test_name": "NETWORK_LATENCY_MEASUREMENT",
+      "status": "PASS",
+      "details": "Network latency measured: Primary avg=0.005s, Replica avg=0.004s",
+      "timestamp": "2025-09-04T10:42:42.991678",
+      "duration": null,
+      "metrics": {
+        "primary_avg_latency": 0.004638552665710449,
+        "primary_max_latency": 0.00878143310546875,
+        "primary_min_latency": 0.0031991004943847656,
+        "replica_avg_latency": 0.003735077381134033,
+        "replica_max_latency": 0.01929926872253418,
+        "replica_min_latency": 0.002239704132080078,
+        "avg_difference": 0.002373707294464111
+      }
+    },
+    {
+      "test_name": "NETWORK_PARTITION_SCENARIOS",
+      "status": "FAIL",
+      "details": "Network partition scenarios failed: 404 Client Error for http+docker://localnpipe/v1.48/containers/postgres-replica/json: Not Found (\"No such container: postgres-replica\")",
+      "timestamp": "2025-09-04T10:42:45.002788",
+      "duration": null,
+      "metrics": {}
+    },
+    {
+      "test_name": "BANDWIDTH_UTILIZATION",
+      "status": "PASS",
+      "details": "Bandwidth utilization tested: Write avg=4506990.23 bytes/s, Read avg=18822691.99 bytes/s",
+      "timestamp": "2025-09-04T10:42:55.209457",
+      "duration": null,
+      "metrics": {
+        "payload_sizes": [
+          1024,
+          10240,
+          102400,
+          1048576
+        ],
+        "avg_write_bandwidth": 4506990.2276106505,
+        "avg_read_bandwidth": 18822691.985329814,
+        "max_write_bandwidth": 15446755.306399554,
+        "max_read_bandwidth": 42046735.73460549
+      }
+    },
+    {
+      "test_name": "CONNECTION_POOL_EXHAUSTION",
+      "status": "FAIL",
+      "details": "Connection pool exhaustion test failed: 0/100 connections successful",
+      "timestamp": "2025-09-04T10:42:57.225006",
+      "duration": null,
+      "metrics": {
+        "total_connections": 100,
+        "successful_connections": 0,
+        "success_rate": 0.0,
+        "duration": 0.012643814086914062
+      }
+    },
+    {
+      "test_name": "HIGH_FREQUENCY_OPERATIONS",
+      "status": "PASS",
+      "details": "High frequency operations: 1000/1000 operations at 76.9 ops/sec",
+      "timestamp": "2025-09-04T10:43:12.222066",
+      "duration": null,
+      "metrics": {
+        "total_cycles": 1000,
+        "successful_operations": 1000,
+        "success_rate": 1.0,
+        "operations_per_second": 76.94241202665457,
+        "duration": 12.99673318862915
+      }
+    },
+    {
+      "test_name": "MEMORY_USAGE_UNDER_LOAD",
+      "status": "PASS",
+      "details": "Memory usage under load: 250/250 operations, memory +0.3%",
+      "timestamp": "2025-09-04T10:43:15.973650",
+      "duration": null,
+      "metrics": {
+        "initial_memory_percent": 90.6,
+        "final_memory_percent": 90.9,
+        "memory_increase": 0.30000000000001137,
+        "successful_operations": 250,
+        "total_operations": 250,
+        "success_rate": 1.0,
+        "duration": 1.7504267692565918
+      }
+    },
+    {
+      "test_name": "NETWORK_INTERRUPTION_RECOVERY",
+      "status": "FAIL",
+      "details": "Network interruption recovery test failed: 404 Client Error for http+docker://localnpipe/v1.48/containers/postgres-replica/json: Not Found (\"No such container: postgres-replica\")",
+      "timestamp": "2025-09-04T10:43:18.825087",
+      "duration": null,
+      "metrics": {}
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "test_summary": {
+    "start_time": "2025-09-04T10:39:47.209802",
+    "end_time": "2025-09-04T10:43:21.170665",
+    "total_duration": 213.960863,
+    "total_test_suites": 7,
+    "passed_tests": 7,
+    "failed_tests": 0,
+    "timeout_tests": 0,
+    "crash_tests": 0,
+    "success_rate": 100.0
+  },
+  "test_suites": [
+    {
+      "name": "Simple Cluster Test",
+      "file": "simple_cluster_test.py",
+      "description": "Test cơ bản CRUD, replica read-only, primary failover"
+    },
+    {
+      "name": "Primary Replica Flow Test",
+      "file": "test_primary_replica_flow.py",
+      "description": "Test flow giữa primary và replica"
+    },
+    {
+      "name": "Cluster Scenarios Test",
+      "file": "cluster_scenarios_test.py",
+      "description": "Test các scenarios phức tạp"
+    },
+    {
+      "name": "CRUD Operations Test",
+      "file": "test_crud_operations.py",
+      "description": "Test CRUD operations qua API"
+    },
+    {
+      "name": "Comprehensive Cluster Test",
+      "file": "comprehensive_cluster_test.py",
+      "description": "Test toàn diện với 6 scenarios chính"
+    },
+    {
+      "name": "Advanced Cluster Test",
+      "file": "advanced_cluster_test.py",
+      "description": "Test nâng cao với connection pooling, replication lag, etc."
+    },
+    {
+      "name": "Network Performance Test",
+      "file": "network_performance_test.py",
+      "description": "Test network scenarios và performance"
+    }
+  ],
+  "detailed_results": [
+    {
+      "suite_name": "Simple Cluster Test",
+      "file": "simple_cluster_test.py",
+      "status": "PASS",
+      "duration": 18.866234064102173,
+      "return_code": 0,
+      "stdout": "[10:39:48] ℹ️ 🚀 Starting Simple PostgreSQL Cluster Test\n[10:39:48] ℹ️ ==================================================\n[10:39:48] ✅ Test table created and cleaned\n[10:39:48] ℹ️ \n🔄 Running: Basic CRUD Operations\n[10:39:48] ℹ️ ------------------------------\n[10:39:48] ℹ️ === TEST: BASIC CRUD OPERATIONS ===\n[10:39:48] ✅ Created record 1 on primary\n[10:39:48] ✅ Record replicated to replica\n[10:39:48] ✅ Updated record on primary\n[10:39:48] ✅ Update replicated to replica\n[10:39:48] ✅ Deleted record on primary\n[10:39:48] ✅ Delete replicated to replica\n[10:39:49] ℹ️ \n🔄 Running: Replica Read-Only\n[10:39:49] ℹ️ ------------------------------\n[10:39:49] ℹ️ === TEST: REPLICA READ-ONLY ===\n[10:39:49] ✅ Replica correctly blocked INSERT: (psycopg2.errors.ReadOnlySqlTransaction) cannot execute INSERT in a read-only transaction\n[10:39:50] ℹ️ \n🔄 Running: Primary Failover\n[10:39:50] ℹ️ ------------------------------\n[10:39:50] ℹ️ === TEST: PRIMARY FAILOVER ===\n[10:39:50] ✅ Created record 2 before failover\n[10:39:50] ✅ Data synced before failover\n[10:39:50] ℹ️ Stopping primary container...\n[10:39:53] ✅ Primary container stopped\n[10:39:53] ✅ Replica still readable during primary down: 1 rows\n[10:39:53] ℹ️ Starting primary container...\n[10:40:04] ✅ Primary container started\n[10:40:04] ✅ Replication resumed after failover: record 3\n[10:40:05] ℹ️ \n==================================================\n[10:40:05] ℹ️ 📊 TEST SUMMARY\n[10:40:05] ℹ️ ==================================================\n[10:40:05] ℹ️ ✅ PASS - Basic CRUD Operations\n[10:40:05] ℹ️ ✅ PASS - Replica Read-Only\n[10:40:05] ℹ️ ✅ PASS - Primary Failover\n[10:40:05] ℹ️ \nTotal: 3 | Passed: 3 | Failed: 0\n[10:40:05] ✅ Success Rate: 100.0%\n\n🎉 All tests passed!\n",
+      "stderr": "D:\\fastapi_project\\simple_cluster_test.py:41: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  deadline = datetime.utcnow() + timedelta(seconds=timeout)\nD:\\fastapi_project\\simple_cluster_test.py:42: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  while datetime.utcnow() < deadline:\nD:\\fastapi_project\\simple_cluster_test.py:100: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  deadline = datetime.utcnow() + timedelta(seconds=20)\nD:\\fastapi_project\\simple_cluster_test.py:101: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  while datetime.utcnow() < deadline:\n"
+    },
+    {
+      "suite_name": "Primary Replica Flow Test",
+      "file": "test_primary_replica_flow.py",
+      "status": "PASS",
+      "duration": 1.254460096359253,
+      "return_code": 0,
+      "stdout": "== Primary/Replica flow test ==\nCreated/ensured table on primary\nInserted row id=1 on primary\nReplicated to replica: True\nUpdated row on primary\nUpdate replicated to replica: True\nDeleted row on primary\nDelete replicated to replica: True\nReplica write blocked as expected: (psycopg2.errors.ReadOnlySqlTransaction) cannot execute INSERT in a read-only transaction\n== Flow test completed successfully ==\n",
+      "stderr": "D:\\fastapi_project\\test_primary_replica_flow.py:36: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  deadline = datetime.utcnow() + timedelta(seconds=20)\nD:\\fastapi_project\\test_primary_replica_flow.py:38: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  while datetime.utcnow() < deadline:\nD:\\fastapi_project\\test_primary_replica_flow.py:59: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  deadline = datetime.utcnow() + timedelta(seconds=20)\nD:\\fastapi_project\\test_primary_replica_flow.py:61: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  while datetime.utcnow() < deadline:\nD:\\fastapi_project\\test_primary_replica_flow.py:81: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  deadline = datetime.utcnow() + timedelta(seconds=20)\nD:\\fastapi_project\\test_primary_replica_flow.py:83: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  while datetime.utcnow() < deadline:\n"
+    },
+    {
+      "suite_name": "Cluster Scenarios Test",
+      "file": "cluster_scenarios_test.py",
+      "status": "PASS",
+      "duration": 3.572371244430542,
+      "return_code": 0,
+      "stdout": "[10:40:19] == Scenario: CRUD + Replication ==\n[10:40:19] Inserted id=1 on primary\n[10:40:19] Replica saw CREATE\n[10:40:19] Replica saw UPDATE\n[10:40:19] Replica saw DELETE\n[10:40:19] Replica write blocked as expected: (psycopg2.errors.ReadOnlySqlTransaction) cannot execute INSERT in a read-only transaction\n[10:40:19] == Scenario: Failover (primary down) ==\n[10:40:20] Replica synced before failover\n[10:40:20] Note: Docker control test skipped (requires host access)\n[10:40:20] Manual test: docker stop postgres-primary, verify replica read-only, docker start postgres-primary\n[10:40:20] Replication resumed\n[10:40:20] == All scenarios passed ==\n",
+      "stderr": "D:\\fastapi_project\\cluster_scenarios_test.py:64: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  deadline = datetime.utcnow() + timedelta(seconds=timeout)\nD:\\fastapi_project\\cluster_scenarios_test.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  while datetime.utcnow() < deadline:\nD:\\fastapi_project\\cluster_scenarios_test.py:76: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  deadline = datetime.utcnow() + timedelta(seconds=timeout)\nD:\\fastapi_project\\cluster_scenarios_test.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  while datetime.utcnow() < deadline:\n"
+    },
+    {
+      "suite_name": "CRUD Operations Test",
+      "file": "test_crud_operations.py",
+      "status": "PASS",
+      "duration": 0.9124355316162109,
+      "return_code": 0,
+      "stdout": "[2025-09-04 10:40:26] [INFO] 🚀 Starting PostgreSQL Cluster CRUD Tests\n[2025-09-04 10:40:26] [ERROR] ❌ Login error: ('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))\n",
+      "stderr": ""
+    },
+    {
+      "suite_name": "Comprehensive Cluster Test",
+      "file": "comprehensive_cluster_test.py",
+      "status": "PASS",
+      "duration": 40.68324661254883,
+      "return_code": 0,
+      "stdout": "🚀 Bắt đầu Comprehensive PostgreSQL Cluster Testing\n============================================================\n✅ [SETUP] PASS: Test environment setup completed\n\n�� Running: Basic Replication\n----------------------------------------\n✅ [CREATE_REPLICATION] PASS: Row 1 replicated in 0.08s\n✅ [UPDATE_REPLICATION] PASS: Update replicated in 0.52s\n✅ [DELETE_REPLICATION] PASS: Delete replicated in 0.01s\n\n�� Running: Replica Read-Only\n----------------------------------------\n✅ [REPLICA_INSERT_BLOCK] PASS: Replica correctly blocked INSERT: (psycopg2.errors.ReadOnlySqlTransaction) cannot execute INSERT in a read-only transaction\n✅ [REPLICA_UPDATE_BLOCK] PASS: Replica correctly blocked UPDATE: (psycopg2.errors.ReadOnlySqlTransaction) cannot execute UPDATE in a read-only transaction\n✅ [REPLICA_DELETE_BLOCK] PASS: Replica correctly blocked DELETE: (psycopg2.errors.ReadOnlySqlTransaction) cannot execute DELETE in a read-only transaction\n\n�� Running: Primary Failover\n----------------------------------------\n✅ [PRE_FAILOVER_SYNC] PASS: Data synced before failover: row 2\n✅ [PRIMARY_STOP] PASS: Primary container stopped successfully\n✅ [REPLICA_READ_DURING_FAILOVER] PASS: Replica still readable: 1 rows\n✅ [POST_FAILOVER_SYNC] PASS: Replication resumed: row 3\n\n�� Running: High Load Replication\n----------------------------------------\n✅ [BATCH_INSERT] PASS: Inserted 100 records in 0.20s\n✅ [BATCH_REPLICATION] PASS: All 100 records replicated in 1.05s\n\n�� Running: Network Partition\n----------------------------------------\n❌ [NETWORK_PARTITION] FAIL: Network partition simulation failed: 404 Client Error for http+docker://localnpipe/v1.48/containers/postgres-replica/json: Not Found (\"No such container: postgres-replica\")\n\n�� Running: Data Consistency\n----------------------------------------\n✅ [DATA_CONSISTENCY] PASS: Data consistent: 10 records match\n�� Báo cáo đã được lưu vào: cluster_test_report.json\n\n============================================================\n📊 TEST SUMMARY\n============================================================\nTotal Tests: 15\nPassed: 14 ✅\nFailed: 1 ❌\nSuccess Rate: 93.3%\nStart Time: 2025-09-04T10:40:33.785530\nEnd Time: 2025-09-04T10:41:12.009095\n\n⚠️ Some tests failed. Check the report for details.\n",
+      "stderr": "D:\\fastapi_project\\comprehensive_cluster_test.py:438: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  deadline = datetime.utcnow() + timedelta(seconds=timeout)\nD:\\fastapi_project\\comprehensive_cluster_test.py:439: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  while datetime.utcnow() < deadline:\nD:\\fastapi_project\\comprehensive_cluster_test.py:472: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  deadline = datetime.utcnow() + timedelta(seconds=timeout)\nD:\\fastapi_project\\comprehensive_cluster_test.py:473: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  while datetime.utcnow() < deadline:\nD:\\fastapi_project\\comprehensive_cluster_test.py:455: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  deadline = datetime.utcnow() + timedelta(seconds=timeout)\nD:\\fastapi_project\\comprehensive_cluster_test.py:456: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  while datetime.utcnow() < deadline:\n"
+    },
+    {
+      "suite_name": "Advanced Cluster Test",
+      "file": "advanced_cluster_test.py",
+      "status": "PASS",
+      "duration": 76.87410306930542,
+      "return_code": 0,
+      "stdout": "🚀 Bắt đầu Advanced PostgreSQL Cluster Testing\n============================================================\n✅ [SETUP] PASS: Advanced test environment setup completed\n\n🔄 Running: Connection Pooling Stress\n----------------------------------------\n✅ [CONNECTION_POOLING_STRESS] PASS: Connection pooling stress test: 500/500 operations successful in 1.97s\n\n🔄 Running: Replication Lag Monitoring\n----------------------------------------\n✅ [REPLICATION_LAG_MONITORING] PASS: Replication lag monitoring: avg=0.033s, max=0.120s, min=0.006s\n\n🔄 Running: Long Running Transaction\n----------------------------------------\n✅ [LONG_RUNNING_TRANSACTION] PASS: Long running transaction completed and replicated in 10.04s\n\n🔄 Running: Transaction Rollback\n----------------------------------------\n✅ [TRANSACTION_ROLLBACK] PASS: Transaction rollback on primary worked correctly\n✅ [TRANSACTION_ROLLBACK] PASS: Rollback correctly not replicated to replica\n\n🔄 Running: Schema Changes Replication\n----------------------------------------\n✅ [SCHEMA_CHANGES_REPLICATION] PASS: Schema changes and data replicated to replica\n\n🔄 Running: Memory/CPU Stress\n----------------------------------------\n✅ [MEMORY_CPU_STRESS] PASS: Stress test completed: 200/200 operations in 3.38s, Memory: +0.8%, CPU: +3.5%\n\n🔄 Running: Replica Promotion Simulation\n----------------------------------------\n✅ [REPLICA_PROMOTION_SIMULATION] PASS: Replica readable during promotion simulation: 712 rows\n✅ [REPLICA_PROMOTION_SIMULATION] PASS: Replication resumed after promotion simulation\n\n🔄 Running: Concurrent Read/Write\n----------------------------------------\n✅ [CONCURRENT_READ_WRITE] PASS: Concurrent operations: 50/50 writes, 200/200 reads in 1.12s\n📄 Báo cáo đã được lưu vào: advanced_cluster_test_report.json\n\n============================================================\n📊 ADVANCED TEST SUMMARY\n============================================================\nTotal Tests: 11\nPassed: 11 ✅\nFailed: 0 ❌\nSuccess Rate: 100.0%\n\n🎉 Advanced tests completed successfully!\n",
+      "stderr": "D:\\fastapi_project\\advanced_cluster_test.py:128: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  deadline = datetime.utcnow() + timedelta(seconds=10)\nD:\\fastapi_project\\advanced_cluster_test.py:130: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  while datetime.utcnow() < deadline:\n"
+    },
+    {
+      "suite_name": "Network Performance Test",
+      "file": "network_performance_test.py",
+      "status": "PASS",
+      "duration": 41.73401713371277,
+      "return_code": 0,
+      "stdout": "🚀 Bắt đầu Network & Performance Testing\n============================================================\n✅ [SETUP] PASS: Network performance test environment setup completed\n\n🔄 Running: Network Latency Measurement\n----------------------------------------\n✅ [NETWORK_LATENCY_MEASUREMENT] PASS: Network latency measured: Primary avg=0.005s, Replica avg=0.004s\n    📊 Metrics: {'primary_avg_latency': 0.004638552665710449, 'primary_max_latency': 0.00878143310546875, 'primary_min_latency': 0.0031991004943847656, 'replica_avg_latency': 0.003735077381134033, 'replica_max_latency': 0.01929926872253418, 'replica_min_latency': 0.002239704132080078, 'avg_difference': 0.002373707294464111}\n\n🔄 Running: Network Partition Scenarios\n----------------------------------------\n❌ [NETWORK_PARTITION_SCENARIOS] FAIL: Network partition scenarios failed: 404 Client Error for http+docker://localnpipe/v1.48/containers/postgres-replica/json: Not Found (\"No such container: postgres-replica\")\n\n🔄 Running: Bandwidth Utilization\n----------------------------------------\n✅ [BANDWIDTH_UTILIZATION] PASS: Bandwidth utilization tested: Write avg=4506990.23 bytes/s, Read avg=18822691.99 bytes/s\n    📊 Metrics: {'payload_sizes': [1024, 10240, 102400, 1048576], 'avg_write_bandwidth': 4506990.2276106505, 'avg_read_bandwidth': 18822691.985329814, 'max_write_bandwidth': 15446755.306399554, 'max_read_bandwidth': 42046735.73460549}\n\n🔄 Running: Connection Pool Exhaustion\n----------------------------------------\n❌ [CONNECTION_POOL_EXHAUSTION] FAIL: Connection pool exhaustion test failed: 0/100 connections successful\n    📊 Metrics: {'total_connections': 100, 'successful_connections': 0, 'success_rate': 0.0, 'duration': 0.012643814086914062}\n\n🔄 Running: High Frequency Operations\n----------------------------------------\n✅ [HIGH_FREQUENCY_OPERATIONS] PASS: High frequency operations: 1000/1000 operations at 76.9 ops/sec\n    📊 Metrics: {'total_cycles': 1000, 'successful_operations': 1000, 'success_rate': 1.0, 'operations_per_second': 76.94241202665457, 'duration': 12.99673318862915}\n\n🔄 Running: Memory Usage Under Load\n----------------------------------------\n✅ [MEMORY_USAGE_UNDER_LOAD] PASS: Memory usage under load: 250/250 operations, memory +0.3%\n    📊 Metrics: {'initial_memory_percent': 90.6, 'final_memory_percent': 90.9, 'memory_increase': 0.30000000000001137, 'successful_operations': 250, 'total_operations': 250, 'success_rate': 1.0, 'duration': 1.7504267692565918}\n\n🔄 Running: Network Interruption Recovery\n----------------------------------------\n❌ [NETWORK_INTERRUPTION_RECOVERY] FAIL: Network interruption recovery test failed: 404 Client Error for http+docker://localnpipe/v1.48/containers/postgres-replica/json: Not Found (\"No such container: postgres-replica\")\n📄 Báo cáo đã được lưu vào: network_performance_test_report.json\n\n============================================================\n📊 NETWORK & PERFORMANCE TEST SUMMARY\n============================================================\nTotal Tests: 8\nPassed: 5 ✅\nFailed: 3 ❌\nSuccess Rate: 62.5%\n\n⚠️ Some network & performance tests failed. Check the report for details.\n",
+      "stderr": ""
+    }
+  ]
+}

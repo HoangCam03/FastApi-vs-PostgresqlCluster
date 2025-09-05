@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jisoo Blog - BLACKPINK</title>
+  <link rel="stylesheet" href="{{ url_for('static', path='css/jisoo.css') }}" />
+</head>
+<body>
+  <header>
+    <div class="logo">🌸 JISOO BLOG</div>
+    <nav>
+      <a href="{{ url_for('root') }}">Trang chủ</a>
+      <a href="{{ url_for('admin_management') }}">Quản lý bài viết</a>
+      <a href="#">Tiểu sử</a>
+      <a href="#">Ảnh đẹp</a>
+      <a href="#">MV & Sự kiện</a>
+      <a href="#">Liên hệ</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <img src="{{ url_for('static', path='image/img/slider/Jisoo2.jpg') }}" alt="Jisoo" />
+      <div class="hero-text">
+        <h1>Kim Jisoo – Nàng Hoa Thanh Lịch của BLACKPINK</h1>
+        <p>Diễn viên, ca sĩ, biểu tượng thời trang và nàng thơ của Dior.</p>
+      </div>
+    </section>
+
+    <section class="posts">
+      {% if posts %}
+        {% for post in posts %}
+          <article class="post-card">
+            {% if post.images %}
+              <img src="{{ url_for('static', path='uploads/' + post.images) }}" alt="{{ post.title }}" />
+            {% else %}
+              <div class="no-image">
+                <p>Không có ảnh</p>
+              </div>
+            {% endif %}
+            <h2>{{ post.title }}</h2>
+            <p>{{ post.excerpt or 'Không có tóm tắt' }}</p>
+            <a href="{{ url_for('jisoo_post_detail', post_id=post.id) }}">Đọc tiếp →</a>
+          </article>
+        {% endfor %}
+      {% else %}
+        <p>Hiện chưa có bài viết nào của Jisoo.</p>
+      {% endif %}
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Fanpage yêu mến Jisoo – Made with 💖</p>
+  </footer>
+</body>
+</html>

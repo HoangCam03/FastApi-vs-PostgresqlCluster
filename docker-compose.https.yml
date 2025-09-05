@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  frontend_service:
+    build: .
+    ports:
+      - "8443:8443"   # HTTPS port only
+    volumes:
+      - .:/app
+      - ./logs:/app/logs
+      - ./ssl:/app/ssl
+    environment:
+      - USER_DATABASE_URL=postgresql://blink_user:12345@host.docker.internal:5432/user_db
+      - POST_DATABASE_URL=postgresql://post_user:12345@host.docker.internal:5433/post_db
+      - PROJECT_NAME=FastAPI Project
+      - HOST=0.0.0.0
+      - HTTPS_PORT=8443
+      - DEBUG=True
+      - HTTPS_ENABLED=true  # Enable HTTPS
+    restart: unless-stopped
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

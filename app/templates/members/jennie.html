@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jennie - BLACKPINK</title>
+  <link rel="stylesheet" href="{{ url_for('static', path='css/jennie.css') }}" />
+</head>
+<body>
+  <header>
+    <div class="logo">JENNIE 💎</div>
+    <nav>
+      <a href="{{ url_for('root') }}">Trang chủ</a>
+      <a href="#">Jennie</a>
+      <a href="#">Thời trang</a>
+      <a href="#">Sân khấu</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <img src="{{ url_for('static', path='image/img/slider/jennie5.jpg') }}" alt="Jennie Hero" />
+      <div class="hero-text">
+        <h1>Jennie Kim</h1>
+        <p>Rapper chính, ca sĩ tài năng và biểu tượng thời trang toàn cầu.</p>
+      </div>
+    </section>
+
+    <section class="posts">
+      {% if posts %}
+        {% for post in posts %}
+          <article class="post-card">
+            {% if post.images %}
+              <img src="{{ url_for('static', path='uploads/' + post.images) }}" alt="{{ post.title }}" />
+            {% else %}
+              <div class="no-image">
+                <i class="fas fa-image"></i>
+                <p>Không có ảnh</p>
+              </div>
+            {% endif %}
+            <h2>{{ post.title }}</h2>
+            <p>{{ post.excerpt }}</p>
+            <a href="{{ url_for('jennie_post_detail', post_id=post.id) }}">Đọc tiếp →</a>
+          </article>
+        {% endfor %}
+      {% else %}
+        <p>Hiện chưa có bài viết nào của Jennie.</p>
+      {% endif %}
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Jennie BLACKPINK Fanpage</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,19 @@
+2025-09-04 01:31:04,413 - INFO - GET / - Status: 0
+2025-09-04 01:31:04,512 - INFO - GET / - Status: 200 - Duration: 0.100s
+2025-09-04 01:31:04,521 - INFO - GET / - Status: 0
+2025-09-04 01:31:04,538 - INFO - GET / - Status: 200 - Duration: 0.017s
+2025-09-04 01:31:04,870 - INFO - GET /favicon.ico - Status: 0
+2025-09-04 01:31:04,873 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.003s
+2025-09-04 01:31:04,880 - INFO - GET / - Status: 0
+2025-09-04 01:31:04,888 - INFO - GET / - Status: 200 - Duration: 0.008s
+2025-09-04 01:31:07,401 - INFO - GET /favicon.ico - Status: 0
+2025-09-04 01:31:07,403 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-09-04 01:31:07,408 - INFO - GET / - Status: 0
+2025-09-04 01:31:07,419 - INFO - GET / - Status: 200 - Duration: 0.010s
+2025-09-04 01:31:09,573 - INFO - GET / - Status: 0
+2025-09-04 01:31:09,579 - INFO - GET / - Status: 200 - Duration: 0.006s
+2025-09-04 01:31:09,664 - INFO - GET /favicon.ico - Status: 0
+2025-09-04 01:31:09,666 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-09-04 01:31:09,672 - INFO - GET / - Status: 0
+2025-09-04 01:31:09,684 - INFO - GET / - Status: 200 - Duration: 0.012s
+2025-09-04 01:50:29,298 - INFO - POST /api/auth/login - Status: 0

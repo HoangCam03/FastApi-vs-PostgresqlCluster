@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ post.title }} - Lisa Blog</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    :root {
+      --primary: #ff2c9c;
+      --accent: #ffdf00;
+      --bg-dark: #111;
+      --card-dark: #1c1c1c;
+      --text-light: #fff;
+      --text-muted: #aaa;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-light);
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+    }
+
+    .header {
+      background: var(--card-dark);
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      border-bottom: 2px solid var(--primary);
+    }
+
+    .header .logo {
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: var(--primary);
+    }
+
+    .header .logo::after {
+      content: " ✨";
+      color: var(--accent);
+    }
+
+    .back-btn {
+      position: absolute;
+      left: 20px;
+      color: var(--text-light);
+      text-decoration: none;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      transition: color 0.3s;
+    }
+
+    .back-btn:hover {
+      color: var(--primary);
+    }
+
+    .back-btn i {
+      margin-right: 6px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .post-title {
+      font-size: 2.5rem;
+      font-weight: 800;
+      color: var(--primary);
+      margin-bottom: 10px;
+    }
+
+    .post-meta {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      display: flex;
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    .post-meta i {
+      margin-right: 5px;
+      color: var(--primary);
+    }
+
+    .post-image {
+      margin-bottom: 30px;
+    }
+
+    .post-image img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 8px 30px rgba(255, 44, 156, 0.3);
+    }
+
+    .post-excerpt {
+      font-style: italic;
+      background: #222;
+      padding: 15px 20px;
+      border-left: 4px solid var(--primary);
+      margin-bottom: 30px;
+      border-radius: 6px;
+    }
+
+    .post-content {
+      line-height: 1.8;
+      font-size: 1.1rem;
+    }
+
+    .post-content p {
+      margin-bottom: 1.5em;
+    }
+
+    .footer {
+      text-align: center;
+      color: var(--text-muted);
+      padding: 40px 0;
+    }
+
+    .footer span {
+      color: var(--primary);
+    }
+
+    @media (max-width: 768px) {
+      .post-title {
+        font-size: 2rem;
+      }
+
+      .container {
+        padding: 0 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <a href="{{ url_for('lisa') }}" class="back-btn"><i class="fas fa-arrow-left"></i> Trở về</a>
+    <div class="logo">LISA</div>
+  </header>
+
+  <div class="container">
+    <h1 class="post-title">{{ post.title }}</h1>
+    <div class="post-meta">
+      <span><i class="fas fa-user"></i> {{ post.author_id }}</span>
+      <span><i class="fas fa-calendar-alt"></i> {{ post.created_at.strftime('%d/%m/%Y') }}</span>
+      <span><i class="fas fa-folder"></i> {{ post.category }}</span>
+    </div>
+
+    <div class="post-image">
+      {% if post.images %}
+      <img src="{{ url_for('static', path='uploads/' + post.images) }}" alt="{{ post.title }}" />
+      {% else %}
+        <p><i class="fas fa-image"></i> Không có ảnh đại diện</p>
+      {% endif %}
+    </div>
+
+    <div class="post-excerpt">
+      {{ post.excerpt }}
+    </div>
+
+    <div class="post-content">
+      {{ post.content|replace('\n', '<br>')|safe }}
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>© 2025 Lisa Blog • Designed with <span>♥</span></p>
+  </footer>
+</body>
+</html>

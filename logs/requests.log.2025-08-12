@@ -1,0 +1,464 @@
+2025-08-12 02:32:05,498 - INFO - GET /health - Status: 0
+2025-08-12 02:32:05,528 - INFO - GET /health - Status: 200 - Duration: 0.031s
+2025-08-12 02:32:11,546 - INFO - POST /api/auth/login - Status: 0
+2025-08-12 02:32:12,583 - INFO - POST /api/auth/login - Status: 200 - Duration: 1.037s
+2025-08-12 02:32:12,634 - INFO - GET /health - Status: 0
+2025-08-12 02:32:12,645 - INFO - GET /health - Status: 200 - Duration: 0.011s
+2025-08-12 02:32:12,666 - INFO - GET /me - Status: 0
+2025-08-12 02:32:12,687 - INFO - GET /me - Status: 200 - Duration: 0.020s
+2025-08-12 02:32:16,615 - INFO - GET /me - Status: 0
+2025-08-12 02:32:16,628 - INFO - GET /me - Status: 200 - Duration: 0.013s
+2025-08-12 02:32:16,644 - INFO - GET /api/users/all - Status: 0
+2025-08-12 02:32:16,658 - INFO - GET /api/users/all - Status: 200 - Duration: 0.014s
+2025-08-12 02:32:18,778 - INFO - GET /me - Status: 0
+2025-08-12 02:32:18,790 - INFO - GET /me - Status: 200 - Duration: 0.012s
+2025-08-12 02:32:18,827 - INFO - GET /api/posts/ - Status: 0
+2025-08-12 02:32:18,910 - INFO - GET /api/posts/ - Status: 200 - Duration: 0.083s
+2025-08-12 02:32:18,915 - INFO - GET /api/kols/ - Status: 0
+2025-08-12 02:32:18,940 - INFO - GET /api/categories/ - Status: 0
+2025-08-12 02:32:18,951 - INFO - GET /api/kols/ - Status: 200 - Duration: 0.037s
+2025-08-12 02:32:18,980 - INFO - GET /api/categories/ - Status: 200 - Duration: 0.039s
+2025-08-12 02:32:33,806 - INFO - DELETE /api/posts/6 - Status: 0
+2025-08-12 02:32:33,859 - INFO - DELETE /api/posts/6 - Status: 200 - Duration: 0.053s
+2025-08-12 02:32:33,942 - INFO - GET /api/posts/ - Status: 0
+2025-08-12 02:32:33,964 - INFO - GET /api/posts/ - Status: 200 - Duration: 0.022s
+2025-08-12 02:32:34,004 - INFO - GET /api/kols/ - Status: 0
+2025-08-12 02:32:34,026 - INFO - GET /api/kols/ - Status: 200 - Duration: 0.022s
+2025-08-12 02:32:34,136 - INFO - GET /api/categories/ - Status: 0
+2025-08-12 02:32:34,143 - INFO - GET /api/categories/ - Status: 200 - Duration: 0.008s
+2025-08-12 02:32:36,311 - INFO - GET /api/posts/ - Status: 0
+2025-08-12 02:32:36,327 - INFO - GET /api/posts/ - Status: 200 - Duration: 0.016s
+2025-08-12 02:32:39,880 - INFO - GET /api/posts/3 - Status: 0
+2025-08-12 02:32:39,900 - INFO - GET /api/posts/3 - Status: 200 - Duration: 0.020s
+2025-08-12 02:32:41,404 - INFO - GET /api/posts/ - Status: 0
+2025-08-12 02:32:41,415 - INFO - GET /api/posts/ - Status: 200 - Duration: 0.011s
+2025-08-12 02:32:43,360 - INFO - GET /health - Status: 0
+2025-08-12 02:32:43,372 - INFO - GET /health - Status: 200 - Duration: 0.012s
+2025-08-12 02:32:43,379 - INFO - GET /me - Status: 0
+2025-08-12 02:32:43,387 - INFO - GET /me - Status: 200 - Duration: 0.008s
+2025-08-12 02:34:01,377 - INFO - GET / - Status: 0
+2025-08-12 02:34:01,423 - INFO - GET / - Status: 200 - Duration: 0.045s
+2025-08-12 02:34:01,780 - INFO - GET /favicon.ico - Status: 0
+2025-08-12 02:34:01,785 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.006s
+2025-08-12 02:34:01,792 - INFO - GET / - Status: 0
+2025-08-12 02:34:01,803 - INFO - GET / - Status: 200 - Duration: 0.011s
+2025-08-12 02:34:05,767 - INFO - GET /docs - Status: 0
+2025-08-12 02:34:05,768 - INFO - GET /docs - Status: 200 - Duration: 0.001s
+2025-08-12 02:34:06,350 - INFO - GET /openapi.json - Status: 0
+2025-08-12 02:34:06,700 - INFO - GET /openapi.json - Status: 200 - Duration: 0.350s
+2025-08-12 03:00:24,407 - INFO - GET /health - Status: 0
+2025-08-12 03:00:24,442 - INFO - GET /health - Status: 200 - Duration: 0.038s
+2025-08-12 03:00:24,466 - INFO - GET /me - Status: 0
+2025-08-12 03:00:24,621 - INFO - GET /me - Status: 200 - Duration: 0.154s
+2025-08-12 03:00:28,228 - INFO - GET /health - Status: 0
+2025-08-12 03:00:28,231 - INFO - GET /health - Status: 200 - Duration: 0.003s
+2025-08-12 03:00:39,183 - INFO - POST /api/auth/login - Status: 0
+2025-08-12 03:00:39,663 - INFO - POST /api/auth/login - Status: 200 - Duration: 0.480s
+2025-08-12 03:00:39,679 - INFO - GET /health - Status: 0
+2025-08-12 03:00:39,681 - INFO - GET /health - Status: 200 - Duration: 0.002s
+2025-08-12 03:00:39,740 - INFO - GET /me - Status: 0
+2025-08-12 03:00:39,759 - INFO - GET /me - Status: 200 - Duration: 0.019s
+2025-08-12 03:00:43,567 - INFO - GET /me - Status: 0
+2025-08-12 03:00:43,585 - INFO - GET /me - Status: 200 - Duration: 0.018s
+2025-08-12 03:00:43,596 - INFO - GET /api/users/all - Status: 0
+2025-08-12 03:00:43,613 - INFO - GET /api/users/all - Status: 200 - Duration: 0.017s
+2025-08-12 03:01:13,790 - INFO - GET /health - Status: 0
+2025-08-12 03:01:13,792 - INFO - GET /health - Status: 200 - Duration: 0.002s
+2025-08-12 03:01:13,838 - INFO - GET /me - Status: 0
+2025-08-12 03:01:13,847 - INFO - GET /me - Status: 200 - Duration: 0.009s
+2025-08-12 03:01:34,054 - INFO - GET /me - Status: 0
+2025-08-12 03:01:34,061 - INFO - GET /me - Status: 200 - Duration: 0.007s
+2025-08-12 03:01:34,108 - INFO - GET /api/users/all - Status: 0
+2025-08-12 03:01:34,115 - INFO - GET /api/users/all - Status: 200 - Duration: 0.007s
+2025-08-12 03:02:05,881 - INFO - GET /me - Status: 0
+2025-08-12 03:02:05,892 - INFO - GET /me - Status: 200 - Duration: 0.010s
+2025-08-12 03:02:05,960 - INFO - GET /api/posts/ - Status: 0
+2025-08-12 03:02:06,025 - INFO - GET /api/kols/ - Status: 0
+2025-08-12 03:02:06,027 - INFO - GET /api/categories/ - Status: 0
+2025-08-12 03:02:06,034 - INFO - GET /api/posts/ - Status: 200 - Duration: 0.074s
+2025-08-12 03:02:06,046 - INFO - GET /api/categories/ - Status: 200 - Duration: 0.019s
+2025-08-12 03:02:06,047 - INFO - GET /api/kols/ - Status: 200 - Duration: 0.022s
+2025-08-12 03:02:55,626 - INFO - GET /api/posts/ - Status: 0
+2025-08-12 03:02:55,645 - INFO - GET /api/posts/ - Status: 200 - Duration: 0.019s
+2025-08-12 03:02:57,706 - INFO - GET /health - Status: 0
+2025-08-12 03:02:57,709 - INFO - GET /health - Status: 200 - Duration: 0.003s
+2025-08-12 03:02:57,714 - INFO - GET /me - Status: 0
+2025-08-12 03:02:57,724 - INFO - GET /me - Status: 200 - Duration: 0.010s
+2025-08-12 03:03:02,684 - INFO - GET /me - Status: 0
+2025-08-12 03:03:02,695 - INFO - GET /me - Status: 200 - Duration: 0.011s
+2025-08-12 03:03:02,725 - INFO - GET /api/posts/ - Status: 0
+2025-08-12 03:03:02,747 - INFO - GET /api/kols/ - Status: 0
+2025-08-12 03:03:02,749 - INFO - GET /api/categories/ - Status: 0
+2025-08-12 03:03:02,750 - INFO - GET /api/posts/ - Status: 200 - Duration: 0.026s
+2025-08-12 03:03:02,762 - INFO - GET /api/kols/ - Status: 200 - Duration: 0.015s
+2025-08-12 03:03:02,763 - INFO - GET /api/categories/ - Status: 200 - Duration: 0.014s
+2025-08-12 03:03:07,079 - INFO - GET /api/posts/ - Status: 0
+2025-08-12 03:03:07,091 - INFO - GET /api/posts/ - Status: 200 - Duration: 0.012s
+2025-08-12 03:03:08,445 - INFO - GET /health - Status: 0
+2025-08-12 03:03:08,447 - INFO - GET /health - Status: 200 - Duration: 0.002s
+2025-08-12 03:03:08,454 - INFO - GET /me - Status: 0
+2025-08-12 03:03:08,459 - INFO - GET /me - Status: 200 - Duration: 0.005s
+2025-08-12 03:03:09,883 - INFO - GET /health - Status: 0
+2025-08-12 03:03:09,884 - INFO - GET /health - Status: 200 - Duration: 0.001s
+2025-08-12 03:03:17,573 - INFO - POST /api/auth/login - Status: 0
+2025-08-12 03:03:17,956 - INFO - POST /api/auth/login - Status: 200 - Duration: 0.383s
+2025-08-12 03:03:17,970 - INFO - GET /health - Status: 0
+2025-08-12 03:03:17,972 - INFO - GET /health - Status: 200 - Duration: 0.002s
+2025-08-12 03:03:18,022 - INFO - GET /me - Status: 0
+2025-08-12 03:03:18,027 - INFO - GET /me - Status: 200 - Duration: 0.005s
+2025-08-12 03:03:50,823 - INFO - GET /me - Status: 0
+2025-08-12 03:03:50,847 - INFO - GET /me - Status: 200 - Duration: 0.024s
+2025-08-12 03:03:50,880 - INFO - GET /api/users/all - Status: 0
+2025-08-12 03:03:50,891 - INFO - GET /api/users/all - Status: 200 - Duration: 0.011s
+2025-08-12 03:05:13,931 - INFO - GET /health - Status: 0
+2025-08-12 03:05:13,932 - INFO - GET /health - Status: 200 - Duration: 0.002s
+2025-08-12 03:05:13,982 - INFO - GET /me - Status: 0
+2025-08-12 03:05:13,993 - INFO - GET /me - Status: 200 - Duration: 0.010s
+2025-08-12 03:05:15,531 - INFO - GET /health - Status: 0
+2025-08-12 03:05:15,533 - INFO - GET /health - Status: 200 - Duration: 0.002s
+2025-08-12 03:06:04,378 - INFO - POST /api/auth/login - Status: 0
+2025-08-12 03:06:04,841 - INFO - POST /api/auth/login - Status: 200 - Duration: 0.463s
+2025-08-12 03:06:04,864 - INFO - GET /health - Status: 0
+2025-08-12 03:06:04,868 - INFO - GET /health - Status: 200 - Duration: 0.003s
+2025-08-12 03:06:04,919 - INFO - GET /me - Status: 0
+2025-08-12 03:06:04,924 - INFO - GET /me - Status: 200 - Duration: 0.005s
+2025-08-12 03:06:37,742 - INFO - GET /api/posts/ - Status: 0
+2025-08-12 03:06:37,809 - INFO - GET /api/posts/ - Status: 200 - Duration: 0.067s
+2025-08-12 03:06:41,508 - INFO - GET /api/posts/3 - Status: 0
+2025-08-12 03:06:41,525 - INFO - GET /api/posts/3 - Status: 200 - Duration: 0.017s
+2025-08-12 03:06:43,251 - INFO - GET /api/posts/ - Status: 0
+2025-08-12 03:06:43,263 - INFO - GET /api/posts/ - Status: 200 - Duration: 0.012s
+2025-08-12 03:06:47,470 - INFO - GET /api/posts/3 - Status: 0
+2025-08-12 03:06:47,483 - INFO - GET /api/posts/3 - Status: 200 - Duration: 0.013s
+2025-08-12 03:06:56,189 - INFO - GET /api/posts/ - Status: 0
+2025-08-12 03:06:56,211 - INFO - GET /api/posts/ - Status: 200 - Duration: 0.021s
+2025-08-12 03:06:58,737 - INFO - GET /api/posts/3 - Status: 0
+2025-08-12 03:06:58,752 - INFO - GET /api/posts/3 - Status: 200 - Duration: 0.014s
+2025-08-12 03:07:37,132 - INFO - GET /api/posts/ - Status: 0
+2025-08-12 03:07:37,155 - INFO - GET /api/posts/ - Status: 200 - Duration: 0.023s
+2025-08-12 03:07:39,884 - INFO - GET /health - Status: 0
+2025-08-12 03:07:39,888 - INFO - GET /health - Status: 200 - Duration: 0.005s
+2025-08-12 03:07:39,895 - INFO - GET /me - Status: 0
+2025-08-12 03:07:39,904 - INFO - GET /me - Status: 200 - Duration: 0.009s
+2025-08-12 03:07:41,228 - INFO - GET /health - Status: 0
+2025-08-12 03:07:41,229 - INFO - GET /health - Status: 200 - Duration: 0.002s
+2025-08-12 03:07:46,168 - INFO - POST /api/auth/login - Status: 0
+2025-08-12 03:07:46,596 - INFO - POST /api/auth/login - Status: 200 - Duration: 0.429s
+2025-08-12 03:07:46,612 - INFO - GET /health - Status: 0
+2025-08-12 03:07:46,613 - INFO - GET /health - Status: 200 - Duration: 0.002s
+2025-08-12 03:07:46,674 - INFO - GET /me - Status: 0
+2025-08-12 03:07:46,678 - INFO - GET /me - Status: 200 - Duration: 0.005s
+2025-08-12 03:07:48,346 - INFO - GET /me - Status: 0
+2025-08-12 03:07:48,352 - INFO - GET /me - Status: 200 - Duration: 0.006s
+2025-08-12 03:07:48,358 - INFO - GET /api/users/all - Status: 0
+2025-08-12 03:07:48,369 - INFO - GET /api/users/all - Status: 200 - Duration: 0.011s
+2025-08-12 03:08:09,013 - INFO - GET /me - Status: 0
+2025-08-12 03:08:09,020 - INFO - GET /me - Status: 200 - Duration: 0.007s
+2025-08-12 03:08:09,095 - INFO - PUT /api/users/2 - Status: 0
+2025-08-12 03:08:09,443 - INFO - PUT /api/users/2 - Status: 200 - Duration: 0.348s
+2025-08-12 03:08:10,546 - INFO - GET /me - Status: 0
+2025-08-12 03:08:10,558 - INFO - GET /me - Status: 200 - Duration: 0.012s
+2025-08-12 03:08:10,576 - INFO - GET /api/users/all - Status: 0
+2025-08-12 03:08:10,587 - INFO - GET /api/users/all - Status: 200 - Duration: 0.010s
+2025-08-12 03:08:26,336 - INFO - GET /me - Status: 0
+2025-08-12 03:08:26,347 - INFO - GET /me - Status: 200 - Duration: 0.011s
+2025-08-12 03:08:26,391 - INFO - PUT /api/users/2 - Status: 0
+2025-08-12 03:08:26,433 - INFO - PUT /api/users/2 - Status: 200 - Duration: 0.042s
+2025-08-12 03:08:27,555 - INFO - GET /me - Status: 0
+2025-08-12 03:08:27,565 - INFO - GET /me - Status: 200 - Duration: 0.009s
+2025-08-12 03:08:27,593 - INFO - GET /api/users/all - Status: 0
+2025-08-12 03:08:27,624 - INFO - GET /api/users/all - Status: 200 - Duration: 0.031s
+2025-08-12 03:09:05,591 - INFO - GET /health - Status: 0
+2025-08-12 03:09:05,593 - INFO - GET /health - Status: 200 - Duration: 0.002s
+2025-08-12 03:09:05,638 - INFO - GET /me - Status: 0
+2025-08-12 03:09:05,645 - INFO - GET /me - Status: 200 - Duration: 0.007s
+2025-08-12 03:09:07,711 - INFO - GET /health - Status: 0
+2025-08-12 03:09:07,714 - INFO - GET /health - Status: 200 - Duration: 0.002s
+2025-08-12 03:09:32,519 - INFO - POST /api/auth/login - Status: 0
+2025-08-12 03:10:11,524 - INFO - POST /api/auth/login - Status: 0
+2025-08-12 03:10:11,999 - INFO - POST /api/auth/login - Status: 200 - Duration: 0.475s
+2025-08-12 03:10:12,014 - INFO - GET /me - Status: 0
+2025-08-12 03:10:12,020 - INFO - GET /me - Status: 200 - Duration: 0.006s
+2025-08-12 03:10:12,074 - INFO - GET /api/users/all - Status: 0
+2025-08-12 03:10:12,084 - INFO - GET /api/users/all - Status: 200 - Duration: 0.009s
+2025-08-12 03:10:15,532 - INFO - GET /me - Status: 0
+2025-08-12 03:10:15,538 - INFO - GET /me - Status: 200 - Duration: 0.006s
+2025-08-12 03:10:15,545 - INFO - PATCH /api/users/2/toggle-status - Status: 0
+2025-08-12 03:10:15,571 - INFO - PATCH /api/users/2/toggle-status - Status: 200 - Duration: 0.026s
+2025-08-12 03:10:16,649 - INFO - GET /me - Status: 0
+2025-08-12 03:10:16,655 - INFO - GET /me - Status: 200 - Duration: 0.006s
+2025-08-12 03:10:16,667 - INFO - GET /api/users/all - Status: 0
+2025-08-12 03:10:16,684 - INFO - GET /api/users/all - Status: 200 - Duration: 0.018s
+2025-08-12 03:10:40,400 - INFO - GET /health - Status: 0
+2025-08-12 03:10:40,402 - INFO - GET /health - Status: 200 - Duration: 0.002s
+2025-08-12 03:10:40,465 - INFO - GET /me - Status: 0
+2025-08-12 03:10:40,471 - INFO - GET /me - Status: 200 - Duration: 0.005s
+2025-08-12 03:10:44,789 - INFO - GET /api/posts/ - Status: 0
+2025-08-12 03:10:44,804 - INFO - GET /api/posts/ - Status: 200 - Duration: 0.015s
+2025-08-12 03:19:34,190 - INFO - GET /health - Status: 0
+2025-08-12 03:19:34,216 - INFO - GET /health - Status: 200 - Duration: 0.031s
+2025-08-12 03:19:34,230 - INFO - GET /me - Status: 0
+2025-08-12 03:19:34,340 - INFO - GET /me - Status: 200 - Duration: 0.110s
+2025-08-12 03:19:36,897 - INFO - GET /me - Status: 0
+2025-08-12 03:19:36,913 - INFO - GET /me - Status: 200 - Duration: 0.016s
+2025-08-12 03:19:36,920 - INFO - GET /api/users/all - Status: 0
+2025-08-12 03:19:36,934 - INFO - GET /api/users/all - Status: 200 - Duration: 0.014s
+2025-08-12 03:22:26,360 - INFO - GET /me - Status: 0
+2025-08-12 03:22:26,615 - INFO - GET /me - Status: 200 - Duration: 0.258s
+2025-08-12 03:22:26,707 - INFO - GET /api/users/all - Status: 0
+2025-08-12 03:22:26,817 - INFO - GET /api/users/all - Status: 200 - Duration: 0.110s
+2025-08-12 03:25:21,795 - INFO - GET /me - Status: 0
+2025-08-12 03:25:21,817 - INFO - GET /me - Status: 200 - Duration: 0.022s
+2025-08-12 03:25:21,862 - INFO - PUT /api/users/3 - Status: 0
+2025-08-12 03:25:22,061 - INFO - PUT /api/users/3 - Status: 200 - Duration: 0.199s
+2025-08-12 03:25:23,170 - INFO - GET /me - Status: 0
+2025-08-12 03:25:23,186 - INFO - GET /me - Status: 200 - Duration: 0.016s
+2025-08-12 03:25:23,193 - INFO - GET /api/users/all - Status: 0
+2025-08-12 03:25:23,202 - INFO - GET /api/users/all - Status: 200 - Duration: 0.009s
+2025-08-12 03:26:56,810 - INFO - GET /me - Status: 0
+2025-08-12 03:26:56,820 - INFO - GET /me - Status: 200 - Duration: 0.010s
+2025-08-12 03:26:56,861 - INFO - PUT /api/users/3 - Status: 0
+2025-08-12 03:26:56,961 - INFO - PUT /api/users/3 - Status: 200 - Duration: 0.100s
+2025-08-12 03:26:58,054 - INFO - GET /me - Status: 0
+2025-08-12 03:26:58,087 - INFO - GET /me - Status: 200 - Duration: 0.033s
+2025-08-12 03:26:58,108 - INFO - GET /api/users/all - Status: 0
+2025-08-12 03:26:58,123 - INFO - GET /api/users/all - Status: 200 - Duration: 0.015s
+2025-08-12 03:27:05,562 - INFO - GET /health - Status: 0
+2025-08-12 03:27:05,566 - INFO - GET /health - Status: 200 - Duration: 0.004s
+2025-08-12 03:27:05,608 - INFO - GET /me - Status: 0
+2025-08-12 03:27:05,614 - INFO - GET /me - Status: 200 - Duration: 0.006s
+2025-08-12 03:27:10,344 - INFO - GET /health - Status: 0
+2025-08-12 03:27:10,355 - INFO - GET /health - Status: 200 - Duration: 0.011s
+2025-08-12 03:27:10,365 - INFO - GET /me - Status: 0
+2025-08-12 03:27:10,374 - INFO - GET /me - Status: 200 - Duration: 0.009s
+2025-08-12 03:27:13,449 - INFO - GET /health - Status: 0
+2025-08-12 03:27:13,451 - INFO - GET /health - Status: 200 - Duration: 0.002s
+2025-08-12 03:27:23,685 - INFO - POST /api/auth/login - Status: 0
+2025-08-12 03:27:24,151 - INFO - POST /api/auth/login - Status: 200 - Duration: 0.465s
+2025-08-12 03:27:24,166 - INFO - GET /health - Status: 0
+2025-08-12 03:27:24,168 - INFO - GET /health - Status: 200 - Duration: 0.002s
+2025-08-12 03:27:24,228 - INFO - GET /me - Status: 0
+2025-08-12 03:27:24,237 - INFO - GET /me - Status: 200 - Duration: 0.009s
+2025-08-12 03:29:16,617 - INFO - GET /api/posts/ - Status: 0
+2025-08-12 03:29:16,699 - INFO - GET /api/posts/ - Status: 200 - Duration: 0.082s
+2025-08-12 03:31:18,926 - INFO - GET /health - Status: 0
+2025-08-12 03:31:18,929 - INFO - GET /health - Status: 200 - Duration: 0.003s
+2025-08-12 03:31:18,982 - INFO - GET /me - Status: 0
+2025-08-12 03:31:18,988 - INFO - GET /me - Status: 200 - Duration: 0.006s
+2025-08-12 03:31:23,942 - INFO - GET /me - Status: 0
+2025-08-12 03:31:23,949 - INFO - GET /me - Status: 200 - Duration: 0.007s
+2025-08-12 03:31:26,585 - INFO - GET /me - Status: 0
+2025-08-12 03:31:26,590 - INFO - GET /me - Status: 200 - Duration: 0.005s
+2025-08-12 03:31:28,255 - INFO - GET /health - Status: 0
+2025-08-12 03:31:28,258 - INFO - GET /health - Status: 200 - Duration: 0.002s
+2025-08-12 03:31:32,027 - INFO - POST /api/auth/login - Status: 0
+2025-08-12 03:31:32,498 - INFO - POST /api/auth/login - Status: 200 - Duration: 0.471s
+2025-08-12 03:31:32,517 - INFO - GET /health - Status: 0
+2025-08-12 03:31:32,519 - INFO - GET /health - Status: 200 - Duration: 0.001s
+2025-08-12 03:31:32,586 - INFO - GET /me - Status: 0
+2025-08-12 03:31:32,592 - INFO - GET /me - Status: 200 - Duration: 0.006s
+2025-08-12 03:31:37,131 - INFO - GET /me - Status: 0
+2025-08-12 03:31:37,136 - INFO - GET /me - Status: 200 - Duration: 0.005s
+2025-08-12 03:31:37,148 - INFO - GET /api/users/all - Status: 0
+2025-08-12 03:31:37,155 - INFO - GET /api/users/all - Status: 200 - Duration: 0.007s
+2025-08-12 03:31:42,087 - INFO - GET /me - Status: 0
+2025-08-12 03:31:42,094 - INFO - GET /me - Status: 200 - Duration: 0.006s
+2025-08-12 03:31:42,101 - INFO - PUT /api/users/3 - Status: 0
+2025-08-12 03:31:42,126 - INFO - PUT /api/users/3 - Status: 200 - Duration: 0.024s
+2025-08-12 03:31:43,213 - INFO - GET /me - Status: 0
+2025-08-12 03:31:43,221 - INFO - GET /me - Status: 200 - Duration: 0.008s
+2025-08-12 03:31:43,256 - INFO - GET /api/users/all - Status: 0
+2025-08-12 03:31:43,291 - INFO - GET /api/users/all - Status: 200 - Duration: 0.035s
+2025-08-12 03:31:47,156 - INFO - GET /health - Status: 0
+2025-08-12 03:31:47,160 - INFO - GET /health - Status: 200 - Duration: 0.003s
+2025-08-12 03:31:47,165 - INFO - GET /me - Status: 0
+2025-08-12 03:31:47,175 - INFO - GET /me - Status: 200 - Duration: 0.010s
+2025-08-12 03:31:50,982 - INFO - GET /health - Status: 0
+2025-08-12 03:31:50,983 - INFO - GET /health - Status: 200 - Duration: 0.002s
+2025-08-12 03:31:56,460 - INFO - POST /api/auth/login - Status: 0
+2025-08-12 03:31:56,950 - INFO - POST /api/auth/login - Status: 200 - Duration: 0.490s
+2025-08-12 03:31:56,966 - INFO - GET /health - Status: 0
+2025-08-12 03:31:56,968 - INFO - GET /health - Status: 200 - Duration: 0.002s
+2025-08-12 03:31:57,023 - INFO - GET /me - Status: 0
+2025-08-12 03:31:57,038 - INFO - GET /me - Status: 200 - Duration: 0.015s
+2025-08-12 03:32:02,680 - INFO - GET /me - Status: 0
+2025-08-12 03:32:02,687 - INFO - GET /me - Status: 200 - Duration: 0.007s
+2025-08-12 03:32:02,728 - INFO - GET /api/users/all - Status: 0
+2025-08-12 03:32:02,735 - INFO - GET /api/users/all - Status: 200 - Duration: 0.007s
+2025-08-12 03:34:30,679 - INFO - GET /me - Status: 0
+2025-08-12 03:34:30,685 - INFO - GET /me - Status: 200 - Duration: 0.006s
+2025-08-12 03:34:30,799 - INFO - GET /api/posts/ - Status: 0
+2025-08-12 03:34:30,923 - INFO - GET /api/kols/ - Status: 0
+2025-08-12 03:34:30,927 - INFO - GET /api/categories/ - Status: 0
+2025-08-12 03:34:30,936 - INFO - GET /api/posts/ - Status: 200 - Duration: 0.138s
+2025-08-12 03:34:30,951 - INFO - GET /api/kols/ - Status: 200 - Duration: 0.027s
+2025-08-12 03:34:30,955 - INFO - GET /api/categories/ - Status: 200 - Duration: 0.029s
+2025-08-12 03:34:38,445 - INFO - GET /me - Status: 0
+2025-08-12 03:34:38,451 - INFO - GET /me - Status: 200 - Duration: 0.006s
+2025-08-12 03:34:38,501 - INFO - GET /api/users/all - Status: 0
+2025-08-12 03:34:38,527 - INFO - GET /api/users/all - Status: 200 - Duration: 0.026s
+2025-08-12 03:34:40,620 - INFO - GET /me - Status: 0
+2025-08-12 03:34:40,658 - INFO - GET /me - Status: 200 - Duration: 0.039s
+2025-08-12 03:34:40,680 - INFO - GET /api/posts/ - Status: 0
+2025-08-12 03:34:40,831 - INFO - GET /api/kols/ - Status: 0
+2025-08-12 03:34:40,838 - INFO - GET /api/posts/ - Status: 200 - Duration: 0.157s
+2025-08-12 03:34:40,843 - INFO - GET /api/categories/ - Status: 0
+2025-08-12 03:34:40,853 - INFO - GET /api/kols/ - Status: 200 - Duration: 0.022s
+2025-08-12 03:34:40,861 - INFO - GET /api/categories/ - Status: 200 - Duration: 0.017s
+2025-08-12 03:36:39,747 - INFO - POST /api/posts/ - Status: 0
+2025-08-12 03:36:39,950 - INFO - POST /api/posts/ - Status: 200 - Duration: 0.203s
+2025-08-12 03:36:39,976 - INFO - GET /api/posts/ - Status: 0
+2025-08-12 03:36:39,999 - INFO - GET /api/posts/ - Status: 200 - Duration: 0.023s
+2025-08-12 03:36:40,059 - INFO - GET /api/kols/ - Status: 0
+2025-08-12 03:36:40,063 - INFO - GET /api/kols/ - Status: 200 - Duration: 0.004s
+2025-08-12 03:36:40,119 - INFO - GET /api/categories/ - Status: 0
+2025-08-12 03:36:40,127 - INFO - GET /api/categories/ - Status: 200 - Duration: 0.008s
+2025-08-12 03:37:00,997 - INFO - PUT /api/posts/7 - Status: 0
+2025-08-12 03:37:01,066 - INFO - PUT /api/posts/7 - Status: 200 - Duration: 0.068s
+2025-08-12 03:37:01,084 - INFO - GET /api/posts/ - Status: 0
+2025-08-12 03:37:01,111 - INFO - GET /api/posts/ - Status: 200 - Duration: 0.027s
+2025-08-12 03:37:01,166 - INFO - GET /api/kols/ - Status: 0
+2025-08-12 03:37:01,171 - INFO - GET /api/kols/ - Status: 200 - Duration: 0.005s
+2025-08-12 03:37:01,242 - INFO - GET /api/categories/ - Status: 0
+2025-08-12 03:37:01,245 - INFO - GET /api/categories/ - Status: 200 - Duration: 0.003s
+2025-08-12 03:37:13,279 - INFO - PUT /api/posts/7 - Status: 0
+2025-08-12 03:37:13,317 - INFO - PUT /api/posts/7 - Status: 200 - Duration: 0.038s
+2025-08-12 03:37:13,347 - INFO - GET /api/posts/ - Status: 0
+2025-08-12 03:37:13,369 - INFO - GET /api/posts/ - Status: 200 - Duration: 0.022s
+2025-08-12 03:37:13,429 - INFO - GET /api/kols/ - Status: 0
+2025-08-12 03:37:13,433 - INFO - GET /api/kols/ - Status: 200 - Duration: 0.004s
+2025-08-12 03:37:13,497 - INFO - GET /api/categories/ - Status: 0
+2025-08-12 03:37:13,500 - INFO - GET /api/categories/ - Status: 200 - Duration: 0.003s
+2025-08-12 03:37:23,828 - INFO - DELETE /api/posts/4 - Status: 0
+2025-08-12 03:37:23,841 - INFO - DELETE /api/posts/4 - Status: 200 - Duration: 0.013s
+2025-08-12 03:37:23,898 - INFO - GET /api/posts/ - Status: 0
+2025-08-12 03:37:23,915 - INFO - GET /api/posts/ - Status: 200 - Duration: 0.017s
+2025-08-12 03:37:23,978 - INFO - GET /api/kols/ - Status: 0
+2025-08-12 03:37:23,982 - INFO - GET /api/kols/ - Status: 200 - Duration: 0.004s
+2025-08-12 03:37:24,050 - INFO - GET /api/categories/ - Status: 0
+2025-08-12 03:37:24,055 - INFO - GET /api/categories/ - Status: 200 - Duration: 0.005s
+2025-08-12 03:37:27,355 - INFO - DELETE /api/posts/3 - Status: 0
+2025-08-12 03:37:27,366 - INFO - DELETE /api/posts/3 - Status: 200 - Duration: 0.011s
+2025-08-12 03:37:27,381 - INFO - GET /api/posts/ - Status: 0
+2025-08-12 03:37:27,394 - INFO - GET /api/posts/ - Status: 200 - Duration: 0.013s
+2025-08-12 03:37:27,448 - INFO - GET /api/kols/ - Status: 0
+2025-08-12 03:37:27,452 - INFO - GET /api/kols/ - Status: 200 - Duration: 0.004s
+2025-08-12 03:37:27,517 - INFO - GET /api/categories/ - Status: 0
+2025-08-12 03:37:27,522 - INFO - GET /api/categories/ - Status: 200 - Duration: 0.005s
+2025-08-12 03:40:51,243 - INFO - GET /api/posts/ - Status: 0
+2025-08-12 03:40:51,262 - INFO - GET /api/posts/ - Status: 200 - Duration: 0.020s
+2025-08-12 03:40:51,293 - INFO - GET /api/kols/ - Status: 0
+2025-08-12 03:40:51,298 - INFO - GET /api/kols/ - Status: 200 - Duration: 0.005s
+2025-08-12 03:40:51,364 - INFO - GET /api/categories/ - Status: 0
+2025-08-12 03:40:51,371 - INFO - GET /api/categories/ - Status: 200 - Duration: 0.007s
+2025-08-12 03:40:57,775 - INFO - GET /api/posts/ - Status: 0
+2025-08-12 03:40:57,780 - INFO - GET /api/posts/ - Status: 200 - Duration: 0.006s
+2025-08-12 03:40:57,825 - INFO - GET /api/kols/ - Status: 0
+2025-08-12 03:40:57,829 - INFO - GET /api/kols/ - Status: 200 - Duration: 0.004s
+2025-08-12 03:40:57,889 - INFO - GET /api/categories/ - Status: 0
+2025-08-12 03:40:57,893 - INFO - GET /api/categories/ - Status: 200 - Duration: 0.004s
+2025-08-12 03:42:09,455 - INFO - GET /api/posts/ - Status: 0
+2025-08-12 03:42:09,476 - INFO - GET /api/posts/ - Status: 200 - Duration: 0.020s
+2025-08-12 03:42:09,523 - INFO - GET /api/kols/ - Status: 0
+2025-08-12 03:42:09,527 - INFO - GET /api/kols/ - Status: 200 - Duration: 0.004s
+2025-08-12 03:42:09,578 - INFO - GET /api/categories/ - Status: 0
+2025-08-12 03:42:09,584 - INFO - GET /api/categories/ - Status: 200 - Duration: 0.006s
+2025-08-12 03:44:20,318 - INFO - POST /api/auth/login - Status: 0
+2025-08-12 03:44:49,877 - INFO - POST /api/auth/login - Status: 0
+2025-08-12 03:44:50,434 - INFO - POST /api/auth/login - Status: 200 - Duration: 0.557s
+2025-08-12 03:45:09,851 - INFO - GET /me - Status: 0
+2025-08-12 03:45:09,863 - INFO - GET /me - Status: 200 - Duration: 0.012s
+2025-08-12 03:45:09,919 - INFO - POST /api/kols/ - Status: 0
+2025-08-12 03:45:10,004 - INFO - POST /api/kols/ - Status: 200 - Duration: 0.085s
+2025-08-12 03:45:17,032 - INFO - GET /api/posts/ - Status: 0
+2025-08-12 03:45:17,099 - INFO - GET /api/posts/ - Status: 200 - Duration: 0.066s
+2025-08-12 03:45:17,105 - INFO - GET /api/kols/ - Status: 0
+2025-08-12 03:45:17,112 - INFO - GET /api/kols/ - Status: 200 - Duration: 0.007s
+2025-08-12 03:45:17,183 - INFO - GET /api/categories/ - Status: 0
+2025-08-12 03:45:17,188 - INFO - GET /api/categories/ - Status: 200 - Duration: 0.005s
+2025-08-12 03:45:51,311 - INFO - GET /me - Status: 0
+2025-08-12 03:45:51,318 - INFO - GET /me - Status: 200 - Duration: 0.008s
+2025-08-12 03:45:51,355 - INFO - POST /api/kols/ - Status: 0
+2025-08-12 03:45:51,366 - INFO - POST /api/kols/ - Status: 200 - Duration: 0.011s
+2025-08-12 03:48:25,800 - INFO - GET /me - Status: 0
+2025-08-12 03:48:25,814 - INFO - GET /me - Status: 200 - Duration: 0.014s
+2025-08-12 03:48:25,871 - INFO - POST /api/categories/ - Status: 0
+2025-08-12 03:48:25,989 - INFO - POST /api/categories/ - Status: 200 - Duration: 0.118s
+2025-08-12 03:52:56,927 - INFO - GET /api/users/all - Status: 0
+2025-08-12 03:52:56,978 - INFO - GET /api/users/all - Status: 200 - Duration: 0.051s
+2025-08-12 03:53:04,617 - INFO - GET /api/users/all - Status: 0
+2025-08-12 03:53:04,627 - INFO - GET /api/users/all - Status: 200 - Duration: 0.010s
+2025-08-12 03:53:08,614 - INFO - GET /api/users/all - Status: 0
+2025-08-12 03:53:08,633 - INFO - GET /api/users/all - Status: 200 - Duration: 0.019s
+2025-08-12 03:53:09,399 - INFO - GET /api/users/all - Status: 0
+2025-08-12 03:53:09,423 - INFO - GET /api/users/all - Status: 200 - Duration: 0.024s
+2025-08-12 03:53:11,743 - INFO - GET /api/users/all - Status: 0
+2025-08-12 03:53:11,747 - INFO - GET /api/users/all - Status: 200 - Duration: 0.004s
+2025-08-12 03:53:38,498 - INFO - GET /api/users/all - Status: 0
+2025-08-12 03:53:38,507 - INFO - GET /api/users/all - Status: 200 - Duration: 0.010s
+2025-08-12 03:54:17,326 - INFO - PUT /api/users/3 - Status: 0
+2025-08-12 03:54:17,432 - INFO - PUT /api/users/3 - Status: 200 - Duration: 0.106s
+2025-08-12 03:55:15,701 - INFO - GET /api/users/all - Status: 0
+2025-08-12 03:55:15,709 - INFO - GET /api/users/all - Status: 200 - Duration: 0.010s
+2025-08-12 03:56:39,310 - INFO - PUT /api/users/2 - Status: 0
+2025-08-12 03:56:39,332 - INFO - PUT /api/users/2 - Status: 200 - Duration: 0.022s
+2025-08-12 03:57:53,109 - INFO - GET /api/users/all - Status: 0
+2025-08-12 03:57:53,119 - INFO - GET /api/users/all - Status: 200 - Duration: 0.010s
+2025-08-12 03:58:25,696 - INFO - PUT /api/users/2 - Status: 0
+2025-08-12 03:58:25,712 - INFO - PUT /api/users/2 - Status: 200 - Duration: 0.016s
+2025-08-12 04:02:30,300 - INFO - POST /api/auth/login - Status: 0
+2025-08-12 04:02:30,804 - INFO - POST /api/auth/login - Status: 200 - Duration: 0.504s
+2025-08-12 04:02:46,419 - INFO - GET /api/users/all - Status: 0
+2025-08-12 04:03:31,797 - INFO - PUT /api/users/2 - Status: 0
+2025-08-12 04:04:38,813 - INFO - POST /api/kols/ - Status: 0
+2025-08-12 04:04:38,835 - INFO - POST /api/kols/ - Status: 422 - Duration: 0.022s
+2025-08-12 04:05:52,780 - INFO - POST /api/kols/ - Status: 0
+2025-08-12 04:05:52,783 - INFO - POST /api/kols/ - Status: 422 - Duration: 0.003s
+2025-08-12 04:06:17,244 - INFO - POST /api/kols/ - Status: 0
+2025-08-12 04:07:10,880 - INFO - POST /api/auth/login - Status: 0
+2025-08-12 04:07:11,282 - INFO - POST /api/auth/login - Status: 200 - Duration: 0.402s
+2025-08-12 04:07:29,020 - INFO - POST /api/kols/ - Status: 0
+2025-08-12 04:07:29,202 - INFO - POST /api/kols/ - Status: 200 - Duration: 0.182s
+2025-08-12 04:33:30,775 - INFO - POST /api/auth/login - Status: 0
+2025-08-12 04:33:31,317 - INFO - POST /api/auth/login - Status: 200 - Duration: 0.545s
+2025-08-12 04:33:33,879 - INFO - POST /api/auth/login - Status: 0
+2025-08-12 04:33:34,218 - INFO - POST /api/auth/login - Status: 200 - Duration: 0.342s
+2025-08-12 04:34:03,072 - INFO - POST /api/posts/ - Status: 0
+2025-08-12 04:34:03,604 - INFO - POST /api/posts/ - Status: 200 - Duration: 0.532s
+2025-08-12 04:34:22,600 - INFO - POST /api/kols/ - Status: 0
+2025-08-12 09:53:58,798 - INFO - GET /me - Status: 0
+2025-08-12 09:53:58,892 - INFO - GET /me - Status: 302 - Duration: 0.097s
+2025-08-12 09:53:58,954 - INFO - GET /user/login-page - Status: 0
+2025-08-12 09:53:59,966 - INFO - GET /user/login-page - Status: 200 - Duration: 1.012s
+2025-08-12 09:54:05,499 - INFO - GET /health - Status: 0
+2025-08-12 09:54:05,502 - INFO - GET /health - Status: 200 - Duration: 0.003s
+2025-08-12 09:54:05,509 - INFO - GET /me - Status: 0
+2025-08-12 09:54:05,512 - INFO - GET /me - Status: 302 - Duration: 0.003s
+2025-08-12 09:54:05,530 - INFO - GET /user/login-page - Status: 0
+2025-08-12 09:54:05,536 - INFO - GET /user/login-page - Status: 200 - Duration: 0.006s
+2025-08-12 09:54:07,969 - INFO - GET /health - Status: 0
+2025-08-12 09:54:07,975 - INFO - GET /health - Status: 200 - Duration: 0.006s
+2025-08-12 09:54:07,981 - INFO - GET /me - Status: 0
+2025-08-12 09:54:07,987 - INFO - GET /me - Status: 302 - Duration: 0.006s
+2025-08-12 09:54:08,000 - INFO - GET /user/login-page - Status: 0
+2025-08-12 09:54:08,006 - INFO - GET /user/login-page - Status: 200 - Duration: 0.005s
+2025-08-12 09:54:08,809 - INFO - GET /health - Status: 0
+2025-08-12 09:54:08,811 - INFO - GET /health - Status: 200 - Duration: 0.001s
+2025-08-12 09:54:08,816 - INFO - GET /me - Status: 0
+2025-08-12 09:54:08,819 - INFO - GET /me - Status: 302 - Duration: 0.003s
+2025-08-12 09:54:08,829 - INFO - GET /user/login-page - Status: 0
+2025-08-12 09:54:08,836 - INFO - GET /user/login-page - Status: 200 - Duration: 0.006s
+2025-08-12 09:54:08,998 - INFO - GET /health - Status: 0
+2025-08-12 09:54:09,002 - INFO - GET /health - Status: 200 - Duration: 0.004s
+2025-08-12 09:54:09,007 - INFO - GET /me - Status: 0
+2025-08-12 09:54:09,011 - INFO - GET /me - Status: 302 - Duration: 0.004s
+2025-08-12 09:54:09,052 - INFO - GET /user/login-page - Status: 0
+2025-08-12 09:54:09,060 - INFO - GET /user/login-page - Status: 200 - Duration: 0.009s
+2025-08-12 09:54:11,594 - INFO - GET /health - Status: 0
+2025-08-12 09:54:11,597 - INFO - GET /health - Status: 200 - Duration: 0.002s
+2025-08-12 09:54:11,603 - INFO - GET /me - Status: 0
+2025-08-12 09:54:11,610 - INFO - GET /me - Status: 302 - Duration: 0.007s
+2025-08-12 09:54:11,627 - INFO - GET /user/login-page - Status: 0
+2025-08-12 09:54:11,645 - INFO - GET /user/login-page - Status: 200 - Duration: 0.019s
+2025-08-12 09:54:14,204 - INFO - GET /health - Status: 0
+2025-08-12 09:54:14,205 - INFO - GET /health - Status: 200 - Duration: 0.002s

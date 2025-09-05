@@ -1,0 +1,109 @@
+2025-09-03 15:08:24,138 - INFO - GET /user/login-page - Status: 0
+2025-09-03 15:08:24,425 - INFO - GET /user/login-page - Status: 200 - Duration: 0.290s
+2025-09-03 15:08:30,084 - INFO - GET /static/image/img/slider/bgr2.svg - Status: 0
+2025-09-03 15:08:30,606 - INFO - GET /static/image/img/slider/bgr2.svg - Status: 200 - Duration: 0.522s
+2025-09-03 15:08:34,352 - INFO - GET / - Status: 0
+2025-09-03 15:08:34,654 - INFO - GET / - Status: 200 - Duration: 0.302s
+2025-09-03 15:08:34,691 - INFO - GET /static/css/styles.css - Status: 0
+2025-09-03 15:08:34,705 - INFO - GET /static/css/styles.css - Status: 200 - Duration: 0.014s
+2025-09-03 15:08:34,893 - INFO - GET /static/image/img/slider/blackpink.svg - Status: 0
+2025-09-03 15:08:34,904 - INFO - GET /static/image/img/slider/Bpink2.jpg - Status: 0
+2025-09-03 15:08:34,911 - INFO - GET /static/image/img/slider/blackpink.svg - Status: 200 - Duration: 0.019s
+2025-09-03 15:08:34,925 - INFO - GET /static/image/img/slider/Bpink2.jpg - Status: 200 - Duration: 0.021s
+2025-09-03 15:08:35,087 - INFO - GET /static/image/img/slider/Bpink3.jpg - Status: 0
+2025-09-03 15:08:35,207 - INFO - GET /static/image/img/slider/Jisoo2.jpg - Status: 0
+2025-09-03 15:08:35,253 - INFO - GET /static/image/img/slider/Rosie.jpg - Status: 0
+2025-09-03 15:08:35,257 - INFO - GET /static/image/img/slider/Lisa2.jpg - Status: 0
+2025-09-03 15:08:35,265 - INFO - GET /static/image/img/slider/Bpink3.jpg - Status: 200 - Duration: 0.178s
+2025-09-03 15:08:35,268 - INFO - GET /static/image/img/slider/Jennie.jpg - Status: 0
+2025-09-03 15:08:35,296 - INFO - GET /static/image/img/slider/Lisa2.jpg - Status: 200 - Duration: 0.039s
+2025-09-03 15:08:35,352 - INFO - GET /static/image/img/slider/Jisoo2.jpg - Status: 200 - Duration: 0.145s
+2025-09-03 15:08:35,362 - INFO - GET /static/image/img/slider/Rosie.jpg - Status: 200 - Duration: 0.109s
+2025-09-03 15:08:35,373 - INFO - GET /static/image/img/slider/Jennie.jpg - Status: 200 - Duration: 0.105s
+2025-09-03 15:08:35,422 - INFO - GET /static/image/img/Places/SHaNoi.jpg - Status: 0
+2025-09-03 15:08:35,427 - INFO - GET /static/image/img/Places/SHaNoi2.jpg - Status: 0
+2025-09-03 15:08:35,437 - INFO - GET /static/image/img/Places/BHaNoi3.jpg - Status: 0
+2025-09-03 15:08:35,464 - INFO - GET /static/image/img/Places/SHaNoi.jpg - Status: 200 - Duration: 0.042s
+2025-09-03 15:08:35,471 - INFO - GET /static/image/img/Places/SHaNoi2.jpg - Status: 200 - Duration: 0.044s
+2025-09-03 15:08:35,485 - INFO - GET /static/image/img/Places/BHaNoi3.jpg - Status: 200 - Duration: 0.048s
+2025-09-03 15:08:36,324 - INFO - GET /favicon.ico - Status: 0
+2025-09-03 15:08:36,330 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.006s
+2025-09-03 15:08:36,340 - INFO - GET / - Status: 0
+2025-09-03 15:08:36,347 - INFO - GET / - Status: 200 - Duration: 0.007s
+2025-09-03 15:08:39,227 - INFO - GET /user/login-page - Status: 0
+2025-09-03 15:08:39,272 - INFO - GET /user/login-page - Status: 200 - Duration: 0.049s
+2025-09-03 15:08:39,315 - INFO - GET /user/login-page - Status: 0
+2025-09-03 15:08:39,322 - INFO - GET /user/login-page - Status: 200 - Duration: 0.007s
+2025-09-03 15:08:40,259 - INFO - GET /favicon.ico - Status: 0
+2025-09-03 15:08:40,263 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.004s
+2025-09-03 15:08:40,269 - INFO - GET / - Status: 0
+2025-09-03 15:08:40,299 - INFO - GET / - Status: 200 - Duration: 0.029s
+2025-09-03 15:08:46,679 - INFO - POST /user/login-submit - Status: 0
+2025-09-03 15:08:47,203 - INFO - POST /user/login-submit - Status: 200 - Duration: 0.524s
+2025-09-03 15:08:47,981 - INFO - GET /favicon.ico - Status: 0
+2025-09-03 15:08:47,983 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-09-03 15:08:47,988 - INFO - GET / - Status: 0
+2025-09-03 15:08:47,996 - INFO - GET / - Status: 200 - Duration: 0.008s
+2025-09-03 15:12:28,420 - INFO - GET /user/register - Status: 0
+2025-09-03 15:12:28,688 - INFO - GET /user/register - Status: 200 - Duration: 0.274s
+2025-09-03 15:12:29,169 - INFO - GET /favicon.ico - Status: 0
+2025-09-03 15:12:29,203 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.033s
+2025-09-03 15:12:29,222 - INFO - GET / - Status: 0
+2025-09-03 15:12:29,352 - INFO - GET / - Status: 200 - Duration: 0.130s
+2025-09-03 15:12:37,234 - INFO - POST /user/register-submit - Status: 0
+2025-09-03 15:12:38,477 - INFO - POST /user/register-submit - Status: 302 - Duration: 1.244s
+2025-09-03 15:12:38,495 - INFO - GET / - Status: 0
+2025-09-03 15:12:38,513 - INFO - GET / - Status: 200 - Duration: 0.018s
+2025-09-03 15:12:39,381 - INFO - GET /favicon.ico - Status: 0
+2025-09-03 15:12:39,383 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-09-03 15:12:39,393 - INFO - GET / - Status: 0
+2025-09-03 15:12:39,407 - INFO - GET / - Status: 200 - Duration: 0.013s
+2025-09-03 16:35:38,535 - INFO - POST /api/auth/login - Status: 0
+2025-09-03 16:35:53,071 - INFO - GET / - Status: 0
+2025-09-03 16:35:53,583 - INFO - GET / - Status: 200 - Duration: 0.511s
+2025-09-03 16:35:54,652 - INFO - GET /favicon.ico - Status: 0
+2025-09-03 16:35:54,669 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.017s
+2025-09-03 16:35:54,700 - INFO - GET / - Status: 0
+2025-09-03 16:35:54,740 - INFO - GET / - Status: 200 - Duration: 0.040s
+2025-09-03 16:37:24,980 - INFO - GET /user/logout - Status: 0
+2025-09-03 16:37:25,013 - INFO - GET /user/logout - Status: 302 - Duration: 0.034s
+2025-09-03 16:37:25,032 - INFO - GET / - Status: 0
+2025-09-03 16:37:25,073 - INFO - GET / - Status: 200 - Duration: 0.041s
+2025-09-03 16:37:25,965 - INFO - GET /favicon.ico - Status: 0
+2025-09-03 16:37:25,969 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.004s
+2025-09-03 16:37:25,978 - INFO - GET / - Status: 0
+2025-09-03 16:37:25,984 - INFO - GET / - Status: 200 - Duration: 0.006s
+2025-09-03 16:37:27,048 - INFO - GET /user/login-page - Status: 0
+2025-09-03 16:37:27,130 - INFO - GET /user/login-page - Status: 200 - Duration: 0.082s
+2025-09-03 16:37:27,898 - INFO - GET /favicon.ico - Status: 0
+2025-09-03 16:37:27,901 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.003s
+2025-09-03 16:37:27,912 - INFO - GET / - Status: 0
+2025-09-03 16:37:27,921 - INFO - GET / - Status: 200 - Duration: 0.008s
+2025-09-03 16:37:33,935 - INFO - POST /user/login-submit - Status: 0
+2025-09-03 16:37:34,463 - INFO - POST /user/login-submit - Status: 302 - Duration: 0.527s
+2025-09-03 16:37:34,471 - INFO - GET / - Status: 0
+2025-09-03 16:37:34,482 - INFO - GET / - Status: 200 - Duration: 0.011s
+2025-09-03 16:37:34,557 - INFO - GET /favicon.ico - Status: 0
+2025-09-03 16:37:34,559 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-09-03 16:37:34,564 - INFO - GET / - Status: 0
+2025-09-03 16:37:34,580 - INFO - GET / - Status: 200 - Duration: 0.016s
+2025-09-03 16:43:09,545 - INFO - POST /api/auth/login - Status: 0
+2025-09-03 16:44:41,984 - INFO - GET / - Status: 0
+2025-09-03 16:44:42,268 - INFO - GET / - Status: 200 - Duration: 0.281s
+2025-09-03 16:44:43,188 - INFO - GET /favicon.ico - Status: 0
+2025-09-03 16:44:43,194 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.006s
+2025-09-03 16:44:43,224 - INFO - GET / - Status: 0
+2025-09-03 16:44:43,245 - INFO - GET / - Status: 200 - Duration: 0.021s
+2025-09-03 16:54:27,203 - INFO - GET /health - Status: 0
+2025-09-03 16:54:27,233 - INFO - GET /health - Status: 200 - Duration: 0.031s
+2025-09-03 16:55:11,336 - INFO - POST /api/auth/login - Status: 0
+2025-09-03 16:55:57,978 - INFO - POST /api/auth/login - Status: 0
+2025-09-03 16:58:21,754 - INFO - POST /api/auth/login - Status: 0
+2025-09-03 17:00:54,521 - INFO - POST /api/auth/login - Status: 0
+2025-09-03 17:00:54,545 - INFO - POST /api/auth/login - Status: 422 - Duration: 0.025s
+2025-09-03 17:01:38,922 - INFO - POST /api/auth/login - Status: 0
+2025-09-03 17:03:18,926 - INFO - GET /health - Status: 0
+2025-09-03 17:03:18,939 - INFO - GET /health - Status: 200 - Duration: 0.014s
+2025-09-03 17:04:32,433 - INFO - GET /health - Status: 0
+2025-09-03 17:04:32,438 - INFO - GET /health - Status: 200 - Duration: 0.005s
+2025-09-03 17:06:04,999 - INFO - POST /api/auth/login - Status: 0

@@ -1,0 +1,159 @@
+2025-09-04 01:24:14,174 - debug - INFO - 🔍 Total routes registered: 54
+2025-09-04 01:24:14,182 - debug - DEBUG - 🔍 Available routes: ['openapi', 'swagger_ui_html', 'swagger_ui_redirect', 'redoc_html', 'static', 'login_page', 'login_submit', 'register', 'register_submit', 'logout', 'admin_users_page', 'jisoo', 'rose', 'lisa', 'jennie', 'admin_management', 'add_post', 'edit_post', 'delete_post', 'post_detail', 'jisoo_post_detail', 'rose_post_detail', 'lisa_post_detail', 'jennie_post_detail', 'api_discovery', 'api_docs_page', 'api_login', 'api_register', 'api_logout', 'api_get_all_posts', 'api_get_post_by_id', 'api_create_post', 'api_update_post', 'api_delete_post', 'api_get_all_kols', 'api_get_all_categories', 'get_all_users', 'get_user_by_id', 'create_user', 'update_user', 'delete_user', 'toggle_user_status', 'change_user_role', 'get_kols', 'create_kol', 'update_kol', 'delete_kol', 'get_categories', 'create_category', 'update_category', 'delete_category', 'root', 'get_current_user', 'health_check']
+2025-09-04 01:24:14,185 - debug - INFO - 🚀 Application starting up...
+2025-09-04 01:24:14,185 - debug - INFO - 📊 Database tables created
+2025-09-04 01:24:14,186 - debug - INFO - 🔧 Middleware configured
+2025-09-04 01:24:14,186 - debug - INFO - 📚 API documentation available at /docs
+2025-09-04 01:31:04,450 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-04 01:31:04,450 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-04 01:31:04,513 - debug - DEBUG - ⏱️ Request processed in 0.1051s: /
+2025-09-04 01:31:04,522 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-04 01:31:04,523 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-04 01:31:04,539 - debug - DEBUG - ⏱️ Request processed in 0.0184s: /
+2025-09-04 01:31:04,872 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-04 01:31:04,874 - debug - DEBUG - ⏱️ Request processed in 0.0038s: /favicon.ico
+2025-09-04 01:31:04,881 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-04 01:31:04,882 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-04 01:31:04,889 - debug - DEBUG - ⏱️ Request processed in 0.0087s: /
+2025-09-04 01:31:07,403 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-04 01:31:07,404 - debug - DEBUG - ⏱️ Request processed in 0.0030s: /favicon.ico
+2025-09-04 01:31:07,415 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-04 01:31:07,415 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-04 01:31:07,419 - debug - DEBUG - ⏱️ Request processed in 0.0109s: /
+2025-09-04 01:31:09,574 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-04 01:31:09,575 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-04 01:31:09,580 - debug - DEBUG - ⏱️ Request processed in 0.0069s: /
+2025-09-04 01:31:09,665 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-04 01:31:09,666 - debug - DEBUG - ⏱️ Request processed in 0.0025s: /favicon.ico
+2025-09-04 01:31:09,678 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-04 01:31:09,679 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-04 01:31:09,685 - debug - DEBUG - ⏱️ Request processed in 0.0131s: /
+2025-09-04 01:49:58,199 - debug - INFO - 🛑 Application shutting down...
+2025-09-04 01:50:01,388 - debug - INFO - 🔍 Total routes registered: 54
+2025-09-04 01:50:01,389 - debug - DEBUG - 🔍 Available routes: ['openapi', 'swagger_ui_html', 'swagger_ui_redirect', 'redoc_html', 'static', 'login_page', 'login_submit', 'register', 'register_submit', 'logout', 'admin_users_page', 'jisoo', 'rose', 'lisa', 'jennie', 'admin_management', 'add_post', 'edit_post', 'delete_post', 'post_detail', 'jisoo_post_detail', 'rose_post_detail', 'lisa_post_detail', 'jennie_post_detail', 'api_discovery', 'api_docs_page', 'api_login', 'api_register', 'api_logout', 'api_get_all_posts', 'api_get_post_by_id', 'api_create_post', 'api_update_post', 'api_delete_post', 'api_get_all_kols', 'api_get_all_categories', 'get_all_users', 'get_user_by_id', 'create_user', 'update_user', 'delete_user', 'toggle_user_status', 'change_user_role', 'get_kols', 'create_kol', 'update_kol', 'delete_kol', 'get_categories', 'create_category', 'update_category', 'delete_category', 'root', 'get_current_user', 'health_check']
+2025-09-04 01:50:01,391 - debug - INFO - 🚀 Application starting up...
+2025-09-04 01:50:01,391 - debug - INFO - 📊 Database tables created
+2025-09-04 01:50:01,391 - debug - INFO - 🔧 Middleware configured
+2025-09-04 01:50:01,394 - debug - INFO - 📚 API documentation available at /docs
+2025-09-04 01:50:29,350 - debug - INFO - === API LOGIN ATTEMPT ===
+2025-09-04 01:50:29,350 - debug - INFO - Username: admin
+2025-09-04 01:50:29,405 - debug - WARNING - ❌ User not found: admin
+2025-09-04 01:50:29,407 - debug - WARNING - 🔒 Unauthorized access attempt to: https://localhost:8443/api/auth/login
+2025-09-04 04:07:21,909 - debug - INFO - 🔍 Total routes registered: 54
+2025-09-04 04:07:21,914 - debug - DEBUG - 🔍 Available routes: ['openapi', 'swagger_ui_html', 'swagger_ui_redirect', 'redoc_html', 'static', 'login_page', 'login_submit', 'register', 'register_submit', 'logout', 'admin_users_page', 'jisoo', 'rose', 'lisa', 'jennie', 'admin_management', 'add_post', 'edit_post', 'delete_post', 'post_detail', 'jisoo_post_detail', 'rose_post_detail', 'lisa_post_detail', 'jennie_post_detail', 'api_discovery', 'api_docs_page', 'api_login', 'api_register', 'api_logout', 'api_get_all_posts', 'api_get_post_by_id', 'api_create_post', 'api_update_post', 'api_delete_post', 'api_get_all_kols', 'api_get_all_categories', 'get_all_users', 'get_user_by_id', 'create_user', 'update_user', 'delete_user', 'toggle_user_status', 'change_user_role', 'get_kols', 'create_kol', 'update_kol', 'delete_kol', 'get_categories', 'create_category', 'update_category', 'delete_category', 'root', 'get_current_user', 'health_check']
+2025-09-04 04:07:21,916 - debug - INFO - 🚀 Application starting up...
+2025-09-04 04:07:21,917 - debug - INFO - 📊 Database tables created
+2025-09-04 04:07:21,917 - debug - INFO - 🔧 Middleware configured
+2025-09-04 04:07:21,917 - debug - INFO - 📚 API documentation available at /docs
+2025-09-04 04:11:02,911 - debug - INFO - 🛑 Application shutting down...
+2025-09-04 04:11:05,073 - debug - INFO - 🔍 Total routes registered: 54
+2025-09-04 04:11:05,074 - debug - DEBUG - 🔍 Available routes: ['openapi', 'swagger_ui_html', 'swagger_ui_redirect', 'redoc_html', 'static', 'login_page', 'login_submit', 'register', 'register_submit', 'logout', 'admin_users_page', 'jisoo', 'rose', 'lisa', 'jennie', 'admin_management', 'add_post', 'edit_post', 'delete_post', 'post_detail', 'jisoo_post_detail', 'rose_post_detail', 'lisa_post_detail', 'jennie_post_detail', 'api_discovery', 'api_docs_page', 'api_login', 'api_register', 'api_logout', 'api_get_all_posts', 'api_get_post_by_id', 'api_create_post', 'api_update_post', 'api_delete_post', 'api_get_all_kols', 'api_get_all_categories', 'get_all_users', 'get_user_by_id', 'create_user', 'update_user', 'delete_user', 'toggle_user_status', 'change_user_role', 'get_kols', 'create_kol', 'update_kol', 'delete_kol', 'get_categories', 'create_category', 'update_category', 'delete_category', 'root', 'get_current_user', 'health_check']
+2025-09-04 04:11:05,075 - debug - INFO - 🚀 Application starting up...
+2025-09-04 04:11:05,075 - debug - INFO - 📊 Database tables created
+2025-09-04 04:11:05,076 - debug - INFO - 🔧 Middleware configured
+2025-09-04 04:11:05,076 - debug - INFO - 📚 API documentation available at /docs
+2025-09-04 10:36:15,152 - debug - INFO - 🛑 Application shutting down...
+2025-09-04 10:36:19,274 - debug - INFO - 🔍 Total routes registered: 54
+2025-09-04 10:36:19,275 - debug - DEBUG - 🔍 Available routes: ['openapi', 'swagger_ui_html', 'swagger_ui_redirect', 'redoc_html', 'static', 'login_page', 'login_submit', 'register', 'register_submit', 'logout', 'admin_users_page', 'jisoo', 'rose', 'lisa', 'jennie', 'admin_management', 'add_post', 'edit_post', 'delete_post', 'post_detail', 'jisoo_post_detail', 'rose_post_detail', 'lisa_post_detail', 'jennie_post_detail', 'api_discovery', 'api_docs_page', 'api_login', 'api_register', 'api_logout', 'api_get_all_posts', 'api_get_post_by_id', 'api_create_post', 'api_update_post', 'api_delete_post', 'api_get_all_kols', 'api_get_all_categories', 'get_all_users', 'get_user_by_id', 'create_user', 'update_user', 'delete_user', 'toggle_user_status', 'change_user_role', 'get_kols', 'create_kol', 'update_kol', 'delete_kol', 'get_categories', 'create_category', 'update_category', 'delete_category', 'root', 'get_current_user', 'health_check']
+2025-09-04 10:36:19,281 - debug - INFO - 🚀 Application starting up...
+2025-09-04 10:36:19,287 - debug - INFO - 📊 Database tables created
+2025-09-04 10:36:19,288 - debug - INFO - 🔧 Middleware configured
+2025-09-04 10:36:19,288 - debug - INFO - 📚 API documentation available at /docs
+2025-09-04 10:36:58,117 - debug - INFO - 🛑 Application shutting down...
+2025-09-04 10:36:59,521 - debug - INFO - 🔍 Total routes registered: 54
+2025-09-04 10:36:59,521 - debug - DEBUG - 🔍 Available routes: ['openapi', 'swagger_ui_html', 'swagger_ui_redirect', 'redoc_html', 'static', 'login_page', 'login_submit', 'register', 'register_submit', 'logout', 'admin_users_page', 'jisoo', 'rose', 'lisa', 'jennie', 'admin_management', 'add_post', 'edit_post', 'delete_post', 'post_detail', 'jisoo_post_detail', 'rose_post_detail', 'lisa_post_detail', 'jennie_post_detail', 'api_discovery', 'api_docs_page', 'api_login', 'api_register', 'api_logout', 'api_get_all_posts', 'api_get_post_by_id', 'api_create_post', 'api_update_post', 'api_delete_post', 'api_get_all_kols', 'api_get_all_categories', 'get_all_users', 'get_user_by_id', 'create_user', 'update_user', 'delete_user', 'toggle_user_status', 'change_user_role', 'get_kols', 'create_kol', 'update_kol', 'delete_kol', 'get_categories', 'create_category', 'update_category', 'delete_category', 'root', 'get_current_user', 'health_check']
+2025-09-04 10:36:59,522 - debug - INFO - 🚀 Application starting up...
+2025-09-04 10:36:59,522 - debug - INFO - 📊 Database tables created
+2025-09-04 10:36:59,523 - debug - INFO - 🔧 Middleware configured
+2025-09-04 10:36:59,523 - debug - INFO - 📚 API documentation available at /docs
+2025-09-04 10:37:37,542 - debug - INFO - 🛑 Application shutting down...
+2025-09-04 10:37:38,769 - debug - INFO - 🔍 Total routes registered: 54
+2025-09-04 10:37:38,770 - debug - DEBUG - 🔍 Available routes: ['openapi', 'swagger_ui_html', 'swagger_ui_redirect', 'redoc_html', 'static', 'login_page', 'login_submit', 'register', 'register_submit', 'logout', 'admin_users_page', 'jisoo', 'rose', 'lisa', 'jennie', 'admin_management', 'add_post', 'edit_post', 'delete_post', 'post_detail', 'jisoo_post_detail', 'rose_post_detail', 'lisa_post_detail', 'jennie_post_detail', 'api_discovery', 'api_docs_page', 'api_login', 'api_register', 'api_logout', 'api_get_all_posts', 'api_get_post_by_id', 'api_create_post', 'api_update_post', 'api_delete_post', 'api_get_all_kols', 'api_get_all_categories', 'get_all_users', 'get_user_by_id', 'create_user', 'update_user', 'delete_user', 'toggle_user_status', 'change_user_role', 'get_kols', 'create_kol', 'update_kol', 'delete_kol', 'get_categories', 'create_category', 'update_category', 'delete_category', 'root', 'get_current_user', 'health_check']
+2025-09-04 10:37:38,770 - debug - INFO - 🚀 Application starting up...
+2025-09-04 10:37:38,771 - debug - INFO - 📊 Database tables created
+2025-09-04 10:37:38,771 - debug - INFO - 🔧 Middleware configured
+2025-09-04 10:37:38,771 - debug - INFO - 📚 API documentation available at /docs
+2025-09-04 10:38:41,671 - debug - INFO - 🛑 Application shutting down...
+2025-09-04 10:38:43,029 - debug - INFO - 🔍 Total routes registered: 54
+2025-09-04 10:38:43,034 - debug - DEBUG - 🔍 Available routes: ['openapi', 'swagger_ui_html', 'swagger_ui_redirect', 'redoc_html', 'static', 'login_page', 'login_submit', 'register', 'register_submit', 'logout', 'admin_users_page', 'jisoo', 'rose', 'lisa', 'jennie', 'admin_management', 'add_post', 'edit_post', 'delete_post', 'post_detail', 'jisoo_post_detail', 'rose_post_detail', 'lisa_post_detail', 'jennie_post_detail', 'api_discovery', 'api_docs_page', 'api_login', 'api_register', 'api_logout', 'api_get_all_posts', 'api_get_post_by_id', 'api_create_post', 'api_update_post', 'api_delete_post', 'api_get_all_kols', 'api_get_all_categories', 'get_all_users', 'get_user_by_id', 'create_user', 'update_user', 'delete_user', 'toggle_user_status', 'change_user_role', 'get_kols', 'create_kol', 'update_kol', 'delete_kol', 'get_categories', 'create_category', 'update_category', 'delete_category', 'root', 'get_current_user', 'health_check']
+2025-09-04 10:38:43,037 - debug - INFO - 🚀 Application starting up...
+2025-09-04 10:38:43,038 - debug - INFO - 📊 Database tables created
+2025-09-04 10:38:43,040 - debug - INFO - 🔧 Middleware configured
+2025-09-04 10:38:43,040 - debug - INFO - 📚 API documentation available at /docs
+2025-09-04 10:39:20,371 - debug - INFO - 🛑 Application shutting down...
+2025-09-04 10:39:21,853 - debug - INFO - 🔍 Total routes registered: 54
+2025-09-04 10:39:21,853 - debug - DEBUG - 🔍 Available routes: ['openapi', 'swagger_ui_html', 'swagger_ui_redirect', 'redoc_html', 'static', 'login_page', 'login_submit', 'register', 'register_submit', 'logout', 'admin_users_page', 'jisoo', 'rose', 'lisa', 'jennie', 'admin_management', 'add_post', 'edit_post', 'delete_post', 'post_detail', 'jisoo_post_detail', 'rose_post_detail', 'lisa_post_detail', 'jennie_post_detail', 'api_discovery', 'api_docs_page', 'api_login', 'api_register', 'api_logout', 'api_get_all_posts', 'api_get_post_by_id', 'api_create_post', 'api_update_post', 'api_delete_post', 'api_get_all_kols', 'api_get_all_categories', 'get_all_users', 'get_user_by_id', 'create_user', 'update_user', 'delete_user', 'toggle_user_status', 'change_user_role', 'get_kols', 'create_kol', 'update_kol', 'delete_kol', 'get_categories', 'create_category', 'update_category', 'delete_category', 'root', 'get_current_user', 'health_check']
+2025-09-04 10:39:21,854 - debug - INFO - 🚀 Application starting up...
+2025-09-04 10:39:21,854 - debug - INFO - 📊 Database tables created
+2025-09-04 10:39:21,855 - debug - INFO - 🔧 Middleware configured
+2025-09-04 10:39:21,855 - debug - INFO - 📚 API documentation available at /docs
+2025-09-04 10:40:59,171 - debug - INFO - 🛑 Application shutting down...
+2025-09-04 10:41:01,386 - debug - INFO - 🔍 Total routes registered: 54
+2025-09-04 10:41:01,386 - debug - DEBUG - 🔍 Available routes: ['openapi', 'swagger_ui_html', 'swagger_ui_redirect', 'redoc_html', 'static', 'login_page', 'login_submit', 'register', 'register_submit', 'logout', 'admin_users_page', 'jisoo', 'rose', 'lisa', 'jennie', 'admin_management', 'add_post', 'edit_post', 'delete_post', 'post_detail', 'jisoo_post_detail', 'rose_post_detail', 'lisa_post_detail', 'jennie_post_detail', 'api_discovery', 'api_docs_page', 'api_login', 'api_register', 'api_logout', 'api_get_all_posts', 'api_get_post_by_id', 'api_create_post', 'api_update_post', 'api_delete_post', 'api_get_all_kols', 'api_get_all_categories', 'get_all_users', 'get_user_by_id', 'create_user', 'update_user', 'delete_user', 'toggle_user_status', 'change_user_role', 'get_kols', 'create_kol', 'update_kol', 'delete_kol', 'get_categories', 'create_category', 'update_category', 'delete_category', 'root', 'get_current_user', 'health_check']
+2025-09-04 10:41:01,387 - debug - INFO - 🚀 Application starting up...
+2025-09-04 10:41:01,388 - debug - INFO - 📊 Database tables created
+2025-09-04 10:41:01,388 - debug - INFO - 🔧 Middleware configured
+2025-09-04 10:41:01,389 - debug - INFO - 📚 API documentation available at /docs
+2025-09-04 10:42:43,925 - debug - INFO - 🛑 Application shutting down...
+2025-09-04 10:42:46,344 - debug - INFO - 🔍 Total routes registered: 54
+2025-09-04 10:42:46,344 - debug - DEBUG - 🔍 Available routes: ['openapi', 'swagger_ui_html', 'swagger_ui_redirect', 'redoc_html', 'static', 'login_page', 'login_submit', 'register', 'register_submit', 'logout', 'admin_users_page', 'jisoo', 'rose', 'lisa', 'jennie', 'admin_management', 'add_post', 'edit_post', 'delete_post', 'post_detail', 'jisoo_post_detail', 'rose_post_detail', 'lisa_post_detail', 'jennie_post_detail', 'api_discovery', 'api_docs_page', 'api_login', 'api_register', 'api_logout', 'api_get_all_posts', 'api_get_post_by_id', 'api_create_post', 'api_update_post', 'api_delete_post', 'api_get_all_kols', 'api_get_all_categories', 'get_all_users', 'get_user_by_id', 'create_user', 'update_user', 'delete_user', 'toggle_user_status', 'change_user_role', 'get_kols', 'create_kol', 'update_kol', 'delete_kol', 'get_categories', 'create_category', 'update_category', 'delete_category', 'root', 'get_current_user', 'health_check']
+2025-09-04 10:42:46,347 - debug - INFO - 🚀 Application starting up...
+2025-09-04 10:42:46,350 - debug - INFO - 📊 Database tables created
+2025-09-04 10:42:46,350 - debug - INFO - 🔧 Middleware configured
+2025-09-04 10:42:46,351 - debug - INFO - 📚 API documentation available at /docs
+2025-09-04 10:43:32,120 - debug - INFO - 🛑 Application shutting down...
+2025-09-04 10:43:34,265 - debug - INFO - 🔍 Total routes registered: 54
+2025-09-04 10:43:34,265 - debug - DEBUG - 🔍 Available routes: ['openapi', 'swagger_ui_html', 'swagger_ui_redirect', 'redoc_html', 'static', 'login_page', 'login_submit', 'register', 'register_submit', 'logout', 'admin_users_page', 'jisoo', 'rose', 'lisa', 'jennie', 'admin_management', 'add_post', 'edit_post', 'delete_post', 'post_detail', 'jisoo_post_detail', 'rose_post_detail', 'lisa_post_detail', 'jennie_post_detail', 'api_discovery', 'api_docs_page', 'api_login', 'api_register', 'api_logout', 'api_get_all_posts', 'api_get_post_by_id', 'api_create_post', 'api_update_post', 'api_delete_post', 'api_get_all_kols', 'api_get_all_categories', 'get_all_users', 'get_user_by_id', 'create_user', 'update_user', 'delete_user', 'toggle_user_status', 'change_user_role', 'get_kols', 'create_kol', 'update_kol', 'delete_kol', 'get_categories', 'create_category', 'update_category', 'delete_category', 'root', 'get_current_user', 'health_check']
+2025-09-04 10:43:34,267 - debug - INFO - 🚀 Application starting up...
+2025-09-04 10:43:34,267 - debug - INFO - 📊 Database tables created
+2025-09-04 10:43:34,267 - debug - INFO - 🔧 Middleware configured
+2025-09-04 10:43:34,267 - debug - INFO - 📚 API documentation available at /docs
+2025-09-04 10:44:15,089 - debug - INFO - 🛑 Application shutting down...
+2025-09-04 10:44:16,448 - debug - INFO - 🔍 Total routes registered: 54
+2025-09-04 10:44:16,449 - debug - DEBUG - 🔍 Available routes: ['openapi', 'swagger_ui_html', 'swagger_ui_redirect', 'redoc_html', 'static', 'login_page', 'login_submit', 'register', 'register_submit', 'logout', 'admin_users_page', 'jisoo', 'rose', 'lisa', 'jennie', 'admin_management', 'add_post', 'edit_post', 'delete_post', 'post_detail', 'jisoo_post_detail', 'rose_post_detail', 'lisa_post_detail', 'jennie_post_detail', 'api_discovery', 'api_docs_page', 'api_login', 'api_register', 'api_logout', 'api_get_all_posts', 'api_get_post_by_id', 'api_create_post', 'api_update_post', 'api_delete_post', 'api_get_all_kols', 'api_get_all_categories', 'get_all_users', 'get_user_by_id', 'create_user', 'update_user', 'delete_user', 'toggle_user_status', 'change_user_role', 'get_kols', 'create_kol', 'update_kol', 'delete_kol', 'get_categories', 'create_category', 'update_category', 'delete_category', 'root', 'get_current_user', 'health_check']
+2025-09-04 10:44:16,449 - debug - INFO - 🚀 Application starting up...
+2025-09-04 10:44:16,450 - debug - INFO - 📊 Database tables created
+2025-09-04 10:44:16,450 - debug - INFO - 🔧 Middleware configured
+2025-09-04 10:44:16,450 - debug - INFO - 📚 API documentation available at /docs
+2025-09-04 11:16:03,134 - debug - INFO - 🛑 Application shutting down...
+2025-09-04 11:16:06,910 - debug - INFO - 🔍 Total routes registered: 54
+2025-09-04 11:16:06,910 - debug - DEBUG - 🔍 Available routes: ['openapi', 'swagger_ui_html', 'swagger_ui_redirect', 'redoc_html', 'static', 'login_page', 'login_submit', 'register', 'register_submit', 'logout', 'admin_users_page', 'jisoo', 'rose', 'lisa', 'jennie', 'admin_management', 'add_post', 'edit_post', 'delete_post', 'post_detail', 'jisoo_post_detail', 'rose_post_detail', 'lisa_post_detail', 'jennie_post_detail', 'api_discovery', 'api_docs_page', 'api_login', 'api_register', 'api_logout', 'api_get_all_posts', 'api_get_post_by_id', 'api_create_post', 'api_update_post', 'api_delete_post', 'api_get_all_kols', 'api_get_all_categories', 'get_all_users', 'get_user_by_id', 'create_user', 'update_user', 'delete_user', 'toggle_user_status', 'change_user_role', 'get_kols', 'create_kol', 'update_kol', 'delete_kol', 'get_categories', 'create_category', 'update_category', 'delete_category', 'root', 'get_current_user', 'health_check']
+2025-09-04 11:16:06,913 - debug - INFO - 🚀 Application starting up...
+2025-09-04 11:16:06,913 - debug - INFO - 📊 Database tables created
+2025-09-04 11:16:06,914 - debug - INFO - 🔧 Middleware configured
+2025-09-04 11:16:06,914 - debug - INFO - 📚 API documentation available at /docs
+2025-09-04 11:16:42,765 - debug - INFO - 🛑 Application shutting down...
+2025-09-04 11:16:44,373 - debug - INFO - 🔍 Total routes registered: 54
+2025-09-04 11:16:44,373 - debug - DEBUG - 🔍 Available routes: ['openapi', 'swagger_ui_html', 'swagger_ui_redirect', 'redoc_html', 'static', 'login_page', 'login_submit', 'register', 'register_submit', 'logout', 'admin_users_page', 'jisoo', 'rose', 'lisa', 'jennie', 'admin_management', 'add_post', 'edit_post', 'delete_post', 'post_detail', 'jisoo_post_detail', 'rose_post_detail', 'lisa_post_detail', 'jennie_post_detail', 'api_discovery', 'api_docs_page', 'api_login', 'api_register', 'api_logout', 'api_get_all_posts', 'api_get_post_by_id', 'api_create_post', 'api_update_post', 'api_delete_post', 'api_get_all_kols', 'api_get_all_categories', 'get_all_users', 'get_user_by_id', 'create_user', 'update_user', 'delete_user', 'toggle_user_status', 'change_user_role', 'get_kols', 'create_kol', 'update_kol', 'delete_kol', 'get_categories', 'create_category', 'update_category', 'delete_category', 'root', 'get_current_user', 'health_check']
+2025-09-04 11:16:44,375 - debug - INFO - 🚀 Application starting up...
+2025-09-04 11:16:44,376 - debug - INFO - 📊 Database tables created
+2025-09-04 11:16:44,377 - debug - INFO - 🔧 Middleware configured
+2025-09-04 11:16:44,379 - debug - INFO - 📚 API documentation available at /docs
+2025-09-04 11:17:54,385 - debug - INFO - 🛑 Application shutting down...
+2025-09-04 11:17:56,395 - debug - INFO - 🔍 Total routes registered: 54
+2025-09-04 11:17:56,395 - debug - DEBUG - 🔍 Available routes: ['openapi', 'swagger_ui_html', 'swagger_ui_redirect', 'redoc_html', 'static', 'login_page', 'login_submit', 'register', 'register_submit', 'logout', 'admin_users_page', 'jisoo', 'rose', 'lisa', 'jennie', 'admin_management', 'add_post', 'edit_post', 'delete_post', 'post_detail', 'jisoo_post_detail', 'rose_post_detail', 'lisa_post_detail', 'jennie_post_detail', 'api_discovery', 'api_docs_page', 'api_login', 'api_register', 'api_logout', 'api_get_all_posts', 'api_get_post_by_id', 'api_create_post', 'api_update_post', 'api_delete_post', 'api_get_all_kols', 'api_get_all_categories', 'get_all_users', 'get_user_by_id', 'create_user', 'update_user', 'delete_user', 'toggle_user_status', 'change_user_role', 'get_kols', 'create_kol', 'update_kol', 'delete_kol', 'get_categories', 'create_category', 'update_category', 'delete_category', 'root', 'get_current_user', 'health_check']
+2025-09-04 11:17:56,399 - debug - INFO - 🚀 Application starting up...
+2025-09-04 11:17:56,402 - debug - INFO - 📊 Database tables created
+2025-09-04 11:17:56,405 - debug - INFO - 🔧 Middleware configured
+2025-09-04 11:17:56,405 - debug - INFO - 📚 API documentation available at /docs
+2025-09-04 11:18:31,558 - debug - INFO - 🛑 Application shutting down...
+2025-09-04 11:18:33,025 - debug - INFO - 🔍 Total routes registered: 54
+2025-09-04 11:18:33,025 - debug - DEBUG - 🔍 Available routes: ['openapi', 'swagger_ui_html', 'swagger_ui_redirect', 'redoc_html', 'static', 'login_page', 'login_submit', 'register', 'register_submit', 'logout', 'admin_users_page', 'jisoo', 'rose', 'lisa', 'jennie', 'admin_management', 'add_post', 'edit_post', 'delete_post', 'post_detail', 'jisoo_post_detail', 'rose_post_detail', 'lisa_post_detail', 'jennie_post_detail', 'api_discovery', 'api_docs_page', 'api_login', 'api_register', 'api_logout', 'api_get_all_posts', 'api_get_post_by_id', 'api_create_post', 'api_update_post', 'api_delete_post', 'api_get_all_kols', 'api_get_all_categories', 'get_all_users', 'get_user_by_id', 'create_user', 'update_user', 'delete_user', 'toggle_user_status', 'change_user_role', 'get_kols', 'create_kol', 'update_kol', 'delete_kol', 'get_categories', 'create_category', 'update_category', 'delete_category', 'root', 'get_current_user', 'health_check']
+2025-09-04 11:18:33,026 - debug - INFO - 🚀 Application starting up...
+2025-09-04 11:18:33,027 - debug - INFO - 📊 Database tables created
+2025-09-04 11:18:33,027 - debug - INFO - 🔧 Middleware configured
+2025-09-04 11:18:33,027 - debug - INFO - 📚 API documentation available at /docs
+2025-09-04 14:31:02,225 - debug - INFO - 🛑 Application shutting down...
+2025-09-04 14:31:05,376 - debug - INFO - 🔍 Total routes registered: 54
+2025-09-04 14:31:05,377 - debug - DEBUG - 🔍 Available routes: ['openapi', 'swagger_ui_html', 'swagger_ui_redirect', 'redoc_html', 'static', 'login_page', 'login_submit', 'register', 'register_submit', 'logout', 'admin_users_page', 'jisoo', 'rose', 'lisa', 'jennie', 'admin_management', 'add_post', 'edit_post', 'delete_post', 'post_detail', 'jisoo_post_detail', 'rose_post_detail', 'lisa_post_detail', 'jennie_post_detail', 'api_discovery', 'api_docs_page', 'api_login', 'api_register', 'api_logout', 'api_get_all_posts', 'api_get_post_by_id', 'api_create_post', 'api_update_post', 'api_delete_post', 'api_get_all_kols', 'api_get_all_categories', 'get_all_users', 'get_user_by_id', 'create_user', 'update_user', 'delete_user', 'toggle_user_status', 'change_user_role', 'get_kols', 'create_kol', 'update_kol', 'delete_kol', 'get_categories', 'create_category', 'update_category', 'delete_category', 'root', 'get_current_user', 'health_check']
+2025-09-04 14:31:05,379 - debug - INFO - 🚀 Application starting up...
+2025-09-04 14:31:05,379 - debug - INFO - 📊 Database tables created
+2025-09-04 14:31:05,379 - debug - INFO - 🔧 Middleware configured
+2025-09-04 14:31:05,380 - debug - INFO - 📚 API documentation available at /docs
+2025-09-04 23:35:57,658 - debug - INFO - 🛑 Application shutting down...
+2025-09-04 23:36:01,544 - debug - INFO - 🔍 Total routes registered: 54
+2025-09-04 23:36:01,544 - debug - DEBUG - 🔍 Available routes: ['openapi', 'swagger_ui_html', 'swagger_ui_redirect', 'redoc_html', 'static', 'login_page', 'login_submit', 'register', 'register_submit', 'logout', 'admin_users_page', 'jisoo', 'rose', 'lisa', 'jennie', 'admin_management', 'add_post', 'edit_post', 'delete_post', 'post_detail', 'jisoo_post_detail', 'rose_post_detail', 'lisa_post_detail', 'jennie_post_detail', 'api_discovery', 'api_docs_page', 'api_login', 'api_register', 'api_logout', 'api_get_all_posts', 'api_get_post_by_id', 'api_create_post', 'api_update_post', 'api_delete_post', 'api_get_all_kols', 'api_get_all_categories', 'get_all_users', 'get_user_by_id', 'create_user', 'update_user', 'delete_user', 'toggle_user_status', 'change_user_role', 'get_kols', 'create_kol', 'update_kol', 'delete_kol', 'get_categories', 'create_category', 'update_category', 'delete_category', 'root', 'get_current_user', 'health_check']
+2025-09-04 23:36:01,548 - debug - INFO - 🚀 Application starting up...
+2025-09-04 23:36:01,548 - debug - INFO - 📊 Database tables created
+2025-09-04 23:36:01,549 - debug - INFO - 🔧 Middleware configured
+2025-09-04 23:36:01,549 - debug - INFO - 📚 API documentation available at /docs

@@ -1,0 +1,2 @@
+{"ts": "2025-09-03T14:12:58.029795", "event": "scenario_start", "nodes": {"primary": {"in_recovery": false, "current_wal_lsn": "0/A0409D0"}, "replica": {"in_recovery": true, "receive_lsn": "0/A0409D0", "replay_lsn": "0/A0409D0"}}}
+{"ts": "2025-09-03T14:12:58.705182", "event": "create_on_primary", "nodes": {"primary": {"in_recovery": false, "current_wal_lsn": "0/A05F4B0"}, "replica": {"in_recovery": true, "receive_lsn": "0/A05F4B0", "replay_lsn": "0/A05C1C8"}}, "row_id": 1, "payload": "create_on_primary"}
