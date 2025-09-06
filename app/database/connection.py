@@ -18,9 +18,10 @@ REPLICA_DB_URL = os.getenv(
 	"postgresql://blink_user:12345@postgres-replica-1:5432/blink_db"
 )
 
-PGBOUNCER_URL = os.getenv(
+# HAProxy URL for load balancing and failover
+HAPROXY_URL = os.getenv(
 	"DATABASE_URL",
-	"postgresql://blink_user:12345@pgbouncer:5432/blink_db"
+	"postgresql://blink_user:12345@haproxy:5432/blink_db"
 )
 
 # Create engines with connection pooling
@@ -41,8 +42,8 @@ primary_engine = create_engine_with_pooling(PRIMARY_DB_URL)
 # Replica engine for reads
 replica_engine = create_engine_with_pooling(REPLICA_DB_URL)
 
-# PgBouncer engine for general use
-pgbouncer_engine = create_engine_with_pooling(PGBOUNCER_URL)
+# HAProxy engine for general use (load balancing and failover)
+haproxy_engine = create_engine_with_pooling(HAPROXY_URL)
 
 # Export default engine used by app (for Base.metadata.create_all)
 engine = primary_engine
@@ -50,15 +51,15 @@ engine = primary_engine
 # Session factories
 PrimarySessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=primary_engine)
 ReplicaSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=replica_engine)
-PgbouncerSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=pgbouncer_engine)
+HaproxySessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=haproxy_engine)
 
 # Base class
 Base = declarative_base()
 
 # Dependencies
 def get_db():
-	"""Get database session from PgBouncer (default)"""
-	db = PgbouncerSessionLocal()
+	"""Get database session from HAProxy (default)"""
+	db = HaproxySessionLocal()
 	try:
 		yield db
 	finally:

@@ -1,0 +1,26 @@
+2025-09-05 05:50:11,736 - INFO - GET /static/css/styles.css - Status: 0
+2025-09-05 05:50:11,890 - INFO - GET /static/image/img/slider/blackpink.svg - Status: 0
+2025-09-05 05:50:11,897 - INFO - GET /static/image/img/slider/Bpink2.jpg - Status: 0
+2025-09-05 05:50:12,032 - INFO - GET /static/css/styles.css - Status: 200 - Duration: 0.303s
+2025-09-05 05:50:12,035 - INFO - GET /static/image/img/slider/Bpink2.jpg - Status: 200 - Duration: 0.138s
+2025-09-05 05:50:12,035 - INFO - GET /static/image/img/slider/blackpink.svg - Status: 200 - Duration: 0.146s
+2025-09-05 05:50:12,535 - INFO - GET /static/image/img/slider/Bpink3.jpg - Status: 0
+2025-09-05 05:50:12,603 - INFO - GET /static/image/img/slider/Bpink3.jpg - Status: 200 - Duration: 0.069s
+2025-09-05 05:50:13,225 - INFO - GET /static/image/img/slider/Jisoo2.jpg - Status: 0
+2025-09-05 05:50:13,273 - INFO - GET /static/image/img/slider/Jisoo2.jpg - Status: 200 - Duration: 0.048s
+2025-09-05 05:50:13,690 - INFO - GET /static/image/img/slider/Rosie.jpg - Status: 0
+2025-09-05 05:50:13,753 - INFO - GET /static/image/img/slider/Rosie.jpg - Status: 200 - Duration: 0.063s
+2025-09-05 05:50:15,293 - INFO - GET /static/image/img/slider/Lisa2.jpg - Status: 0
+2025-09-05 05:50:15,318 - INFO - GET /static/image/img/slider/Lisa2.jpg - Status: 200 - Duration: 0.025s
+2025-09-05 05:50:15,338 - INFO - GET /static/image/img/slider/Jennie.jpg - Status: 0
+2025-09-05 05:50:15,391 - INFO - GET /static/image/img/slider/Jennie.jpg - Status: 200 - Duration: 0.053s
+2025-09-05 05:50:15,415 - INFO - GET /static/image/img/Places/SHaNoi.jpg - Status: 0
+2025-09-05 05:50:15,444 - INFO - GET /static/image/img/Places/SHaNoi.jpg - Status: 200 - Duration: 0.029s
+2025-09-05 05:50:15,482 - INFO - GET /static/image/img/Places/SHaNoi2.jpg - Status: 0
+2025-09-05 05:50:15,503 - INFO - GET /static/image/img/Places/SHaNoi2.jpg - Status: 200 - Duration: 0.021s
+2025-09-05 05:50:15,526 - INFO - GET /static/image/img/Places/BHaNoi3.jpg - Status: 0
+2025-09-05 05:50:15,563 - INFO - GET /static/image/img/Places/BHaNoi3.jpg - Status: 200 - Duration: 0.037s
+2025-09-05 05:50:18,501 - INFO - GET /favicon.ico - Status: 0
+2025-09-05 05:50:18,533 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.032s
+2025-09-05 05:50:18,552 - INFO - GET / - Status: 0
+2025-09-05 05:50:18,792 - INFO - GET / - Status: 200 - Duration: 0.240s

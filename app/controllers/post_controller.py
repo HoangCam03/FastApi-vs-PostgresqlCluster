@@ -4,6 +4,7 @@ from fastapi.templating import Jinja2Templates
 from sqlalchemy.orm import Session
 from app.database.connection import get_db
 from app.middleware.models.post_model import PostModel
+from app.middleware.models.kol_model import KOLModel
 from app.utils.logger import log_debug
 from app.middleware.auth_middleware import get_current_user  # Thêm import
 from app.middleware.models.user_model import UserModel
@@ -31,8 +32,8 @@ def is_valid_image_file(filename):
 async def jisoo(request: Request, db: Session = Depends(get_db)):
     """Hiển thị tất cả bài viết của Jisoo"""
     log_debug(f"🔍 Truy cập trang Jisoo - IP: {request.client.host}", "DEBUG")
-    # Lấy bài viết của Jisoo
-    posts = db.query(PostModel).filter(PostModel.member == "jisoo").all()
+    # Lấy bài viết của Jisoo thông qua KOL
+    posts = db.query(PostModel).join(KOLModel).filter(KOLModel.name == "jisoo").all()
     log_debug(f"📝 Tìm thấy {len(posts)} bài viết của Jisoo", "DEBUG")
     return templates.TemplateResponse("members/jisoo.html", {
         "request": request,
@@ -43,8 +44,8 @@ async def jisoo(request: Request, db: Session = Depends(get_db)):
 async def rose(request: Request, db: Session = Depends(get_db)):
     """Hiển thị tất cả bài viết của Rosé"""
     log_debug(f"🔍 Truy cập trang Rosé - IP: {request.client.host}", "DEBUG")
-    # Lấy bài viết của Rosé
-    posts = db.query(PostModel).filter(PostModel.member == "rose").all()
+    # Lấy bài viết của Rosé thông qua KOL
+    posts = db.query(PostModel).join(KOLModel).filter(KOLModel.name == "rose").all()
     log_debug(f"📝 Tìm thấy {len(posts)} bài viết của Rosé", "DEBUG")
     return templates.TemplateResponse("members/rose.html", {
         "request": request,
@@ -55,8 +56,8 @@ async def rose(request: Request, db: Session = Depends(get_db)):
 async def lisa(request: Request, db: Session = Depends(get_db)):
     """Hiển thị tất cả bài viết của Lisa"""
     log_debug(f"🔍 Truy cập trang Lisa - IP: {request.client.host}", "DEBUG")
-    # Lấy bài viết của Lisa
-    posts = db.query(PostModel).filter(PostModel.member == "lisa").all()
+    # Lấy bài viết của Lisa thông qua KOL
+    posts = db.query(PostModel).join(KOLModel).filter(KOLModel.name == "lisa").all()
     log_debug(f"📝 Tìm thấy {len(posts)} bài viết của Lisa", "DEBUG")
     return templates.TemplateResponse("members/lisa.html", {
         "request": request,
@@ -67,8 +68,8 @@ async def lisa(request: Request, db: Session = Depends(get_db)):
 async def jennie(request: Request, db: Session = Depends(get_db)):
     """Hiển thị tất cả bài viết của Jennie"""
     log_debug(f"🔍 Truy cập trang Jennie - IP: {request.client.host}", "DEBUG")
-    # Lấy bài viết của Jennie
-    posts = db.query(PostModel).filter(PostModel.member == "jennie").all()
+    # Lấy bài viết của Jennie thông qua KOL
+    posts = db.query(PostModel).join(KOLModel).filter(KOLModel.name == "jennie").all()
     log_debug(f"📝 Tìm thấy {len(posts)} bài viết của Jennie", "DEBUG")
     return templates.TemplateResponse("members/jennie.html", {
         "request": request,
