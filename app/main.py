@@ -21,6 +21,9 @@ from app.middleware.auth_middleware import auth_middleware
 from app.utils.logger import log_debug
 from sqlalchemy.orm import Session
 from dotenv import load_dotenv
+from sqlalchemy import text
+from sqlalchemy.exc import OperationalError
+import time
 import os
 
 # Load environment variables
@@ -178,8 +181,9 @@ app.middleware("http")(logging_middleware)
 # Add authentication middleware
 app.middleware("http")(auth_middleware)
 
-# Create tables in database
-Base.metadata.create_all(bind=engine)
+# NOTE:
+# Tránh tạo kết nối DB khi import module để không bị lỗi DNS/HAProxy chưa sẵn sàng.
+# Việc tạo bảng sẽ được dời vào startup event với cơ chế retry.
 
 # ==================== INCLUDE ROUTERS ====================
 
@@ -321,7 +325,24 @@ async def not_found_handler(request: Request, exc: HTTPException):
 async def startup_event():
     """Chạy khi ứng dụng khởi động"""
     log_debug("🚀 Application starting up...", "INFO")
-    log_debug("📊 Database tables created", "INFO")
+    # Đợi DB/HAProxy sẵn sàng với retry
+    max_attempts = 30
+    for attempt in range(1, max_attempts + 1):
+        try:
+            with engine.connect() as conn:
+                conn.execute(text("SELECT 1"))
+            # Khi kết nối OK thì tiến hành tạo bảng
+            Base.metadata.create_all(bind=engine)
+            log_debug("📊 Database connected & tables ensured", "INFO")
+            break
+        except OperationalError as e:
+            log_debug(f"⏳ Waiting for database (attempt {attempt}/{max_attempts}): {str(e)}", "WARNING")
+        except Exception as e:
+            log_debug(f"⚠️ Unexpected DB init error (attempt {attempt}/{max_attempts}): {str(e)}", "ERROR")
+        time.sleep(2)
+    else:
+        # Hết retry nhưng vẫn không kết nối được
+        log_debug("❌ Could not connect to database after retries", "ERROR")
     log_debug("🔧 Middleware configured", "INFO")
     log_debug("📚 API documentation available at /docs", "INFO")
 

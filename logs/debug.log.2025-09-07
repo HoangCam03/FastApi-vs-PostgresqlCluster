@@ -1,0 +1,522 @@
+2025-09-07 06:01:42,828 - debug - INFO - 🔍 Total routes registered: 54
+2025-09-07 06:01:42,845 - debug - DEBUG - 🔍 Available routes: ['openapi', 'swagger_ui_html', 'swagger_ui_redirect', 'redoc_html', 'static', 'login_page', 'login_submit', 'register', 'register_submit', 'logout', 'admin_users_page', 'jisoo', 'rose', 'lisa', 'jennie', 'admin_management', 'add_post', 'edit_post', 'delete_post', 'post_detail', 'jisoo_post_detail', 'rose_post_detail', 'lisa_post_detail', 'jennie_post_detail', 'api_discovery', 'api_docs_page', 'api_login', 'api_register', 'api_logout', 'api_get_all_posts', 'api_get_post_by_id', 'api_create_post', 'api_update_post', 'api_delete_post', 'api_get_all_kols', 'api_get_all_categories', 'get_all_users', 'get_user_by_id', 'create_user', 'update_user', 'delete_user', 'toggle_user_status', 'change_user_role', 'get_kols', 'create_kol', 'update_kol', 'delete_kol', 'get_categories', 'create_category', 'update_category', 'delete_category', 'root', 'get_current_user', 'health_check']
+2025-09-07 06:01:42,850 - debug - INFO - 🚀 Application starting up...
+2025-09-07 06:01:42,850 - debug - INFO - 📊 Database tables created
+2025-09-07 06:01:42,851 - debug - INFO - 🔧 Middleware configured
+2025-09-07 06:01:42,851 - debug - INFO - 📚 API documentation available at /docs
+2025-09-07 06:01:58,656 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:01:58,657 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 06:01:58,696 - debug - DEBUG - ⏱️ Request processed in 0.0624s: /
+2025-09-07 06:01:59,722 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 06:01:59,724 - debug - DEBUG - ⏱️ Request processed in 0.0029s: /favicon.ico
+2025-09-07 06:01:59,737 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:01:59,738 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 06:01:59,743 - debug - DEBUG - ⏱️ Request processed in 0.0079s: /
+2025-09-07 06:06:21,504 - debug - INFO - 🔍 Total routes registered: 54
+2025-09-07 06:06:21,505 - debug - DEBUG - 🔍 Available routes: ['openapi', 'swagger_ui_html', 'swagger_ui_redirect', 'redoc_html', 'static', 'login_page', 'login_submit', 'register', 'register_submit', 'logout', 'admin_users_page', 'jisoo', 'rose', 'lisa', 'jennie', 'admin_management', 'add_post', 'edit_post', 'delete_post', 'post_detail', 'jisoo_post_detail', 'rose_post_detail', 'lisa_post_detail', 'jennie_post_detail', 'api_discovery', 'api_docs_page', 'api_login', 'api_register', 'api_logout', 'api_get_all_posts', 'api_get_post_by_id', 'api_create_post', 'api_update_post', 'api_delete_post', 'api_get_all_kols', 'api_get_all_categories', 'get_all_users', 'get_user_by_id', 'create_user', 'update_user', 'delete_user', 'toggle_user_status', 'change_user_role', 'get_kols', 'create_kol', 'update_kol', 'delete_kol', 'get_categories', 'create_category', 'update_category', 'delete_category', 'root', 'get_current_user', 'health_check']
+2025-09-07 06:06:21,507 - debug - INFO - 🚀 Application starting up...
+2025-09-07 06:06:21,507 - debug - INFO - 📊 Database tables created
+2025-09-07 06:06:21,507 - debug - INFO - 🔧 Middleware configured
+2025-09-07 06:06:21,508 - debug - INFO - 📚 API documentation available at /docs
+2025-09-07 06:06:56,420 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:06:56,420 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 06:06:56,466 - debug - DEBUG - ⏱️ Request processed in 0.0593s: /
+2025-09-07 06:06:57,349 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 06:06:57,352 - debug - DEBUG - ⏱️ Request processed in 0.0042s: /favicon.ico
+2025-09-07 06:06:57,365 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:06:57,365 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 06:06:57,372 - debug - DEBUG - ⏱️ Request processed in 0.0093s: /
+2025-09-07 06:06:59,522 - debug - INFO - === ACCESSING LOGIN PAGE ===
+2025-09-07 06:06:59,545 - debug - DEBUG - ⏱️ Request processed in 0.0248s: /user/login-page
+2025-09-07 06:07:00,340 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 06:07:00,347 - debug - DEBUG - ⏱️ Request processed in 0.0081s: /favicon.ico
+2025-09-07 06:07:00,354 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:07:00,354 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 06:07:00,359 - debug - DEBUG - ⏱️ Request processed in 0.0075s: /
+2025-09-07 06:07:06,306 - debug - INFO - === LOGIN ATTEMPT ===
+2025-09-07 06:07:06,306 - debug - INFO - Username: hic
+2025-09-07 06:07:06,383 - debug - WARNING - ❌ User not found: hic
+2025-09-07 06:07:06,395 - debug - DEBUG - ⏱️ Request processed in 0.0990s: /user/login-submit
+2025-09-07 06:07:06,496 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 06:07:06,498 - debug - DEBUG - ⏱️ Request processed in 0.0083s: /favicon.ico
+2025-09-07 06:07:06,505 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:07:06,506 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 06:07:06,516 - debug - DEBUG - ⏱️ Request processed in 0.0124s: /
+2025-09-07 06:07:30,275 - debug - INFO - === ACCESSING REGISTER PAGE ===
+2025-09-07 06:07:30,296 - debug - DEBUG - ⏱️ Request processed in 0.0244s: /user/register
+2025-09-07 06:07:30,378 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 06:07:30,379 - debug - DEBUG - ⏱️ Request processed in 0.0024s: /favicon.ico
+2025-09-07 06:07:30,389 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:07:30,391 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 06:07:30,396 - debug - DEBUG - ⏱️ Request processed in 0.0114s: /
+2025-09-07 06:07:37,949 - debug - INFO - === REGISTER SUBMIT FUNCTION CALLED ===
+2025-09-07 06:07:37,950 - debug - INFO - Register attempt for username: hic, email: iuiu@gmail.com
+2025-09-07 06:07:38,472 - debug - INFO - ✅ User created successfully: hic
+2025-09-07 06:07:38,487 - debug - INFO - ✅ Access token created for user: hic
+2025-09-07 06:07:38,487 - debug - INFO - ✅ Registration successful, redirecting to homepage
+2025-09-07 06:07:38,490 - debug - DEBUG - ⏱️ Request processed in 0.5668s: /user/register-submit
+2025-09-07 06:07:38,503 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:07:38,504 - debug - DEBUG - 🔍 Username from cookie: hic
+2025-09-07 06:07:38,516 - debug - DEBUG - ⏱️ Request processed in 0.0147s: /
+2025-09-07 06:07:38,786 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 06:07:38,786 - debug - DEBUG - ⏱️ Request processed in 0.0021s: /favicon.ico
+2025-09-07 06:07:38,797 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:07:38,798 - debug - DEBUG - 🔍 Username from cookie: hic
+2025-09-07 06:07:38,811 - debug - DEBUG - ⏱️ Request processed in 0.0167s: /
+2025-09-07 06:07:40,711 - debug - INFO - === USER LOGOUT ===
+2025-09-07 06:07:40,712 - debug - DEBUG - ⏱️ Request processed in 0.0069s: /user/logout
+2025-09-07 06:07:40,722 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:07:40,722 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 06:07:40,729 - debug - DEBUG - ⏱️ Request processed in 0.0092s: /
+2025-09-07 06:07:40,804 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 06:07:40,805 - debug - DEBUG - ⏱️ Request processed in 0.0023s: /favicon.ico
+2025-09-07 06:07:40,812 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:07:40,812 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 06:07:40,816 - debug - DEBUG - ⏱️ Request processed in 0.0063s: /
+2025-09-07 06:07:44,034 - debug - INFO - === ACCESSING LOGIN PAGE ===
+2025-09-07 06:07:44,039 - debug - DEBUG - ⏱️ Request processed in 0.0058s: /user/login-page
+2025-09-07 06:07:44,117 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 06:07:44,118 - debug - DEBUG - ⏱️ Request processed in 0.0020s: /favicon.ico
+2025-09-07 06:07:44,124 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:07:44,126 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 06:07:44,132 - debug - DEBUG - ⏱️ Request processed in 0.0098s: /
+2025-09-07 06:07:48,256 - debug - INFO - === LOGIN ATTEMPT ===
+2025-09-07 06:07:48,257 - debug - INFO - Username: hic
+2025-09-07 06:07:48,637 - debug - INFO - ✅ Password verified for user: hic
+2025-09-07 06:07:48,638 - debug - INFO - ✅ Access token created for user: hic
+2025-09-07 06:07:48,639 - debug - INFO - ✅ Login successful, redirecting to homepage
+2025-09-07 06:07:48,641 - debug - DEBUG - ⏱️ Request processed in 0.3886s: /user/login-submit
+2025-09-07 06:07:48,653 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:07:48,654 - debug - DEBUG - 🔍 Username from cookie: hic
+2025-09-07 06:07:48,662 - debug - DEBUG - ⏱️ Request processed in 0.0109s: /
+2025-09-07 06:07:48,757 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 06:07:48,758 - debug - DEBUG - ⏱️ Request processed in 0.0018s: /favicon.ico
+2025-09-07 06:07:48,772 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:07:48,773 - debug - DEBUG - 🔍 Username from cookie: hic
+2025-09-07 06:07:48,786 - debug - DEBUG - ⏱️ Request processed in 0.0156s: /
+2025-09-07 06:08:06,644 - debug - INFO - === USER LOGOUT ===
+2025-09-07 06:08:06,654 - debug - DEBUG - ⏱️ Request processed in 0.0166s: /user/logout
+2025-09-07 06:08:06,670 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:08:06,671 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 06:08:06,679 - debug - DEBUG - ⏱️ Request processed in 0.0107s: /
+2025-09-07 06:08:06,763 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 06:08:06,764 - debug - DEBUG - ⏱️ Request processed in 0.0023s: /favicon.ico
+2025-09-07 06:08:06,772 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:08:06,772 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 06:08:06,778 - debug - DEBUG - ⏱️ Request processed in 0.0086s: /
+2025-09-07 06:08:07,881 - debug - INFO - === ACCESSING LOGIN PAGE ===
+2025-09-07 06:08:07,898 - debug - DEBUG - ⏱️ Request processed in 0.0195s: /user/login-page
+2025-09-07 06:08:07,992 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 06:08:08,007 - debug - DEBUG - ⏱️ Request processed in 0.0185s: /favicon.ico
+2025-09-07 06:08:08,040 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:08:08,045 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 06:08:08,076 - debug - DEBUG - ⏱️ Request processed in 0.0381s: /
+2025-09-07 06:08:11,152 - debug - INFO - === ACCESSING LOGIN PAGE ===
+2025-09-07 06:08:11,157 - debug - DEBUG - ⏱️ Request processed in 0.0056s: /user/login-page
+2025-09-07 06:08:11,250 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 06:08:11,251 - debug - DEBUG - ⏱️ Request processed in 0.0030s: /favicon.ico
+2025-09-07 06:08:11,265 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:08:11,266 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 06:08:11,271 - debug - DEBUG - ⏱️ Request processed in 0.0139s: /
+2025-09-07 06:08:11,837 - debug - INFO - === ACCESSING LOGIN PAGE ===
+2025-09-07 06:08:11,844 - debug - DEBUG - ⏱️ Request processed in 0.0077s: /user/login-page
+2025-09-07 06:08:11,967 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 06:08:11,968 - debug - DEBUG - ⏱️ Request processed in 0.0022s: /favicon.ico
+2025-09-07 06:08:11,988 - debug - INFO - === ACCESSING LOGIN PAGE ===
+2025-09-07 06:08:11,994 - debug - DEBUG - ⏱️ Request processed in 0.0067s: /user/login-page
+2025-09-07 06:08:12,311 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 06:08:12,312 - debug - DEBUG - ⏱️ Request processed in 0.0028s: /favicon.ico
+2025-09-07 06:08:12,454 - debug - INFO - === ACCESSING LOGIN PAGE ===
+2025-09-07 06:08:12,462 - debug - DEBUG - ⏱️ Request processed in 0.0084s: /user/login-page
+2025-09-07 06:08:12,641 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 06:08:12,645 - debug - DEBUG - ⏱️ Request processed in 0.0053s: /favicon.ico
+2025-09-07 06:08:12,654 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:08:12,654 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 06:08:12,660 - debug - DEBUG - ⏱️ Request processed in 0.0087s: /
+2025-09-07 06:08:12,700 - debug - INFO - === ACCESSING LOGIN PAGE ===
+2025-09-07 06:08:12,712 - debug - DEBUG - ⏱️ Request processed in 0.0144s: /user/login-page
+2025-09-07 06:08:13,013 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 06:08:13,015 - debug - DEBUG - ⏱️ Request processed in 0.0042s: /favicon.ico
+2025-09-07 06:08:13,030 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:08:13,031 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 06:08:13,040 - debug - DEBUG - ⏱️ Request processed in 0.0175s: /
+2025-09-07 06:08:17,412 - debug - INFO - === LOGIN ATTEMPT ===
+2025-09-07 06:08:17,412 - debug - INFO - Username: hic
+2025-09-07 06:08:17,767 - debug - INFO - ✅ Password verified for user: hic
+2025-09-07 06:08:17,768 - debug - INFO - ✅ Access token created for user: hic
+2025-09-07 06:08:17,769 - debug - INFO - ✅ Login successful, redirecting to homepage
+2025-09-07 06:08:17,771 - debug - DEBUG - ⏱️ Request processed in 0.3668s: /user/login-submit
+2025-09-07 06:08:17,782 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:08:17,783 - debug - DEBUG - 🔍 Username from cookie: hic
+2025-09-07 06:08:17,795 - debug - DEBUG - ⏱️ Request processed in 0.0151s: /
+2025-09-07 06:08:17,883 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 06:08:17,884 - debug - DEBUG - ⏱️ Request processed in 0.0022s: /favicon.ico
+2025-09-07 06:08:17,891 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:08:17,897 - debug - DEBUG - 🔍 Username from cookie: hic
+2025-09-07 06:08:17,911 - debug - DEBUG - ⏱️ Request processed in 0.0209s: /
+2025-09-07 06:08:19,363 - debug - INFO - === USER LOGOUT ===
+2025-09-07 06:08:19,366 - debug - DEBUG - ⏱️ Request processed in 0.0043s: /user/logout
+2025-09-07 06:08:19,378 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:08:19,379 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 06:08:19,384 - debug - DEBUG - ⏱️ Request processed in 0.0085s: /
+2025-09-07 06:08:19,467 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 06:08:19,469 - debug - DEBUG - ⏱️ Request processed in 0.0023s: /favicon.ico
+2025-09-07 06:08:19,769 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:08:19,770 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 06:08:19,775 - debug - DEBUG - ⏱️ Request processed in 0.0076s: /
+2025-09-07 06:08:41,896 - debug - INFO - === ACCESSING LOGIN PAGE ===
+2025-09-07 06:08:41,906 - debug - DEBUG - ⏱️ Request processed in 0.0131s: /user/login-page
+2025-09-07 06:08:41,994 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 06:08:41,995 - debug - DEBUG - ⏱️ Request processed in 0.0022s: /favicon.ico
+2025-09-07 06:08:42,002 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:08:42,002 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 06:08:42,014 - debug - DEBUG - ⏱️ Request processed in 0.0137s: /
+2025-09-07 06:08:44,188 - debug - INFO - === ACCESSING LOGIN PAGE ===
+2025-09-07 06:08:44,196 - debug - DEBUG - ⏱️ Request processed in 0.0087s: /user/login-page
+2025-09-07 06:08:44,315 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 06:08:44,316 - debug - DEBUG - ⏱️ Request processed in 0.0034s: /favicon.ico
+2025-09-07 06:08:44,709 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:08:44,710 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 06:08:44,715 - debug - DEBUG - ⏱️ Request processed in 0.0091s: /
+2025-09-07 06:08:44,967 - debug - INFO - === ACCESSING LOGIN PAGE ===
+2025-09-07 06:08:44,977 - debug - DEBUG - ⏱️ Request processed in 0.0113s: /user/login-page
+2025-09-07 06:08:45,059 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 06:08:45,068 - debug - DEBUG - ⏱️ Request processed in 0.0099s: /favicon.ico
+2025-09-07 06:08:45,075 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:08:45,078 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 06:08:45,085 - debug - DEBUG - ⏱️ Request processed in 0.0124s: /
+2025-09-07 06:08:45,172 - debug - INFO - === ACCESSING LOGIN PAGE ===
+2025-09-07 06:08:45,181 - debug - DEBUG - ⏱️ Request processed in 0.0094s: /user/login-page
+2025-09-07 06:08:45,419 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 06:08:45,420 - debug - DEBUG - ⏱️ Request processed in 0.0027s: /favicon.ico
+2025-09-07 06:08:45,665 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:08:45,666 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 06:08:45,697 - debug - DEBUG - ⏱️ Request processed in 0.0368s: /
+2025-09-07 06:08:47,490 - debug - INFO - === ACCESSING REGISTER PAGE ===
+2025-09-07 06:08:47,498 - debug - DEBUG - ⏱️ Request processed in 0.0085s: /user/register
+2025-09-07 06:08:47,584 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 06:08:47,585 - debug - DEBUG - ⏱️ Request processed in 0.0037s: /favicon.ico
+2025-09-07 06:08:47,619 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:08:47,620 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 06:08:47,626 - debug - DEBUG - ⏱️ Request processed in 0.0090s: /
+2025-09-07 06:09:04,778 - debug - INFO - === REGISTER SUBMIT FUNCTION CALLED ===
+2025-09-07 06:09:04,778 - debug - INFO - Register attempt for username: liver, email: hihi@gmail.com
+2025-09-07 06:09:05,284 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 06:09:05,285 - debug - DEBUG - ⏱️ Request processed in 0.0020s: /favicon.ico
+2025-09-07 06:09:05,295 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:09:05,295 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 06:09:05,300 - debug - DEBUG - ⏱️ Request processed in 0.0070s: /
+2025-09-07 06:09:10,037 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 06:09:10,038 - debug - DEBUG - ⏱️ Request processed in 0.0027s: /favicon.ico
+2025-09-07 06:09:10,052 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:09:10,053 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 06:09:10,059 - debug - DEBUG - ⏱️ Request processed in 0.0085s: /
+2025-09-07 06:09:11,823 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 06:09:11,827 - debug - DEBUG - ⏱️ Request processed in 0.0081s: /favicon.ico
+2025-09-07 06:09:11,837 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:09:11,838 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 06:09:11,851 - debug - DEBUG - ⏱️ Request processed in 0.0165s: /
+2025-09-07 06:09:17,415 - debug - INFO - === LOGIN ATTEMPT ===
+2025-09-07 06:09:17,415 - debug - INFO - Username: liver
+2025-09-07 06:09:17,419 - debug - WARNING - ❌ User not found: liver
+2025-09-07 06:09:17,428 - debug - DEBUG - ⏱️ Request processed in 0.0163s: /user/login-submit
+2025-09-07 06:09:17,511 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 06:09:17,512 - debug - DEBUG - ⏱️ Request processed in 0.0021s: /favicon.ico
+2025-09-07 06:09:17,518 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:09:17,518 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 06:09:17,523 - debug - DEBUG - ⏱️ Request processed in 0.0065s: /
+2025-09-07 06:09:25,878 - debug - INFO - === LOGIN ATTEMPT ===
+2025-09-07 06:09:25,880 - debug - INFO - Username: hic
+2025-09-07 06:09:26,225 - debug - INFO - ✅ Password verified for user: hic
+2025-09-07 06:09:26,226 - debug - INFO - ✅ Access token created for user: hic
+2025-09-07 06:09:26,227 - debug - INFO - ✅ Login successful, redirecting to homepage
+2025-09-07 06:09:26,230 - debug - DEBUG - ⏱️ Request processed in 0.3575s: /user/login-submit
+2025-09-07 06:09:26,239 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:09:26,240 - debug - DEBUG - 🔍 Username from cookie: hic
+2025-09-07 06:09:26,248 - debug - DEBUG - ⏱️ Request processed in 0.0098s: /
+2025-09-07 06:09:26,329 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 06:09:26,330 - debug - DEBUG - ⏱️ Request processed in 0.0028s: /favicon.ico
+2025-09-07 06:09:26,336 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 06:09:26,337 - debug - DEBUG - 🔍 Username from cookie: hic
+2025-09-07 06:09:26,345 - debug - DEBUG - ⏱️ Request processed in 0.0102s: /
+2025-09-07 10:04:06,741 - debug - INFO - === USER LOGOUT ===
+2025-09-07 10:04:06,758 - debug - DEBUG - ⏱️ Request processed in 0.0696s: /user/logout
+2025-09-07 10:04:06,807 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:04:06,807 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 10:04:06,844 - debug - DEBUG - ⏱️ Request processed in 0.0672s: /
+2025-09-07 10:04:07,825 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 10:04:07,826 - debug - DEBUG - ⏱️ Request processed in 0.0167s: /favicon.ico
+2025-09-07 10:04:07,854 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:04:07,855 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 10:04:07,883 - debug - DEBUG - ⏱️ Request processed in 0.0308s: /
+2025-09-07 10:05:22,039 - debug - INFO - === ACCESSING LOGIN PAGE ===
+2025-09-07 10:05:22,054 - debug - DEBUG - ⏱️ Request processed in 0.0211s: /user/login-page
+2025-09-07 10:05:22,658 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 10:05:22,662 - debug - DEBUG - ⏱️ Request processed in 0.0092s: /favicon.ico
+2025-09-07 10:05:22,675 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:05:22,676 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 10:05:22,684 - debug - DEBUG - ⏱️ Request processed in 0.0140s: /
+2025-09-07 10:05:24,171 - debug - INFO - === ACCESSING REGISTER PAGE ===
+2025-09-07 10:05:24,181 - debug - DEBUG - ⏱️ Request processed in 0.0101s: /user/register
+2025-09-07 10:05:24,267 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 10:05:24,268 - debug - DEBUG - ⏱️ Request processed in 0.0027s: /favicon.ico
+2025-09-07 10:05:24,273 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:05:24,274 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 10:05:24,281 - debug - DEBUG - ⏱️ Request processed in 0.0087s: /
+2025-09-07 10:05:41,868 - debug - INFO - === REGISTER SUBMIT FUNCTION CALLED ===
+2025-09-07 10:05:41,869 - debug - INFO - Register attempt for username: liver, email: 1@gmail.com
+2025-09-07 10:05:42,460 - debug - INFO - ✅ User created successfully: liver
+2025-09-07 10:05:42,483 - debug - INFO - ✅ Access token created for user: liver
+2025-09-07 10:05:42,483 - debug - INFO - ✅ Registration successful, redirecting to homepage
+2025-09-07 10:05:42,487 - debug - DEBUG - ⏱️ Request processed in 0.6636s: /user/register-submit
+2025-09-07 10:05:42,501 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:05:42,501 - debug - DEBUG - 🔍 Username from cookie: liver
+2025-09-07 10:05:42,509 - debug - DEBUG - ⏱️ Request processed in 0.0152s: /
+2025-09-07 10:05:42,584 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 10:05:42,585 - debug - DEBUG - ⏱️ Request processed in 0.0023s: /favicon.ico
+2025-09-07 10:05:42,590 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:05:42,591 - debug - DEBUG - 🔍 Username from cookie: liver
+2025-09-07 10:05:42,603 - debug - DEBUG - ⏱️ Request processed in 0.0140s: /
+2025-09-07 10:05:49,111 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:05:49,112 - debug - DEBUG - 🔍 Username from cookie: liver
+2025-09-07 10:05:49,121 - debug - DEBUG - ⏱️ Request processed in 0.0136s: /
+2025-09-07 10:05:49,988 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 10:05:49,989 - debug - DEBUG - ⏱️ Request processed in 0.0016s: /favicon.ico
+2025-09-07 10:05:49,995 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:05:49,995 - debug - DEBUG - 🔍 Username from cookie: liver
+2025-09-07 10:05:50,001 - debug - DEBUG - ⏱️ Request processed in 0.0081s: /
+2025-09-07 10:10:43,069 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:10:43,070 - debug - DEBUG - 🔍 Username from cookie: liver
+2025-09-07 10:11:03,147 - debug - INFO - === USER LOGOUT ===
+2025-09-07 10:11:03,229 - debug - DEBUG - ⏱️ Request processed in 0.0992s: /user/logout
+2025-09-07 10:11:03,230 - debug - INFO - === USER LOGOUT ===
+2025-09-07 10:11:03,231 - debug - DEBUG - ⏱️ Request processed in 0.0766s: /user/logout
+2025-09-07 10:11:03,242 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:11:03,242 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 10:11:03,251 - debug - DEBUG - ⏱️ Request processed in 0.0120s: /
+2025-09-07 10:11:04,078 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 10:11:04,079 - debug - DEBUG - ⏱️ Request processed in 0.0025s: /favicon.ico
+2025-09-07 10:11:04,103 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:11:04,103 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 10:11:04,106 - debug - DEBUG - ⏱️ Request processed in 0.0051s: /
+2025-09-07 10:11:10,252 - debug - INFO - === ACCESSING LOGIN PAGE ===
+2025-09-07 10:11:10,260 - debug - DEBUG - ⏱️ Request processed in 0.0094s: /user/login-page
+2025-09-07 10:11:10,795 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 10:11:10,796 - debug - DEBUG - ⏱️ Request processed in 0.0080s: /favicon.ico
+2025-09-07 10:11:10,803 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:11:10,804 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 10:11:10,811 - debug - DEBUG - ⏱️ Request processed in 0.0094s: /
+2025-09-07 10:11:16,095 - debug - INFO - === LOGIN ATTEMPT ===
+2025-09-07 10:11:16,095 - debug - INFO - Username: liver
+2025-09-07 10:11:16,474 - debug - INFO - ✅ Password verified for user: liver
+2025-09-07 10:11:16,480 - debug - INFO - ✅ Access token created for user: liver
+2025-09-07 10:11:16,480 - debug - INFO - ✅ Login successful, redirecting to homepage
+2025-09-07 10:11:16,482 - debug - DEBUG - ⏱️ Request processed in 0.4032s: /user/login-submit
+2025-09-07 10:11:16,491 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:11:16,491 - debug - DEBUG - 🔍 Username from cookie: liver
+2025-09-07 10:11:16,497 - debug - DEBUG - ⏱️ Request processed in 0.0082s: /
+2025-09-07 10:11:16,564 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 10:11:16,565 - debug - DEBUG - ⏱️ Request processed in 0.0016s: /favicon.ico
+2025-09-07 10:11:16,570 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:11:16,570 - debug - DEBUG - 🔍 Username from cookie: liver
+2025-09-07 10:11:16,577 - debug - DEBUG - ⏱️ Request processed in 0.0080s: /
+2025-09-07 10:11:31,045 - debug - INFO - === USER LOGOUT ===
+2025-09-07 10:11:31,047 - debug - DEBUG - ⏱️ Request processed in 0.0038s: /user/logout
+2025-09-07 10:11:31,057 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:11:31,057 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 10:11:31,062 - debug - DEBUG - ⏱️ Request processed in 0.0082s: /
+2025-09-07 10:11:31,125 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 10:11:31,126 - debug - DEBUG - ⏱️ Request processed in 0.0024s: /favicon.ico
+2025-09-07 10:11:31,131 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:11:31,131 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 10:11:31,135 - debug - DEBUG - ⏱️ Request processed in 0.0053s: /
+2025-09-07 10:24:35,648 - debug - INFO - === ACCESSING LOGIN PAGE ===
+2025-09-07 10:24:35,665 - debug - DEBUG - ⏱️ Request processed in 0.0395s: /user/login-page
+2025-09-07 10:24:36,283 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 10:24:36,286 - debug - DEBUG - ⏱️ Request processed in 0.0107s: /favicon.ico
+2025-09-07 10:24:36,305 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:24:36,306 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 10:24:36,316 - debug - DEBUG - ⏱️ Request processed in 0.0226s: /
+2025-09-07 10:24:45,321 - debug - INFO - === LOGIN ATTEMPT ===
+2025-09-07 10:24:45,321 - debug - INFO - Username: hic
+2025-09-07 10:24:45,708 - debug - INFO - ✅ Password verified for user: hic
+2025-09-07 10:24:45,720 - debug - INFO - ✅ Access token created for user: hic
+2025-09-07 10:24:45,721 - debug - INFO - ✅ Login successful, redirecting to homepage
+2025-09-07 10:24:45,725 - debug - DEBUG - ⏱️ Request processed in 0.5409s: /user/login-submit
+2025-09-07 10:24:45,736 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:24:45,736 - debug - DEBUG - 🔍 Username from cookie: hic
+2025-09-07 10:24:45,743 - debug - DEBUG - ⏱️ Request processed in 0.0089s: /
+2025-09-07 10:24:46,375 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 10:24:46,376 - debug - DEBUG - ⏱️ Request processed in 0.0027s: /favicon.ico
+2025-09-07 10:24:46,383 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:24:46,383 - debug - DEBUG - 🔍 Username from cookie: hic
+2025-09-07 10:24:46,393 - debug - DEBUG - ⏱️ Request processed in 0.0126s: /
+2025-09-07 10:25:06,466 - debug - INFO - === USER LOGOUT ===
+2025-09-07 10:25:06,468 - debug - DEBUG - ⏱️ Request processed in 0.0038s: /user/logout
+2025-09-07 10:25:06,483 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:25:06,483 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 10:25:06,487 - debug - DEBUG - ⏱️ Request processed in 0.0134s: /
+2025-09-07 10:25:06,583 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 10:25:06,584 - debug - DEBUG - ⏱️ Request processed in 0.0020s: /favicon.ico
+2025-09-07 10:25:06,943 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:25:06,943 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 10:25:06,947 - debug - DEBUG - ⏱️ Request processed in 0.0059s: /
+2025-09-07 10:25:10,725 - debug - INFO - === ACCESSING LOGIN PAGE ===
+2025-09-07 10:25:10,730 - debug - DEBUG - ⏱️ Request processed in 0.0065s: /user/login-page
+2025-09-07 10:25:10,787 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 10:25:10,788 - debug - DEBUG - ⏱️ Request processed in 0.0015s: /favicon.ico
+2025-09-07 10:25:10,793 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:25:10,794 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 10:25:10,798 - debug - DEBUG - ⏱️ Request processed in 0.0061s: /
+2025-09-07 10:25:15,463 - debug - INFO - === LOGIN ATTEMPT ===
+2025-09-07 10:25:15,463 - debug - INFO - Username: liver
+2025-09-07 10:25:16,583 - debug - INFO - ✅ Password verified for user: liver
+2025-09-07 10:25:16,584 - debug - INFO - ✅ Access token created for user: liver
+2025-09-07 10:25:16,585 - debug - INFO - ✅ Login successful, redirecting to homepage
+2025-09-07 10:25:16,587 - debug - DEBUG - ⏱️ Request processed in 1.1260s: /user/login-submit
+2025-09-07 10:25:16,595 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:25:16,595 - debug - DEBUG - 🔍 Username from cookie: liver
+2025-09-07 10:25:16,622 - debug - DEBUG - ⏱️ Request processed in 0.0282s: /
+2025-09-07 10:25:17,651 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 10:25:17,652 - debug - DEBUG - ⏱️ Request processed in 0.0015s: /favicon.ico
+2025-09-07 10:25:17,666 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:25:17,666 - debug - DEBUG - 🔍 Username from cookie: liver
+2025-09-07 10:25:17,672 - debug - DEBUG - ⏱️ Request processed in 0.0081s: /
+2025-09-07 10:25:51,046 - debug - INFO - === USER LOGOUT ===
+2025-09-07 10:25:51,049 - debug - DEBUG - ⏱️ Request processed in 0.0041s: /user/logout
+2025-09-07 10:25:51,057 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:25:51,057 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 10:25:51,062 - debug - DEBUG - ⏱️ Request processed in 0.0066s: /
+2025-09-07 10:25:51,134 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 10:25:51,136 - debug - DEBUG - ⏱️ Request processed in 0.0022s: /favicon.ico
+2025-09-07 10:25:51,142 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:25:51,143 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 10:25:51,151 - debug - DEBUG - ⏱️ Request processed in 0.0101s: /
+2025-09-07 10:26:07,098 - debug - INFO - === ACCESSING LOGIN PAGE ===
+2025-09-07 10:26:07,102 - debug - DEBUG - ⏱️ Request processed in 0.0052s: /user/login-page
+2025-09-07 10:26:07,163 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 10:26:07,163 - debug - DEBUG - ⏱️ Request processed in 0.0034s: /favicon.ico
+2025-09-07 10:26:07,170 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:26:07,170 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 10:26:07,173 - debug - DEBUG - ⏱️ Request processed in 0.0051s: /
+2025-09-07 10:26:11,390 - debug - INFO - === LOGIN ATTEMPT ===
+2025-09-07 10:26:11,391 - debug - INFO - Username: hic
+2025-09-07 10:26:11,703 - debug - INFO - ✅ Password verified for user: hic
+2025-09-07 10:26:11,704 - debug - INFO - ✅ Access token created for user: hic
+2025-09-07 10:26:11,704 - debug - INFO - ✅ Login successful, redirecting to homepage
+2025-09-07 10:26:11,706 - debug - DEBUG - ⏱️ Request processed in 0.3170s: /user/login-submit
+2025-09-07 10:26:11,713 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:26:11,714 - debug - DEBUG - 🔍 Username from cookie: hic
+2025-09-07 10:26:11,719 - debug - DEBUG - ⏱️ Request processed in 0.0071s: /
+2025-09-07 10:26:11,788 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 10:26:11,789 - debug - DEBUG - ⏱️ Request processed in 0.0017s: /favicon.ico
+2025-09-07 10:26:11,794 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:26:11,795 - debug - DEBUG - 🔍 Username from cookie: hic
+2025-09-07 10:26:11,801 - debug - DEBUG - ⏱️ Request processed in 0.0081s: /
+2025-09-07 10:33:48,878 - debug - INFO - === USER LOGOUT ===
+2025-09-07 10:33:48,886 - debug - DEBUG - ⏱️ Request processed in 0.0254s: /user/logout
+2025-09-07 10:33:48,906 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:33:48,906 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 10:33:48,922 - debug - DEBUG - ⏱️ Request processed in 0.0268s: /
+2025-09-07 10:33:49,521 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 10:33:49,524 - debug - DEBUG - ⏱️ Request processed in 0.0058s: /favicon.ico
+2025-09-07 10:33:49,531 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:33:49,531 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 10:33:49,535 - debug - DEBUG - ⏱️ Request processed in 0.0059s: /
+2025-09-07 10:34:07,091 - debug - INFO - === ACCESSING LOGIN PAGE ===
+2025-09-07 10:34:07,097 - debug - DEBUG - ⏱️ Request processed in 0.0088s: /user/login-page
+2025-09-07 10:34:07,683 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 10:34:07,684 - debug - DEBUG - ⏱️ Request processed in 0.0046s: /favicon.ico
+2025-09-07 10:34:07,694 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:34:07,694 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 10:34:07,701 - debug - DEBUG - ⏱️ Request processed in 0.0099s: /
+2025-09-07 10:34:09,165 - debug - INFO - === ACCESSING REGISTER PAGE ===
+2025-09-07 10:34:09,173 - debug - DEBUG - ⏱️ Request processed in 0.0082s: /user/register
+2025-09-07 10:34:09,241 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 10:34:09,243 - debug - DEBUG - ⏱️ Request processed in 0.0031s: /favicon.ico
+2025-09-07 10:34:09,250 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:34:09,250 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 10:34:09,255 - debug - DEBUG - ⏱️ Request processed in 0.0062s: /
+2025-09-07 10:40:46,506 - debug - INFO - === REGISTER SUBMIT FUNCTION CALLED ===
+2025-09-07 10:40:46,507 - debug - INFO - Register attempt for username: hi, email: hi@gmail.com
+2025-09-07 10:40:47,056 - debug - INFO - ✅ User created successfully: hi
+2025-09-07 10:40:47,064 - debug - INFO - ✅ Access token created for user: hi
+2025-09-07 10:40:47,065 - debug - INFO - ✅ Registration successful, redirecting to homepage
+2025-09-07 10:40:47,072 - debug - DEBUG - ⏱️ Request processed in 0.6124s: /user/register-submit
+2025-09-07 10:40:47,088 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:40:47,088 - debug - DEBUG - 🔍 Username from cookie: hi
+2025-09-07 10:40:47,102 - debug - DEBUG - ⏱️ Request processed in 0.0204s: /
+2025-09-07 10:40:47,743 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 10:40:47,745 - debug - DEBUG - ⏱️ Request processed in 0.0058s: /favicon.ico
+2025-09-07 10:40:47,752 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:40:47,752 - debug - DEBUG - 🔍 Username from cookie: hi
+2025-09-07 10:40:47,763 - debug - DEBUG - ⏱️ Request processed in 0.0130s: /
+2025-09-07 10:45:35,168 - debug - INFO - === USER LOGOUT ===
+2025-09-07 10:45:35,175 - debug - DEBUG - ⏱️ Request processed in 0.0227s: /user/logout
+2025-09-07 10:45:35,193 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:45:35,193 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 10:45:35,206 - debug - DEBUG - ⏱️ Request processed in 0.0218s: /
+2025-09-07 10:45:35,843 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 10:45:35,845 - debug - DEBUG - ⏱️ Request processed in 0.0044s: /favicon.ico
+2025-09-07 10:45:35,852 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:45:35,852 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 10:45:35,858 - debug - DEBUG - ⏱️ Request processed in 0.0076s: /
+2025-09-07 10:45:42,121 - debug - INFO - === ACCESSING LOGIN PAGE ===
+2025-09-07 10:45:42,131 - debug - DEBUG - ⏱️ Request processed in 0.0107s: /user/login-page
+2025-09-07 10:45:42,328 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 10:45:42,333 - debug - DEBUG - ⏱️ Request processed in 0.0059s: /favicon.ico
+2025-09-07 10:45:42,342 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:45:42,343 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 10:45:42,349 - debug - DEBUG - ⏱️ Request processed in 0.0103s: /
+2025-09-07 10:45:45,114 - debug - INFO - === ACCESSING REGISTER PAGE ===
+2025-09-07 10:45:45,117 - debug - DEBUG - ⏱️ Request processed in 0.0050s: /user/register
+2025-09-07 10:45:45,188 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 10:45:45,189 - debug - DEBUG - ⏱️ Request processed in 0.0017s: /favicon.ico
+2025-09-07 10:45:45,198 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:45:45,199 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 10:45:45,203 - debug - DEBUG - ⏱️ Request processed in 0.0098s: /
+2025-09-07 10:46:01,299 - debug - INFO - === REGISTER SUBMIT FUNCTION CALLED ===
+2025-09-07 10:46:01,300 - debug - INFO - Register attempt for username: kkk, email: pamiu@gmail.com
+2025-09-07 10:46:01,745 - debug - INFO - ✅ User created successfully: kkk
+2025-09-07 10:46:01,753 - debug - INFO - ✅ Access token created for user: kkk
+2025-09-07 10:46:01,753 - debug - INFO - ✅ Registration successful, redirecting to homepage
+2025-09-07 10:46:01,756 - debug - DEBUG - ⏱️ Request processed in 0.4713s: /user/register-submit
+2025-09-07 10:46:01,765 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:46:01,766 - debug - DEBUG - 🔍 Username from cookie: kkk
+2025-09-07 10:46:01,774 - debug - DEBUG - ⏱️ Request processed in 0.0114s: /
+2025-09-07 10:46:01,843 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 10:46:01,844 - debug - DEBUG - ⏱️ Request processed in 0.0021s: /favicon.ico
+2025-09-07 10:46:01,850 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 10:46:01,850 - debug - DEBUG - 🔍 Username from cookie: kkk
+2025-09-07 10:46:01,861 - debug - DEBUG - ⏱️ Request processed in 0.0128s: /
+2025-09-07 11:11:36,040 - debug - INFO - === USER LOGOUT ===
+2025-09-07 11:11:36,049 - debug - DEBUG - ⏱️ Request processed in 0.0292s: /user/logout
+2025-09-07 11:11:36,077 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 11:11:36,078 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 11:11:36,093 - debug - DEBUG - ⏱️ Request processed in 0.0313s: /
+2025-09-07 11:11:36,799 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 11:11:36,801 - debug - DEBUG - ⏱️ Request processed in 0.0052s: /favicon.ico
+2025-09-07 11:11:36,809 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 11:11:36,809 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 11:11:36,815 - debug - DEBUG - ⏱️ Request processed in 0.0083s: /
+2025-09-07 11:11:37,903 - debug - INFO - === ACCESSING LOGIN PAGE ===
+2025-09-07 11:11:37,909 - debug - DEBUG - ⏱️ Request processed in 0.0069s: /user/login-page
+2025-09-07 11:11:38,470 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 11:11:38,471 - debug - DEBUG - ⏱️ Request processed in 0.0020s: /favicon.ico
+2025-09-07 11:11:38,480 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 11:11:38,480 - debug - DEBUG - 🔍 Username from cookie: None
+2025-09-07 11:11:38,491 - debug - DEBUG - ⏱️ Request processed in 0.0129s: /
+2025-09-07 11:12:00,505 - debug - INFO - === LOGIN ATTEMPT ===
+2025-09-07 11:12:00,505 - debug - INFO - Username: hi
+2025-09-07 11:12:01,153 - debug - INFO - ✅ Password verified for user: hi
+2025-09-07 11:12:01,181 - debug - INFO - ✅ Access token created for user: hi
+2025-09-07 11:12:01,182 - debug - INFO - ✅ Login successful, redirecting to homepage
+2025-09-07 11:12:01,205 - debug - DEBUG - ⏱️ Request processed in 0.7232s: /user/login-submit
+2025-09-07 11:12:01,232 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 11:12:01,232 - debug - DEBUG - 🔍 Username from cookie: hi
+2025-09-07 11:12:01,254 - debug - DEBUG - ⏱️ Request processed in 0.0293s: /
+2025-09-07 11:12:01,397 - debug - WARNING - 🔍 Not found: https://localhost:8443/favicon.ico
+2025-09-07 11:12:01,400 - debug - DEBUG - ⏱️ Request processed in 0.0100s: /favicon.ico
+2025-09-07 11:12:01,411 - debug - INFO - === ACCESSING ROOT PAGE ===
+2025-09-07 11:12:01,414 - debug - DEBUG - 🔍 Username from cookie: hi
+2025-09-07 11:12:01,424 - debug - DEBUG - ⏱️ Request processed in 0.0173s: /

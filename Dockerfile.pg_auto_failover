@@ -1,19 +1,31 @@
 FROM postgres:13
 
-# Install pg_auto_failover
+# Install pg_auto_failover (updated method without deprecated apt-key)
 RUN apt-get update && \
-    apt-get install -y wget ca-certificates lsb-release && \
-    wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | apt-key add - && \
-    echo "deb http://apt.postgresql.org/pub/repos/apt/ $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list && \
+    apt-get install -y wget ca-certificates lsb-release gnupg && \
+    wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | gpg --dearmor -o /usr/share/keyrings/postgresql-keyring.gpg && \
+    echo "deb [signed-by=/usr/share/keyrings/postgresql-keyring.gpg] http://apt.postgresql.org/pub/repos/apt/ $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list && \
     apt-get update && \
     apt-get install -y postgresql-13-auto-failover && \
     rm -rf /var/lib/apt/lists/*
 
-# Create pg_auto_failover user
-RUN echo "CREATE USER pg_auto_failover WITH PASSWORD '12345';" > /docker-entrypoint-initdb.d/01-create-user.sql
+# Create pg_auto_failover user and configure pg_hba.conf
+RUN echo "CREATE USER pg_auto_failover WITH PASSWORD '12345';" > /docker-entrypoint-initdb.d/01-create-user.sql && \
+    echo "CREATE USER autoctl_node WITH PASSWORD '12345';" >> /docker-entrypoint-initdb.d/01-create-user.sql && \
+    echo "CREATE USER replicator WITH PASSWORD '12345' REPLICATION;" >> /docker-entrypoint-initdb.d/01-create-user.sql
 
 # Set proper permissions
 RUN chmod 755 /docker-entrypoint-initdb.d/01-create-user.sql
+
+# Configure pg_hba.conf for trust authentication
+RUN echo "host all all 0.0.0.0/0 trust" > /docker-entrypoint-initdb.d/02-pg-hba.conf && \
+    echo "host replication all 0.0.0.0/0 trust" >> /docker-entrypoint-initdb.d/02-pg-hba.conf && \
+    echo "local all all trust" >> /docker-entrypoint-initdb.d/02-pg-hba.conf && \
+    echo "host all all 172.16.0.0/12 trust" >> /docker-entrypoint-initdb.d/02-pg-hba.conf && \
+    echo "host all all 172.17.0.0/12 trust" >> /docker-entrypoint-initdb.d/02-pg-hba.conf && \
+    echo "host all all 172.18.0.0/12 trust" >> /docker-entrypoint-initdb.d/02-pg-hba.conf && \
+    echo "host all all 172.19.0.0/12 trust" >> /docker-entrypoint-initdb.d/02-pg-hba.conf && \
+    echo "host all all 172.20.0.0/12 trust" >> /docker-entrypoint-initdb.d/02-pg-hba.conf
 
 # Switch to postgres user
 USER postgres

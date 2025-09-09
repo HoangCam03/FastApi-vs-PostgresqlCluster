@@ -17,9 +17,25 @@ services:
       - "5435:5432"
     volumes:
       - pg_auto_failover_data:/var/lib/postgresql/data
-    command: pg_autoctl create monitor --pgdata /var/lib/postgresql/data --hostname pg_auto_failover_monitor --pgport 5432 --auth trust --no-ssl --run
+    command: >
+      bash -c "
+      if [ -f /var/lib/postgresql/.config/pg_autoctl/var/lib/postgresql/data/pg_autoctl.cfg ]; then
+        echo 'pg_auto_failover monitor already initialized, starting pg_autoctl run';
+        pg_autoctl run --pgdata /var/lib/postgresql/data;
+      else
+        echo 'Initializing pg_auto_failover monitor';
+        pg_autoctl create monitor --pgdata /var/lib/postgresql/data --hostname pg_auto_failover_monitor --pgport 5432 --auth trust --no-ssl --run;
+      fi
+      "
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "pg_autoctl", "show", "state"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
     networks:
-      - pg_auto_failover_network
+      - fastapi_project_pg_auto_failover_network
 
   # PostgreSQL Primary với pg_auto_failover
   postgres-primary:
@@ -35,15 +51,25 @@ services:
       POSTGRES_REPLICATION_USER: replicator
       POSTGRES_REPLICATION_PASSWORD: 12345
       PGDATA: /var/lib/postgresql/data
-    ports:
-      - "5432:5432"
     volumes:
       - postgres_primary_data:/var/lib/postgresql/data
-    command: pg_autoctl create postgres --pgdata /var/lib/postgresql/data --hostname postgres-primary --pgport 5432 --monitor postgres://pg_auto_failover:12345@pg_auto_failover_monitor:5432/pg_auto_failover --auth trust --no-ssl --run
+    command: >
+      bash -c "
+      sleep 15;
+      if [ -f /var/lib/postgresql/.config/pg_autoctl/var/lib/postgresql/data/pg_autoctl.cfg ]; then
+        echo 'Primary already initialized, starting pg_autoctl run';
+        pg_autoctl run --pgdata /var/lib/postgresql/data;
+      else
+        echo 'Initializing primary node';
+        pg_autoctl create postgres --pgdata /var/lib/postgresql/data --hostname postgres-primary --pgport 5432 --monitor postgres://autoctl_node:12345@pg_auto_failover_monitor:5432/pg_auto_failover --auth trust --no-ssl --run;
+      fi
+      "
+    restart: unless-stopped
     depends_on:
-      - pg_auto_failover_monitor
+      pg_auto_failover_monitor:
+        condition: service_healthy
     networks:
-      - pg_auto_failover_network
+      - fastapi_project_pg_auto_failover_network
 
   # PostgreSQL Replica với pg_auto_failover
   postgres-replica-1:
@@ -53,22 +79,30 @@ services:
     container_name: postgres-replica-1
     user: postgres
     environment:
-      POSTGRES_DB: blink_db
-      POSTGRES_USER: blink_user
-      POSTGRES_PASSWORD: 12345
-      PGUSER: replicator
-      PGPASSWORD: 12345
-      PGDATA: /var/lib/postgresql/data
+      PGDATA: /var/lib/postgresql/data/pgdata
     ports:
       - "5433:5432"
     volumes:
       - postgres_replica1_data:/var/lib/postgresql/data
-    command: pg_autoctl create postgres --pgdata /var/lib/postgresql/data --hostname postgres-replica-1 --pgport 5432 --monitor postgres://pg_auto_failover:12345@pg_auto_failover_monitor:5432/pg_auto_failover --auth trust --no-ssl --run
+    command: >
+      bash -c "
+      sleep 30;
+      if [ -f /var/lib/postgresql/.config/pg_autoctl/var/lib/postgresql/data/pgdata/pg_autoctl.cfg ]; then
+        echo 'Replica already initialized, starting pg_autoctl run';
+        pg_autoctl run --pgdata /var/lib/postgresql/data/pgdata;
+      else
+        echo 'Initializing replica node';
+        pg_autoctl create postgres --pgdata /var/lib/postgresql/data/pgdata --hostname postgres-replica-1 --pgport 5432 --monitor postgres://autoctl_node:12345@pg_auto_failover_monitor:5432/pg_auto_failover --auth trust --no-ssl --run;
+      fi
+      "
+    restart: unless-stopped
     depends_on:
-      - postgres-primary
-      - pg_auto_failover_monitor
+      postgres-primary:
+        condition: service_started
+      pg_auto_failover_monitor:
+        condition: service_healthy
     networks:
-      - pg_auto_failover_network
+      - fastapi_project_pg_auto_failover_network
 
   # HAProxy với pg_auto_failover
   haproxy:
@@ -76,8 +110,8 @@ services:
     container_name: haproxy
     ports:
       - "5000:5000"  # HAProxy stats
-      - "5434:5432"  # HAProxy PostgreSQL port
       - "8080:8080"  # Health check port
+      - "5432:5432"   # host:5432 -> haproxy:5432 -> primary
     volumes:
       - ./haproxy-pg-auto-failover.cfg:/usr/local/etc/haproxy/haproxy.cfg
     depends_on:
@@ -85,7 +119,30 @@ services:
       - postgres-replica-1
       - pg_auto_failover_monitor
     networks:
-      - pg_auto_failover_network
+      - fastapi_project_pg_auto_failover_network
+
+  # FastAPI Backend (UI/API)
+  backend:
+    build: .
+    container_name: fastapi_project-backend-1
+    ports:
+      - "8443:8443"
+    environment:
+      - DATABASE_URL=postgresql://blink_user:12345@haproxy:5432/blink_db
+      - PROJECT_NAME=FastAPI Project
+      - HOST=0.0.0.0
+      - HTTPS_PORT=8443
+      - DEBUG=True
+      - HTTPS_ENABLED=true
+    volumes:
+      - .:/app
+      - ./logs:/app/logs
+      - ./ssl:/app/ssl
+    depends_on:
+      - haproxy
+    restart: unless-stopped
+    networks:
+      - fastapi_project_pg_auto_failover_network
 
 volumes:
   postgres_primary_data:
@@ -93,5 +150,6 @@ volumes:
   pg_auto_failover_data:
 
 networks:
-  pg_auto_failover_network:
-    driver: bridge
+  fastapi_project_pg_auto_failover_network:
+    external: true
+    name: fastapi_project_pg_auto_failover_network

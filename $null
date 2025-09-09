@@ -1,0 +1,2 @@
+Error response from daemon: error while removing network: network fastapi_project_pg_auto_failover_network id 80a8d2af936e88f23c6bcb23ecbfbac099c0994dc0f775c4430bb430720e87c9 has active endpoints
+exit status 1

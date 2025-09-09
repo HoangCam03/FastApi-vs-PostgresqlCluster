@@ -32,7 +32,7 @@ fi
 
 # Create backup from primary using EXISTING replication slot 
 echo "Creating backup from primary..."
-pg_basebackup -R -D "$PGDATA" -X stream -S replica${REPLICA_NUMBER}_slot -h postgres-primary -U replicator
+pg_basebackup -R -D "$PGDATA" -X stream -S replica_slot -h postgres-primary -U replicator
 
 # Fix ownership
 chown -R postgres:postgres "$PGDATA"

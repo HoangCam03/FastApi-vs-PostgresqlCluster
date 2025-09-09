@@ -1,6 +1,0 @@
-2025-08-17 09:03:34,726 - debug - INFO - 🔍 Total routes registered: 54
-2025-08-17 09:03:34,735 - debug - DEBUG - 🔍 Available routes: ['openapi', 'swagger_ui_html', 'swagger_ui_redirect', 'redoc_html', 'static', 'login_page', 'login_submit', 'register', 'register_submit', 'logout', 'admin_users_page', 'jisoo', 'rose', 'lisa', 'jennie', 'admin_management', 'add_post', 'edit_post', 'delete_post', 'post_detail', 'jisoo_post_detail', 'rose_post_detail', 'lisa_post_detail', 'jennie_post_detail', 'api_discovery', 'api_docs_page', 'api_login', 'api_register', 'api_logout', 'api_get_all_posts', 'api_get_post_by_id', 'api_create_post', 'api_update_post', 'api_delete_post', 'api_get_all_kols', 'api_get_all_categories', 'get_all_users', 'get_user_by_id', 'create_user', 'update_user', 'delete_user', 'toggle_user_status', 'change_user_role', 'get_kols', 'create_kol', 'update_kol', 'delete_kol', 'get_categories', 'create_category', 'update_category', 'delete_category', 'root', 'get_current_user', 'health_check']
-2025-08-17 09:03:34,737 - debug - INFO - 🚀 Application starting up...
-2025-08-17 09:03:34,737 - debug - INFO - 📊 Database tables created
-2025-08-17 09:03:34,737 - debug - INFO - 🔧 Middleware configured
-2025-08-17 09:03:34,738 - debug - INFO - 📚 API documentation available at /docs

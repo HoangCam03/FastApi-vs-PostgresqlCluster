@@ -16,7 +16,13 @@ services:
       - "5435:5432"
     volumes:
       - pg_auto_failover_data:/var/lib/postgresql/data
-    command: pg_autoctl create monitor --pgdata /var/lib/postgresql/data --hostname 0.0.0.0 --port 5432
+    command: pg_autoctl create monitor --pgdata /var/lib/postgresql/data --hostname pg_auto_failover_monitor --pgport 5432 --auth trust --no-ssl --run
+    healthcheck:
+      test: ["CMD", "pg_isready", "-h", "localhost", "-p", "5432", "-U", "pg_auto_failover"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
     networks:
       - app-network
 
@@ -40,7 +46,7 @@ services:
       - ./postgres-config/postgresql.conf:/etc/postgresql/postgresql.conf
       - ./postgres-config/pg_hba.conf:/etc/postgresql/pg_hba.conf
       - ./postgres-config/init-replication.sql:/docker-entrypoint-initdb.d/10-init-replication.sql
-    command: pg_autoctl create postgres --pgdata /var/lib/postgresql/data --hostname postgres-primary --port 5432 --monitor postgres://pg_auto_failover:12345@pg_auto_failover_monitor:5432/pg_auto_failover
+    command: pg_autoctl create postgres --pgdata /var/lib/postgresql/data --hostname postgres-primary --pgport 5432 --monitor postgres://pg_auto_failover:12345@pg_auto_failover_monitor:5432/pg_auto_failover --auth trust --no-ssl --run
     depends_on:
       - pg_auto_failover_monitor
     networks:
@@ -67,7 +73,7 @@ services:
       - ./postgres-config/postgresql-replica.conf:/etc/postgresql/postgresql.conf
       - ./postgres-config/pg_hba.conf:/etc/postgresql/pg_hba.conf
       - ./postgres-config/init-replica.sh:/docker-entrypoint-initdb.d/20-init-replica.sh
-    command: pg_autoctl create postgres --pgdata /var/lib/postgresql/data --hostname postgres-replica-1 --port 5432 --monitor postgres://pg_auto_failover:12345@pg_auto_failover_monitor:5432/pg_auto_failover
+    command: pg_autoctl create postgres --pgdata /var/lib/postgresql/data --hostname postgres-replica-1 --pgport 5432 --monitor postgres://pg_auto_failover:12345@pg_auto_failover_monitor:5432/pg_auto_failover --auth trust --no-ssl --run
     depends_on:
       - postgres-primary
       - pg_auto_failover_monitor
