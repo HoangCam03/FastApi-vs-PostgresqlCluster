@@ -1,0 +1,555 @@
+2025-09-09 05:34:05,568 - INFO - GET / - Status: 0
+2025-09-09 05:34:05,613 - INFO - GET / - Status: 200 - Duration: 0.044s
+2025-09-09 05:34:06,699 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 05:34:06,701 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-09-09 05:34:06,707 - INFO - GET / - Status: 0
+2025-09-09 05:34:06,716 - INFO - GET / - Status: 200 - Duration: 0.008s
+2025-09-09 05:35:45,760 - INFO - GET /user/login-page - Status: 0
+2025-09-09 05:35:45,788 - INFO - GET /user/login-page - Status: 200 - Duration: 0.028s
+2025-09-09 05:35:46,144 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 05:35:46,147 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.003s
+2025-09-09 05:35:46,162 - INFO - GET / - Status: 0
+2025-09-09 05:35:46,204 - INFO - GET / - Status: 200 - Duration: 0.042s
+2025-09-09 05:36:17,275 - INFO - GET /user/register - Status: 0
+2025-09-09 05:36:17,295 - INFO - GET /user/register - Status: 200 - Duration: 0.019s
+2025-09-09 05:36:17,404 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 05:36:17,407 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.003s
+2025-09-09 05:36:17,418 - INFO - GET / - Status: 0
+2025-09-09 05:36:17,431 - INFO - GET / - Status: 200 - Duration: 0.013s
+2025-09-09 05:36:24,581 - INFO - POST /user/register-submit - Status: 0
+2025-09-09 05:36:25,546 - INFO - POST /user/register-submit - Status: 302 - Duration: 0.965s
+2025-09-09 05:36:25,575 - INFO - GET / - Status: 0
+2025-09-09 05:36:25,596 - INFO - GET / - Status: 200 - Duration: 0.021s
+2025-09-09 05:36:25,997 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 05:36:26,021 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.025s
+2025-09-09 05:36:26,079 - INFO - GET / - Status: 0
+2025-09-09 05:36:26,146 - INFO - GET / - Status: 200 - Duration: 0.067s
+2025-09-09 05:47:32,242 - INFO - GET /user/logout - Status: 0
+2025-09-09 05:47:32,249 - INFO - GET /user/logout - Status: 302 - Duration: 0.007s
+2025-09-09 05:47:32,263 - INFO - GET / - Status: 0
+2025-09-09 05:47:32,302 - INFO - GET / - Status: 200 - Duration: 0.039s
+2025-09-09 05:47:33,218 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 05:47:33,219 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-09-09 05:47:33,232 - INFO - GET / - Status: 0
+2025-09-09 05:47:33,237 - INFO - GET / - Status: 200 - Duration: 0.006s
+2025-09-09 05:47:33,684 - INFO - GET /user/login-page - Status: 0
+2025-09-09 05:47:33,703 - INFO - GET /user/login-page - Status: 200 - Duration: 0.019s
+2025-09-09 05:47:34,036 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 05:47:34,048 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.012s
+2025-09-09 05:47:34,064 - INFO - GET / - Status: 0
+2025-09-09 05:47:34,071 - INFO - GET / - Status: 200 - Duration: 0.006s
+2025-09-09 05:47:38,297 - INFO - POST /user/login-submit - Status: 0
+2025-09-09 05:47:38,739 - INFO - POST /user/login-submit - Status: 302 - Duration: 0.443s
+2025-09-09 05:47:38,748 - INFO - GET / - Status: 0
+2025-09-09 05:47:38,756 - INFO - GET / - Status: 200 - Duration: 0.007s
+2025-09-09 05:47:38,828 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 05:47:38,829 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-09-09 05:47:38,834 - INFO - GET / - Status: 0
+2025-09-09 05:47:38,847 - INFO - GET / - Status: 200 - Duration: 0.013s
+2025-09-09 05:47:40,363 - INFO - GET /user/logout - Status: 0
+2025-09-09 05:47:40,368 - INFO - GET /user/logout - Status: 302 - Duration: 0.005s
+2025-09-09 05:47:40,378 - INFO - GET / - Status: 0
+2025-09-09 05:47:40,390 - INFO - GET / - Status: 200 - Duration: 0.011s
+2025-09-09 05:47:40,466 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 05:47:40,472 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.006s
+2025-09-09 05:47:40,484 - INFO - GET / - Status: 0
+2025-09-09 05:47:40,496 - INFO - GET / - Status: 200 - Duration: 0.012s
+2025-09-09 05:47:41,652 - INFO - GET /user/login-page - Status: 0
+2025-09-09 05:47:41,666 - INFO - GET /user/login-page - Status: 200 - Duration: 0.014s
+2025-09-09 05:47:41,768 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 05:47:41,812 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.044s
+2025-09-09 05:47:41,850 - INFO - GET / - Status: 0
+2025-09-09 05:47:41,856 - INFO - GET / - Status: 200 - Duration: 0.007s
+2025-09-09 05:47:43,096 - INFO - GET /user/register - Status: 0
+2025-09-09 05:47:43,116 - INFO - GET /user/register - Status: 200 - Duration: 0.021s
+2025-09-09 05:47:43,255 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 05:47:43,267 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.012s
+2025-09-09 05:47:43,280 - INFO - GET / - Status: 0
+2025-09-09 05:47:43,286 - INFO - GET / - Status: 200 - Duration: 0.007s
+2025-09-09 05:47:51,005 - INFO - POST /user/register-submit - Status: 0
+2025-09-09 05:47:51,871 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 05:47:51,878 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.007s
+2025-09-09 05:47:51,919 - INFO - GET / - Status: 0
+2025-09-09 05:47:51,930 - INFO - GET / - Status: 200 - Duration: 0.011s
+2025-09-09 06:37:41,903 - INFO - GET / - Status: 0
+2025-09-09 06:37:41,932 - INFO - GET / - Status: 200 - Duration: 0.029s
+2025-09-09 06:37:42,703 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 06:37:42,707 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.004s
+2025-09-09 06:37:42,719 - INFO - GET / - Status: 0
+2025-09-09 06:37:42,728 - INFO - GET / - Status: 200 - Duration: 0.009s
+2025-09-09 06:37:43,698 - INFO - GET /user/login-page - Status: 0
+2025-09-09 06:37:43,712 - INFO - GET /user/login-page - Status: 200 - Duration: 0.014s
+2025-09-09 06:37:44,376 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 06:37:44,378 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-09-09 06:37:44,383 - INFO - GET / - Status: 0
+2025-09-09 06:37:44,392 - INFO - GET / - Status: 200 - Duration: 0.009s
+2025-09-09 06:37:45,794 - INFO - GET /user/register - Status: 0
+2025-09-09 06:37:45,811 - INFO - GET /user/register - Status: 200 - Duration: 0.016s
+2025-09-09 06:37:45,916 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 06:37:45,920 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.004s
+2025-09-09 06:37:46,163 - INFO - GET / - Status: 0
+2025-09-09 06:37:46,170 - INFO - GET / - Status: 200 - Duration: 0.006s
+2025-09-09 06:37:52,885 - INFO - POST /user/register-submit - Status: 0
+2025-09-09 06:37:53,294 - INFO - POST /user/register-submit - Status: 302 - Duration: 0.409s
+2025-09-09 06:37:53,303 - INFO - GET / - Status: 0
+2025-09-09 06:37:53,316 - INFO - GET / - Status: 200 - Duration: 0.013s
+2025-09-09 06:37:53,537 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 06:37:53,544 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.007s
+2025-09-09 06:37:53,746 - INFO - GET / - Status: 0
+2025-09-09 06:37:53,753 - INFO - GET / - Status: 200 - Duration: 0.007s
+2025-09-09 06:41:24,789 - INFO - GET / - Status: 0
+2025-09-09 06:41:24,854 - INFO - GET / - Status: 200 - Duration: 0.065s
+2025-09-09 06:41:25,377 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 06:41:25,379 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-09-09 06:41:25,384 - INFO - GET / - Status: 0
+2025-09-09 06:41:25,394 - INFO - GET / - Status: 200 - Duration: 0.010s
+2025-09-09 06:43:41,028 - INFO - GET /user/logout - Status: 0
+2025-09-09 06:43:41,041 - INFO - GET /user/logout - Status: 302 - Duration: 0.013s
+2025-09-09 06:43:41,052 - INFO - GET / - Status: 0
+2025-09-09 06:43:41,076 - INFO - GET / - Status: 200 - Duration: 0.025s
+2025-09-09 06:43:41,375 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 06:43:41,376 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-09-09 06:43:41,386 - INFO - GET / - Status: 0
+2025-09-09 06:43:41,393 - INFO - GET / - Status: 200 - Duration: 0.006s
+2025-09-09 06:43:42,290 - INFO - GET /user/login-page - Status: 0
+2025-09-09 06:43:42,302 - INFO - GET /user/login-page - Status: 200 - Duration: 0.011s
+2025-09-09 06:43:42,524 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 06:43:42,526 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-09-09 06:43:42,996 - INFO - GET / - Status: 0
+2025-09-09 06:43:43,001 - INFO - GET / - Status: 200 - Duration: 0.005s
+2025-09-09 06:43:47,561 - INFO - POST /user/login-submit - Status: 0
+2025-09-09 06:43:47,622 - INFO - POST /user/login-submit - Status: 200 - Duration: 0.062s
+2025-09-09 06:43:47,698 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 06:43:47,708 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.010s
+2025-09-09 06:43:47,713 - INFO - GET / - Status: 0
+2025-09-09 06:43:47,745 - INFO - GET / - Status: 200 - Duration: 0.032s
+2025-09-09 06:43:52,886 - INFO - POST /user/login-submit - Status: 0
+2025-09-09 06:43:53,316 - INFO - POST /user/login-submit - Status: 302 - Duration: 0.430s
+2025-09-09 06:43:53,328 - INFO - GET / - Status: 0
+2025-09-09 06:43:53,337 - INFO - GET / - Status: 200 - Duration: 0.009s
+2025-09-09 06:43:53,415 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 06:43:53,418 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.003s
+2025-09-09 06:43:53,439 - INFO - GET / - Status: 0
+2025-09-09 06:43:53,483 - INFO - GET / - Status: 200 - Duration: 0.044s
+2025-09-09 06:43:54,645 - INFO - GET /user/logout - Status: 0
+2025-09-09 06:43:54,646 - INFO - GET /user/logout - Status: 302 - Duration: 0.001s
+2025-09-09 06:43:54,659 - INFO - GET / - Status: 0
+2025-09-09 06:43:54,663 - INFO - GET / - Status: 200 - Duration: 0.004s
+2025-09-09 06:43:54,749 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 06:43:54,753 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.003s
+2025-09-09 06:43:55,043 - INFO - GET / - Status: 0
+2025-09-09 06:43:55,048 - INFO - GET / - Status: 200 - Duration: 0.004s
+2025-09-09 06:44:04,774 - INFO - GET /user/login-page - Status: 0
+2025-09-09 06:44:04,779 - INFO - GET /user/login-page - Status: 200 - Duration: 0.005s
+2025-09-09 06:44:04,850 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 06:44:04,858 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.009s
+2025-09-09 06:44:04,892 - INFO - GET / - Status: 0
+2025-09-09 06:44:04,898 - INFO - GET / - Status: 200 - Duration: 0.005s
+2025-09-09 06:44:09,187 - INFO - POST /user/login-submit - Status: 0
+2025-09-09 06:44:29,276 - INFO - GET /user/login-page - Status: 0
+2025-09-09 06:44:29,281 - INFO - GET /user/login-page - Status: 200 - Duration: 0.005s
+2025-09-09 06:44:29,338 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 06:44:29,339 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-09-09 06:44:29,344 - INFO - GET / - Status: 0
+2025-09-09 06:44:29,353 - INFO - GET / - Status: 200 - Duration: 0.009s
+2025-09-09 06:44:32,605 - INFO - POST /user/login-submit - Status: 0
+2025-09-09 06:44:32,910 - INFO - POST /user/login-submit - Status: 302 - Duration: 0.305s
+2025-09-09 06:44:32,917 - INFO - GET / - Status: 0
+2025-09-09 06:44:32,924 - INFO - GET / - Status: 200 - Duration: 0.007s
+2025-09-09 06:44:32,994 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 06:44:32,996 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-09-09 06:44:33,002 - INFO - GET / - Status: 0
+2025-09-09 06:44:33,010 - INFO - GET / - Status: 200 - Duration: 0.008s
+2025-09-09 06:44:34,388 - INFO - GET /user/logout - Status: 0
+2025-09-09 06:44:34,390 - INFO - GET /user/logout - Status: 302 - Duration: 0.001s
+2025-09-09 06:44:34,400 - INFO - GET / - Status: 0
+2025-09-09 06:44:34,404 - INFO - GET / - Status: 200 - Duration: 0.004s
+2025-09-09 06:44:34,463 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 06:44:34,465 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-09-09 06:44:34,470 - INFO - GET / - Status: 0
+2025-09-09 06:44:34,477 - INFO - GET / - Status: 200 - Duration: 0.007s
+2025-09-09 06:44:36,204 - INFO - GET /user/login-page - Status: 0
+2025-09-09 06:44:36,209 - INFO - GET /user/login-page - Status: 200 - Duration: 0.004s
+2025-09-09 06:44:36,267 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 06:44:36,268 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-09-09 06:44:36,273 - INFO - GET / - Status: 0
+2025-09-09 06:44:36,280 - INFO - GET / - Status: 200 - Duration: 0.006s
+2025-09-09 06:44:39,778 - INFO - POST /user/login-submit - Status: 0
+2025-09-09 06:44:40,112 - INFO - POST /user/login-submit - Status: 302 - Duration: 0.334s
+2025-09-09 06:44:40,119 - INFO - GET / - Status: 0
+2025-09-09 06:44:40,126 - INFO - GET / - Status: 200 - Duration: 0.007s
+2025-09-09 06:44:40,186 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 06:44:40,187 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-09-09 06:44:40,192 - INFO - GET / - Status: 0
+2025-09-09 06:44:40,202 - INFO - GET / - Status: 200 - Duration: 0.010s
+2025-09-09 10:01:14,174 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 10:01:14,180 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.005s
+2025-09-09 10:01:14,189 - INFO - GET / - Status: 0
+2025-09-09 10:01:14,241 - INFO - GET / - Status: 200 - Duration: 0.051s
+2025-09-09 10:01:52,042 - INFO - GET /user/register - Status: 0
+2025-09-09 10:01:52,056 - INFO - GET /user/register - Status: 200 - Duration: 0.016s
+2025-09-09 10:01:52,145 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 10:01:52,146 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-09-09 10:01:52,155 - INFO - GET / - Status: 0
+2025-09-09 10:01:52,168 - INFO - GET / - Status: 200 - Duration: 0.013s
+2025-09-09 10:01:59,268 - INFO - POST /user/register-submit - Status: 0
+2025-09-09 10:01:59,689 - INFO - POST /user/register-submit - Status: 302 - Duration: 0.421s
+2025-09-09 10:01:59,704 - INFO - GET / - Status: 0
+2025-09-09 10:01:59,721 - INFO - GET / - Status: 200 - Duration: 0.017s
+2025-09-09 10:02:00,435 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 10:02:00,437 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-09-09 10:02:00,449 - INFO - GET / - Status: 0
+2025-09-09 10:02:00,466 - INFO - GET / - Status: 200 - Duration: 0.017s
+2025-09-09 10:02:01,595 - INFO - GET /user/logout - Status: 0
+2025-09-09 10:02:01,596 - INFO - GET /user/logout - Status: 302 - Duration: 0.001s
+2025-09-09 10:02:01,604 - INFO - GET / - Status: 0
+2025-09-09 10:02:01,611 - INFO - GET / - Status: 200 - Duration: 0.007s
+2025-09-09 10:02:01,677 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 10:02:01,679 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-09-09 10:02:01,685 - INFO - GET / - Status: 0
+2025-09-09 10:02:01,690 - INFO - GET / - Status: 200 - Duration: 0.005s
+2025-09-09 10:33:25,225 - INFO - GET / - Status: 0
+2025-09-09 10:33:25,265 - INFO - GET / - Status: 200 - Duration: 0.039s
+2025-09-09 10:33:25,633 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 10:33:25,636 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.003s
+2025-09-09 10:33:25,643 - INFO - GET / - Status: 0
+2025-09-09 10:33:25,650 - INFO - GET / - Status: 200 - Duration: 0.007s
+2025-09-09 10:37:15,324 - INFO - GET /user/login-page - Status: 0
+2025-09-09 10:37:15,339 - INFO - GET /user/login-page - Status: 200 - Duration: 0.015s
+2025-09-09 10:37:15,970 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 10:37:15,976 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.006s
+2025-09-09 10:37:15,982 - INFO - GET / - Status: 0
+2025-09-09 10:37:16,032 - INFO - GET / - Status: 200 - Duration: 0.049s
+2025-09-09 10:37:21,466 - INFO - POST /user/login-submit - Status: 0
+2025-09-09 10:37:21,829 - INFO - POST /user/login-submit - Status: 302 - Duration: 0.363s
+2025-09-09 10:37:21,836 - INFO - GET / - Status: 0
+2025-09-09 10:37:21,844 - INFO - GET / - Status: 200 - Duration: 0.008s
+2025-09-09 10:37:22,396 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 10:37:22,398 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-09-09 10:37:22,403 - INFO - GET / - Status: 0
+2025-09-09 10:37:22,415 - INFO - GET / - Status: 200 - Duration: 0.012s
+2025-09-09 10:37:23,385 - INFO - GET /user/logout - Status: 0
+2025-09-09 10:37:23,387 - INFO - GET /user/logout - Status: 302 - Duration: 0.001s
+2025-09-09 10:37:23,395 - INFO - GET / - Status: 0
+2025-09-09 10:37:23,400 - INFO - GET / - Status: 200 - Duration: 0.004s
+2025-09-09 10:37:23,463 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 10:37:23,464 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-09-09 10:37:23,694 - INFO - GET / - Status: 0
+2025-09-09 10:37:23,699 - INFO - GET / - Status: 200 - Duration: 0.005s
+2025-09-09 10:37:25,104 - INFO - GET /user/login-page - Status: 0
+2025-09-09 10:37:25,108 - INFO - GET /user/login-page - Status: 200 - Duration: 0.004s
+2025-09-09 10:37:25,182 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 10:37:25,192 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.010s
+2025-09-09 10:37:25,216 - INFO - GET / - Status: 0
+2025-09-09 10:37:25,230 - INFO - GET / - Status: 200 - Duration: 0.014s
+2025-09-09 10:37:27,163 - INFO - GET /user/register - Status: 0
+2025-09-09 10:37:27,178 - INFO - GET /user/register - Status: 200 - Duration: 0.015s
+2025-09-09 10:37:27,279 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 10:37:27,295 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.016s
+2025-09-09 10:37:27,482 - INFO - GET / - Status: 0
+2025-09-09 10:37:27,489 - INFO - GET / - Status: 200 - Duration: 0.007s
+2025-09-09 10:37:37,800 - INFO - POST /user/register-submit - Status: 0
+2025-09-09 10:37:38,298 - INFO - POST /user/register-submit - Status: 302 - Duration: 0.497s
+2025-09-09 10:37:38,310 - INFO - GET / - Status: 0
+2025-09-09 10:37:38,318 - INFO - GET / - Status: 200 - Duration: 0.008s
+2025-09-09 10:37:38,393 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 10:37:38,394 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-09-09 10:37:38,400 - INFO - GET / - Status: 0
+2025-09-09 10:37:38,417 - INFO - GET / - Status: 200 - Duration: 0.017s
+2025-09-09 10:38:17,691 - INFO - GET /user/logout - Status: 0
+2025-09-09 10:38:17,694 - INFO - GET /user/logout - Status: 302 - Duration: 0.003s
+2025-09-09 10:38:17,701 - INFO - GET / - Status: 0
+2025-09-09 10:38:17,710 - INFO - GET / - Status: 200 - Duration: 0.010s
+2025-09-09 10:38:17,783 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 10:38:17,784 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-09-09 10:38:18,216 - INFO - GET / - Status: 0
+2025-09-09 10:38:18,222 - INFO - GET / - Status: 200 - Duration: 0.005s
+2025-09-09 12:58:03,155 - INFO - GET / - Status: 0
+2025-09-09 12:58:03,196 - INFO - GET / - Status: 200 - Duration: 0.042s
+2025-09-09 12:58:03,548 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 12:58:03,550 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-09-09 12:58:03,559 - INFO - GET / - Status: 0
+2025-09-09 12:58:03,566 - INFO - GET / - Status: 200 - Duration: 0.007s
+2025-09-09 16:47:34,820 - INFO - GET / - Status: 0
+2025-09-09 16:47:34,842 - INFO - GET / - Status: 200 - Duration: 0.022s
+2025-09-09 16:47:35,590 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 16:47:35,592 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-09-09 16:47:35,599 - INFO - GET / - Status: 0
+2025-09-09 16:47:35,606 - INFO - GET / - Status: 200 - Duration: 0.008s
+2025-09-09 16:55:05,209 - INFO - GET / - Status: 0
+2025-09-09 16:55:05,270 - INFO - GET / - Status: 200 - Duration: 0.061s
+2025-09-09 16:55:05,985 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 16:55:05,989 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.003s
+2025-09-09 16:55:05,997 - INFO - GET / - Status: 0
+2025-09-09 16:55:06,003 - INFO - GET / - Status: 200 - Duration: 0.006s
+2025-09-09 17:02:08,398 - INFO - GET / - Status: 0
+2025-09-09 17:02:08,442 - INFO - GET / - Status: 200 - Duration: 0.043s
+2025-09-09 17:02:09,156 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 17:02:09,158 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-09-09 17:02:09,163 - INFO - GET / - Status: 0
+2025-09-09 17:02:09,169 - INFO - GET / - Status: 200 - Duration: 0.005s
+2025-09-09 17:15:31,382 - INFO - GET / - Status: 0
+2025-09-09 17:15:31,433 - INFO - GET / - Status: 200 - Duration: 0.053s
+2025-09-09 17:15:32,182 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 17:15:32,185 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.003s
+2025-09-09 17:15:32,193 - INFO - GET / - Status: 0
+2025-09-09 17:15:32,202 - INFO - GET / - Status: 200 - Duration: 0.009s
+2025-09-09 17:15:32,671 - INFO - GET /user/login-page - Status: 0
+2025-09-09 17:15:32,718 - INFO - GET /user/login-page - Status: 200 - Duration: 0.047s
+2025-09-09 17:15:33,267 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 17:15:33,293 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.025s
+2025-09-09 17:15:33,412 - INFO - GET / - Status: 0
+2025-09-09 17:15:33,601 - INFO - GET / - Status: 200 - Duration: 0.189s
+2025-09-09 17:15:34,555 - INFO - GET /user/register - Status: 0
+2025-09-09 17:15:34,571 - INFO - GET /user/register - Status: 200 - Duration: 0.016s
+2025-09-09 17:15:34,654 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 17:15:34,657 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.003s
+2025-09-09 17:15:34,671 - INFO - GET / - Status: 0
+2025-09-09 17:15:34,688 - INFO - GET / - Status: 200 - Duration: 0.018s
+2025-09-09 17:15:40,517 - INFO - POST /user/register-submit - Status: 0
+2025-09-09 17:15:40,918 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 17:15:40,919 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-09-09 17:15:40,931 - INFO - GET / - Status: 0
+2025-09-09 17:15:40,936 - INFO - GET / - Status: 200 - Duration: 0.005s
+2025-09-09 17:19:49,686 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 17:19:49,691 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.006s
+2025-09-09 17:19:49,730 - INFO - GET / - Status: 0
+2025-09-09 17:19:49,741 - INFO - GET / - Status: 200 - Duration: 0.011s
+2025-09-09 17:19:50,361 - INFO - GET /user/register - Status: 0
+2025-09-09 17:19:50,365 - INFO - GET /user/register - Status: 200 - Duration: 0.004s
+2025-09-09 17:19:50,870 - INFO - GET /user/register - Status: 0
+2025-09-09 17:19:50,875 - INFO - GET /user/register - Status: 200 - Duration: 0.005s
+2025-09-09 17:19:50,938 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 17:19:50,939 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-09-09 17:19:50,946 - INFO - GET / - Status: 0
+2025-09-09 17:19:50,951 - INFO - GET / - Status: 200 - Duration: 0.005s
+2025-09-09 17:19:51,042 - INFO - GET /user/register - Status: 0
+2025-09-09 17:19:51,048 - INFO - GET /user/register - Status: 200 - Duration: 0.006s
+2025-09-09 17:19:51,359 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 17:19:51,360 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-09-09 17:19:51,365 - INFO - GET / - Status: 0
+2025-09-09 17:19:51,377 - INFO - GET / - Status: 200 - Duration: 0.012s
+2025-09-09 17:19:51,508 - INFO - GET /user/register - Status: 0
+2025-09-09 17:19:51,512 - INFO - GET /user/register - Status: 200 - Duration: 0.004s
+2025-09-09 17:19:51,682 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 17:19:51,683 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-09-09 17:19:51,695 - INFO - GET / - Status: 0
+2025-09-09 17:19:51,700 - INFO - GET / - Status: 200 - Duration: 0.006s
+2025-09-09 17:19:58,707 - INFO - POST /user/register-submit - Status: 0
+2025-09-09 17:19:59,257 - INFO - POST /user/register-submit - Status: 302 - Duration: 0.550s
+2025-09-09 17:19:59,267 - INFO - GET / - Status: 0
+2025-09-09 17:19:59,279 - INFO - GET / - Status: 200 - Duration: 0.012s
+2025-09-09 17:19:59,476 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 17:19:59,478 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-09-09 17:19:59,523 - INFO - GET / - Status: 0
+2025-09-09 17:19:59,531 - INFO - GET / - Status: 200 - Duration: 0.008s
+2025-09-09 17:20:20,318 - INFO - GET /user/logout - Status: 0
+2025-09-09 17:20:20,321 - INFO - GET /user/logout - Status: 302 - Duration: 0.002s
+2025-09-09 17:20:20,328 - INFO - GET / - Status: 0
+2025-09-09 17:20:20,333 - INFO - GET / - Status: 200 - Duration: 0.005s
+2025-09-09 17:20:20,423 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 17:20:20,424 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-09-09 17:20:20,789 - INFO - GET / - Status: 0
+2025-09-09 17:20:20,795 - INFO - GET / - Status: 200 - Duration: 0.006s
+2025-09-09 17:20:22,766 - INFO - GET /user/login-page - Status: 0
+2025-09-09 17:20:22,770 - INFO - GET /user/login-page - Status: 200 - Duration: 0.004s
+2025-09-09 17:20:23,289 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 17:20:23,290 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-09-09 17:20:23,295 - INFO - GET / - Status: 0
+2025-09-09 17:20:23,299 - INFO - GET / - Status: 200 - Duration: 0.004s
+2025-09-09 17:20:24,762 - INFO - GET /user/register - Status: 0
+2025-09-09 17:20:24,766 - INFO - GET /user/register - Status: 200 - Duration: 0.004s
+2025-09-09 17:20:24,833 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 17:20:24,835 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.003s
+2025-09-09 17:20:24,844 - INFO - GET / - Status: 0
+2025-09-09 17:20:24,849 - INFO - GET / - Status: 200 - Duration: 0.005s
+2025-09-09 17:20:30,182 - INFO - POST /user/register-submit - Status: 0
+2025-09-09 17:20:30,483 - INFO - POST /user/register-submit - Status: 302 - Duration: 0.301s
+2025-09-09 17:20:30,493 - INFO - GET / - Status: 0
+2025-09-09 17:20:30,502 - INFO - GET / - Status: 200 - Duration: 0.009s
+2025-09-09 17:20:30,570 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 17:20:30,571 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-09-09 17:20:30,577 - INFO - GET / - Status: 0
+2025-09-09 17:20:30,587 - INFO - GET / - Status: 200 - Duration: 0.011s
+2025-09-09 17:28:45,605 - INFO - GET / - Status: 0
+2025-09-09 17:28:46,163 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 17:28:46,166 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.003s
+2025-09-09 17:28:46,171 - INFO - GET / - Status: 0
+2025-09-09 17:28:46,961 - INFO - GET / - Status: 0
+2025-09-09 17:28:47,077 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 17:28:47,079 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-09-09 17:28:47,387 - INFO - GET / - Status: 0
+2025-09-09 17:28:47,556 - INFO - GET / - Status: 0
+2025-09-09 17:28:47,662 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 17:28:47,663 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-09-09 17:28:47,669 - INFO - GET / - Status: 0
+2025-09-09 17:28:47,789 - INFO - GET / - Status: 0
+2025-09-09 17:28:47,915 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 17:28:47,917 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-09-09 17:28:48,095 - INFO - GET / - Status: 0
+2025-09-09 17:28:52,465 - INFO - GET / - Status: 0
+2025-09-09 17:28:52,551 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 17:28:52,553 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-09-09 17:28:52,558 - INFO - GET / - Status: 0
+2025-09-09 17:30:17,068 - INFO - GET / - Status: 0
+2025-09-09 17:30:17,185 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 17:30:17,186 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-09-09 17:30:17,198 - INFO - GET / - Status: 0
+2025-09-09 17:30:17,720 - INFO - GET / - Status: 0
+2025-09-09 17:30:17,822 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 17:30:17,830 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.008s
+2025-09-09 17:30:17,922 - INFO - GET / - Status: 0
+2025-09-09 17:30:18,416 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 17:30:19,133 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.717s
+2025-09-09 17:30:19,139 - INFO - GET / - Status: 0
+2025-09-09 17:30:23,090 - INFO - GET / - Status: 0
+2025-09-09 17:30:23,205 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 17:30:23,215 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.009s
+2025-09-09 17:30:23,221 - INFO - GET / - Status: 0
+2025-09-09 17:40:51,526 - INFO - GET / - Status: 0
+2025-09-09 17:40:51,570 - INFO - GET / - Status: 200 - Duration: 0.044s
+2025-09-09 17:40:52,140 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 17:40:52,142 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-09-09 17:40:52,152 - INFO - GET / - Status: 0
+2025-09-09 17:40:52,162 - INFO - GET / - Status: 200 - Duration: 0.010s
+2025-09-09 17:43:36,862 - INFO - GET /user/logout - Status: 0
+2025-09-09 17:43:36,865 - INFO - GET /user/logout - Status: 302 - Duration: 0.003s
+2025-09-09 17:43:36,872 - INFO - GET / - Status: 0
+2025-09-09 17:43:36,880 - INFO - GET / - Status: 200 - Duration: 0.008s
+2025-09-09 17:43:36,968 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 17:43:36,972 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.004s
+2025-09-09 17:43:37,319 - INFO - GET / - Status: 0
+2025-09-09 17:43:37,323 - INFO - GET / - Status: 200 - Duration: 0.004s
+2025-09-09 17:43:37,956 - INFO - GET /user/login-page - Status: 0
+2025-09-09 17:43:37,971 - INFO - GET /user/login-page - Status: 200 - Duration: 0.014s
+2025-09-09 17:43:38,169 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 17:43:38,171 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-09-09 17:43:38,218 - INFO - GET / - Status: 0
+2025-09-09 17:43:38,228 - INFO - GET / - Status: 200 - Duration: 0.010s
+2025-09-09 17:43:39,389 - INFO - GET /user/register - Status: 0
+2025-09-09 17:43:39,402 - INFO - GET /user/register - Status: 200 - Duration: 0.012s
+2025-09-09 17:43:39,474 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 17:43:39,475 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-09-09 17:43:39,486 - INFO - GET / - Status: 0
+2025-09-09 17:43:39,492 - INFO - GET / - Status: 200 - Duration: 0.005s
+2025-09-09 17:43:51,674 - INFO - POST /user/register-submit - Status: 0
+2025-09-09 17:43:52,087 - INFO - POST /user/register-submit - Status: 302 - Duration: 0.413s
+2025-09-09 17:43:52,095 - INFO - GET / - Status: 0
+2025-09-09 17:43:52,104 - INFO - GET / - Status: 200 - Duration: 0.009s
+2025-09-09 17:43:52,167 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 17:43:52,168 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-09-09 17:43:52,173 - INFO - GET / - Status: 0
+2025-09-09 17:43:52,181 - INFO - GET / - Status: 200 - Duration: 0.008s
+2025-09-09 18:00:45,618 - INFO - GET / - Status: 0
+2025-09-09 18:00:45,746 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 18:00:45,749 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.003s
+2025-09-09 18:00:45,754 - INFO - GET / - Status: 0
+2025-09-09 18:00:47,232 - INFO - GET / - Status: 0
+2025-09-09 18:00:47,339 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 18:00:47,340 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-09-09 18:00:47,664 - INFO - GET / - Status: 0
+2025-09-09 18:00:47,690 - INFO - GET / - Status: 0
+2025-09-09 18:00:47,783 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 18:00:47,784 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-09-09 18:00:47,789 - INFO - GET / - Status: 0
+2025-09-09 18:04:38,555 - INFO - GET / - Status: 0
+2025-09-09 18:04:38,693 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 18:04:38,694 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-09-09 18:04:38,699 - INFO - GET / - Status: 0
+2025-09-09 18:04:39,122 - INFO - GET / - Status: 0
+2025-09-09 18:04:39,351 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 18:04:39,352 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-09-09 18:04:39,687 - INFO - GET / - Status: 0
+2025-09-09 18:07:12,192 - INFO - GET / - Status: 0
+2025-09-09 18:07:12,282 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 18:07:12,284 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-09-09 18:07:12,292 - INFO - GET / - Status: 0
+2025-09-09 18:07:12,888 - INFO - GET / - Status: 0
+2025-09-09 18:07:12,982 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 18:07:12,983 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-09-09 18:07:13,290 - INFO - GET / - Status: 0
+2025-09-09 18:07:13,402 - INFO - GET / - Status: 0
+2025-09-09 18:07:13,508 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 18:07:13,509 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-09-09 18:07:13,515 - INFO - GET / - Status: 0
+2025-09-09 18:07:13,583 - INFO - GET / - Status: 0
+2025-09-09 18:07:13,743 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 18:07:13,745 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-09-09 18:07:13,823 - INFO - GET / - Status: 0
+2025-09-09 18:07:13,968 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 18:07:13,971 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.003s
+2025-09-09 18:07:13,977 - INFO - GET / - Status: 0
+2025-09-09 18:21:01,784 - INFO - GET / - Status: 0
+2025-09-09 18:21:02,070 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 18:21:02,072 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-09-09 18:21:02,084 - INFO - GET / - Status: 0
+2025-09-09 18:21:03,811 - INFO - GET / - Status: 0
+2025-09-09 18:21:03,906 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 18:21:03,910 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.004s
+2025-09-09 18:21:03,970 - INFO - GET / - Status: 0
+2025-09-09 18:26:43,674 - INFO - GET / - Status: 0
+2025-09-09 18:26:43,889 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 18:26:43,895 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.006s
+2025-09-09 18:26:43,900 - INFO - GET / - Status: 0
+2025-09-09 18:30:49,549 - INFO - GET / - Status: 0
+2025-09-09 18:30:49,606 - INFO - GET / - Status: 200 - Duration: 0.057s
+2025-09-09 18:30:50,259 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 18:30:50,261 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-09-09 18:30:50,268 - INFO - GET / - Status: 0
+2025-09-09 18:30:50,280 - INFO - GET / - Status: 200 - Duration: 0.012s
+2025-09-09 18:30:51,702 - INFO - GET / - Status: 0
+2025-09-09 18:30:51,708 - INFO - GET / - Status: 200 - Duration: 0.007s
+2025-09-09 18:30:51,769 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 18:30:51,770 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-09-09 18:30:52,148 - INFO - GET / - Status: 0
+2025-09-09 18:30:52,155 - INFO - GET / - Status: 200 - Duration: 0.007s
+2025-09-09 23:34:10,671 - INFO - GET / - Status: 0
+2025-09-09 23:34:11,053 - INFO - GET / - Status: 200 - Duration: 0.382s
+2025-09-09 23:35:05,285 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 23:35:05,287 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-09-09 23:35:05,294 - INFO - GET / - Status: 0
+2025-09-09 23:35:05,301 - INFO - GET / - Status: 200 - Duration: 0.007s
+2025-09-09 23:50:59,587 - INFO - GET / - Status: 0
+2025-09-09 23:50:59,691 - INFO - GET / - Status: 200 - Duration: 0.108s
+2025-09-09 23:52:20,491 - INFO - GET /user/login-page - Status: 0
+2025-09-09 23:52:20,629 - INFO - GET /user/login-page - Status: 200 - Duration: 0.139s
+2025-09-09 23:52:21,579 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 23:52:21,595 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.017s
+2025-09-09 23:52:21,605 - INFO - GET / - Status: 0
+2025-09-09 23:52:21,629 - INFO - GET / - Status: 200 - Duration: 0.024s
+2025-09-09 23:52:37,856 - INFO - GET /user/register - Status: 0
+2025-09-09 23:52:37,916 - INFO - GET /user/register - Status: 200 - Duration: 0.060s
+2025-09-09 23:52:38,027 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 23:52:38,033 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.006s
+2025-09-09 23:52:38,043 - INFO - GET / - Status: 0
+2025-09-09 23:52:38,058 - INFO - GET / - Status: 200 - Duration: 0.015s
+2025-09-09 23:52:46,496 - INFO - POST /user/register-submit - Status: 0
+2025-09-09 23:52:47,525 - INFO - POST /user/register-submit - Status: 302 - Duration: 1.028s
+2025-09-09 23:52:47,546 - INFO - GET / - Status: 0
+2025-09-09 23:52:47,564 - INFO - GET / - Status: 200 - Duration: 0.018s
+2025-09-09 23:52:47,894 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 23:52:47,897 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-09-09 23:52:47,907 - INFO - GET / - Status: 0
+2025-09-09 23:52:47,937 - INFO - GET / - Status: 200 - Duration: 0.030s
+2025-09-09 23:52:52,114 - INFO - GET /user/logout - Status: 0
+2025-09-09 23:52:52,119 - INFO - GET /user/logout - Status: 302 - Duration: 0.005s
+2025-09-09 23:52:52,129 - INFO - GET / - Status: 0
+2025-09-09 23:52:52,137 - INFO - GET / - Status: 200 - Duration: 0.009s
+2025-09-09 23:52:52,215 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 23:52:52,217 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.002s
+2025-09-09 23:52:52,614 - INFO - GET / - Status: 0
+2025-09-09 23:52:52,622 - INFO - GET / - Status: 200 - Duration: 0.008s
+2025-09-09 23:52:53,745 - INFO - GET /user/login-page - Status: 0
+2025-09-09 23:52:53,749 - INFO - GET /user/login-page - Status: 200 - Duration: 0.005s
+2025-09-09 23:52:53,852 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 23:52:53,887 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.034s
+2025-09-09 23:52:53,907 - INFO - GET / - Status: 0
+2025-09-09 23:52:53,914 - INFO - GET / - Status: 200 - Duration: 0.007s
+2025-09-09 23:53:02,351 - INFO - POST /user/login-submit - Status: 0
+2025-09-09 23:53:02,788 - INFO - POST /user/login-submit - Status: 302 - Duration: 0.437s
+2025-09-09 23:53:02,802 - INFO - GET / - Status: 0
+2025-09-09 23:53:02,816 - INFO - GET / - Status: 200 - Duration: 0.014s
+2025-09-09 23:53:02,908 - INFO - GET /favicon.ico - Status: 0
+2025-09-09 23:53:02,910 - INFO - GET /favicon.ico - Status: 302 - Duration: 0.001s
+2025-09-09 23:53:02,917 - INFO - GET / - Status: 0
+2025-09-09 23:53:02,931 - INFO - GET / - Status: 200 - Duration: 0.014s
